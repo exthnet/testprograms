@@ -47,6 +47,51 @@ void func2(double *x, double *y)
   }
 }
 
+void func3(double *x, double *y)
+{
+  int tid;
+  static double *p;
+  p = NULL;
+  tid = omp_get_thread_num();
+  printf("tid %d\n", tid);
+#pragma omp barrier
+  if(tid==0){
+	p = x;
+  }
+#pragma omp barrier
+  if(tid==1){
+	p = y;
+  }
+#pragma omp barrier
+
+#pragma omp critical
+  {
+	printf("func2 %d %f\n",tid,p[0]);
+  }
+}
+
+void func4(double *x, double *y)
+{
+  int tid;
+  static double *p = NULL;
+  tid = omp_get_thread_num();
+  printf("tid %d\n", tid);
+#pragma omp barrier
+  if(tid==0){
+	p = x;
+  }
+#pragma omp barrier
+  if(tid==1){
+	p = y;
+  }
+#pragma omp barrier
+
+#pragma omp critical
+  {
+	printf("func2 %d %f\n",tid,p[0]);
+  }
+}
+
 int main()
 {
   double *x, *y;
@@ -67,6 +112,14 @@ int main()
 #pragma omp parallel
   {
 	func2(x,y);
+  }
+#pragma omp parallel
+  {
+	func3(x,y);
+  }
+#pragma omp parallel
+  {
+	func4(x,y);
   }
 
   free(x);
