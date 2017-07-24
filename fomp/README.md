@@ -1,4 +1,4 @@
-#OpenMP使用時のFortranポインタ宣言時の注意の話
+# OpenMP使用時のFortranポインタ宣言時の注意の話
 
 * 具体的な実例：fomp3.f90
 	* func1は宣言時null代入なし
