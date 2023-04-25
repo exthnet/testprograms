@@ -1,0 +1,64 @@
+! -*- f90 -*-
+program stream
+  use omp_lib
+  use cudafor
+  use cublas
+  use cusolverDn
+  implicit none
+  integer :: n
+  real*8, dimension(:), allocatable, device :: d_data(:)
+  integer :: ret
+  integer(int_ptr_kind()) :: nFree, nTotal
+  integer(kind=cuda_stream_kind), allocatable :: streamID(:), tmp_streamID(:)
+  type(cublasHandle) :: hnd_cublas
+  type(cusolverDnHandle) :: hnd_cusolver
+  integer :: devID, tid
+
+  devID = 0
+  ret = cudaSetDevice(devID)
+  tid = omp_get_max_threads()
+  write(*,fmt='(a,1x,i0,1x,a)')"0",tid,"threads"
+  allocate(streamID(tid))
+  allocate(tmp_streamID(tid))
+  streamID(1) = cudaforGetDefaultStream()
+  write(*,fmt='(a,1x,i0,1x)')"0 sid=",streamID(1)
+  ! cublas
+  ret = cublasCreate(hnd_cublas)
+  ! cusolver
+  ret = cusolverDnCreate(hnd_cusolver)
+
+  !$omp parallel private(tid,ret)
+  tid = omp_get_thread_num() + 1
+  ret = cudaStreamCreate(streamID(tid))
+  write(*,fmt='(a,1x,i0,1x,a,1x,i0)')"1 tid=",tid,"sid=",streamID(tid)
+  ret = cudaforSetDefaultStream(streamID(tid))
+  ret = cublasSetStream(hnd_cublas, streamID(tid))
+  ret = cusolverDnSetStream(hnd_cusolver, streamID(tid))
+  !$omp end parallel
+
+  tmp_streamID(1) = cudaforGetDefaultStream()
+  write(*,fmt='(a,1x,i0,1x,a,1x,i0)')"2 tid=",0,"sid=",tmp_streamID(1)
+
+  !$omp parallel private(tid,ret)
+  tid = omp_get_thread_num() + 1
+  tmp_streamID(tid) = cudaforGetDefaultStream()
+  write(*,fmt='(a,1x,i0,1x,a,1x,i0)')"3 1 tid=",tid,"cuda sid=",tmp_streamID(tid)
+  ret = cublasGetStream(hnd_cublas, tmp_streamID(tid))
+  write(*,fmt='(a,1x,i0,1x,a,1x,i0)')"3 2 tid=",tid,"cublas sid=",tmp_streamID(tid)
+  ret = cusolverDnGetStream(hnd_cusolver, tmp_streamID(tid))
+  write(*,fmt='(a,1x,i0,1x,a,1x,i0)')"3 3 tid=",tid,"cusolver sid=",tmp_streamID(tid)
+  !$omp end parallel
+
+  tid = 1
+  tmp_streamID(tid) = cudaforGetDefaultStream()
+  write(*,fmt='(a,1x,i0,1x,a,1x,i0)')"4 1 tid=",tid,"sid=",tmp_streamID(tid)
+  ret = cublasGetStream(hnd_cublas, tmp_streamID(tid))
+  write(*,fmt='(a,1x,i0,1x,a,1x,i0)')"4 2 tid=",tid,"cublas sid=",tmp_streamID(tid)
+  ret = cusolverDnGetStream(hnd_cusolver, tmp_streamID(tid))
+  write(*,fmt='(a,1x,i0,1x,a,1x,i0)')"4 3 tid=",tid,"cusolver sid=",tmp_streamID(tid)
+
+  deallocate(streamID)
+  deallocate(tmp_streamID)
+
+end program stream
+
