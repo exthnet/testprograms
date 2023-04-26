@@ -5,6 +5,9 @@ program stream
   use cublas
   use cusolverDn
   implicit none
+  include 'mpif.h'
+  integer   irank, nrank
+  integer   comm, ierr
   integer :: n, i
   real*8, dimension(:), allocatable, device :: d_data(:)
   integer :: ret
@@ -14,6 +17,25 @@ program stream
   type(cusolverDnHandle) :: hnd_cusolver
   integer :: devID, tid, istat, ndevices
   type (cudaDeviceProp) :: prop
+
+  ! initialize MPI
+  comm = MPI_COMM_WORLD
+  call MPI_Init ( ierr )
+  if( ierr .ne. 0 ) then
+     print*, 'Error: MPI_Init failed !!!'
+  endif
+
+  call MPI_Comm_size ( comm, nrank, ierr )
+  if( ierr .ne. 0 ) then
+     print*, 'Error: MPI_Comm_size failed !!!'
+  endif
+
+  call MPI_Comm_rank ( comm, irank, ierr )
+  if( ierr .ne. 0 ) then
+     print*, 'Error: MPI_Comm_rank failed !!!'
+  endif
+
+  write(*,*) "MPI initialized:", irank, "/", nrank
 
   ret = cudaGetLastError()
   print *, "initial: ", trim(cudaGetErrorString(ret))
@@ -25,7 +47,6 @@ program stream
      print *, "error: ", trim(cudaGetErrorString(ret))
      stop
   endif
-
   write(*,"(a19,i2)") "Number of devices: ", nDevices
   do i=0,nDevices-1
      istat = cudaGetDeviceProperties(prop,i)
@@ -78,6 +99,8 @@ program stream
 
   deallocate(streamID)
   deallocate(tmp_streamID)
+
+  call MPI_Finalize(ierr)
 
 end program stream
 
