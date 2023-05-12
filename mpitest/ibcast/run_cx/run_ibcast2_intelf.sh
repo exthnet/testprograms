@@ -7,7 +7,7 @@ date
 hostname
 
 module load oneapi
-export OMP_NUM_THREADS=4
+export OMP_NUM_THREADS=10
 export I_MPI_DEBUG=10
 export I_MPI_PIN_ORDER=compact
 export I_MPI_PIN_DOMAIN=10
@@ -15,7 +15,7 @@ export I_MPI_PIN_DOMAIN=10
 #export I_MPI_HYDRA_BOOTSTRAP=ssh
 export I_MPI_ASYNC_PROGRESS=on
 
-n=800
-mpiexec.hydra -n 4 ./ibcast_intelf ${n} 2>&1|tee log_ibcast2_intelf_${n}.txt
+n=600
+mpiexec.hydra -n 4 ./ibcast_intelf ${n} 2>&1|tee log_ibcast2_intelf_${n}_omp${OMP_NUM_THREADS}.txt
 
 date

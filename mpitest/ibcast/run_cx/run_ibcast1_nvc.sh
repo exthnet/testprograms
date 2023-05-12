@@ -7,11 +7,11 @@ date
 hostname
 
 module load hpc_sdk/23.1
-export OMP_NUM_THREADS=4
+export OMP_NUM_THREADS=10
 
 env
 
-n=800
-mpirun -display-devel-map -n 4 --map-by ppr:2:socket ./ibcast_nvc ${n} 2>&1|tee log_ibcast1_nvc_${n}.txt
+n=600
+mpirun -display-devel-map -n 4 --map-by ppr:2:socket ./ibcast_nvc ${n} 2>&1|tee log_ibcast1_nvc_${n}_omp${OMP_NUM_THREADS}.txt
 
 date
