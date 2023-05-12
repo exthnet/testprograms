@@ -58,7 +58,7 @@ program mm
      c = 0.0d0
   endif
 
-  allocate(req(iter*3))
+  allocate(req(slice*3))
   allocate(status(MPI_STATUS_SIZE))
 
   t_comm = 0.0d0
