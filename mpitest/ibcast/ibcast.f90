@@ -58,7 +58,7 @@ program mm
      c = 0.0d0
   endif
 
-  allocate(req(slice*3))
+  allocate(req(slice*9))
   allocate(status(MPI_STATUS_SIZE))
 
   t_comm = 0.0d0
@@ -70,19 +70,37 @@ program mm
   call MPI_IBcast(a(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(1), ierr)
   call MPI_IBcast(b(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(2), ierr)
   call MPI_IBcast(c(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(3), ierr)
+  call MPI_IBcast(a(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(4), ierr)
+  call MPI_IBcast(b(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(5), ierr)
+  call MPI_IBcast(c(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(6), ierr)
+  call MPI_IBcast(a(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(7), ierr)
+  call MPI_IBcast(b(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(8), ierr)
+  call MPI_IBcast(c(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(9), ierr)
   t_comm2 = MPI_Wtime()
   t_comm = t_comm + (t_comm2-t_comm1)
 
   do iter=1,slice
      t_comm1 = MPI_Wtime()
      if(iter<slice)then
-        call MPI_IBcast(a(1,1,iter+1), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(iter*3+1), ierr)
-        call MPI_IBcast(b(1,1,iter+1), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(iter*3+2), ierr)
-        call MPI_IBcast(c(1,1,iter+1), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(iter*3+3), ierr)
+        call MPI_IBcast(a(1,1,iter+1), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(iter*9+1), ierr)
+        call MPI_IBcast(b(1,1,iter+1), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(iter*9+2), ierr)
+        call MPI_IBcast(c(1,1,iter+1), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(iter*9+3), ierr)
+        call MPI_IBcast(a(1,1,iter+1), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(iter*9+4), ierr)
+        call MPI_IBcast(b(1,1,iter+1), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(iter*9+5), ierr)
+        call MPI_IBcast(c(1,1,iter+1), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(iter*9+6), ierr)
+        call MPI_IBcast(a(1,1,iter+1), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(iter*9+7), ierr)
+        call MPI_IBcast(b(1,1,iter+1), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(iter*9+8), ierr)
+        call MPI_IBcast(c(1,1,iter+1), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(iter*9+9), ierr)
      endif
-     call MPI_Wait(req((iter-1)*3+1), status, ierr)
-     call MPI_Wait(req((iter-1)*3+2), status, ierr)
-     call MPI_Wait(req((iter-1)*3+3), status, ierr)
+     call MPI_Wait(req((iter-1)*9+1), status, ierr)
+     call MPI_Wait(req((iter-1)*9+2), status, ierr)
+     call MPI_Wait(req((iter-1)*9+3), status, ierr)
+     call MPI_Wait(req((iter-1)*9+4), status, ierr)
+     call MPI_Wait(req((iter-1)*9+5), status, ierr)
+     call MPI_Wait(req((iter-1)*9+6), status, ierr)
+     call MPI_Wait(req((iter-1)*9+7), status, ierr)
+     call MPI_Wait(req((iter-1)*9+8), status, ierr)
+     call MPI_Wait(req((iter-1)*9+9), status, ierr)
      t_comm2 = MPI_Wtime()
      t_comm = t_comm + (t_comm2-t_comm1)
      t_calc1 = MPI_Wtime()
