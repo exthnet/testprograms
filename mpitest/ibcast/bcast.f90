@@ -91,7 +91,7 @@ program mm
   do iter=1,slice
      do i=1, n
         do j=1, n
-           tmpsum = tmpsum + c(j,i,slice)
+           tmpsum = tmpsum + c(j,i,iter)
         end do
      end do
   end do
