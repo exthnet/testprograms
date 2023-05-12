@@ -66,6 +66,7 @@ program mm
   t_begin = MPI_Wtime()
 
   t_comm1 = MPI_Wtime()
+  iter=1
   call MPI_IBcast(a(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(1), ierr)
   call MPI_IBcast(b(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(2), ierr)
   call MPI_IBcast(c(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(3), ierr)
