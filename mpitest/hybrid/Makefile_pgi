@@ -1,0 +1,10 @@
+# -*- makefile -*-
+CC = mpicc
+FC = mpif90
+CFLAGS = -mp=numa -fastsse -Minfo -Mmpi=mpich -mcmodel=medium
+FFLAGS = -mp=numa -fastsse -Minfo -Mmpi=mpich -mcmodel=medium
+RM = rm -f
+
+all:
+	${CC} ${CFLAGS} ./mpihello_hybrid.c -o ./mpihello_hybrid_c
+	${FC} ${FFLAGS} ./mpihello_hybrid.f -o ./mpihello_hybrid_f

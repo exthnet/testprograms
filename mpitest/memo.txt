@@ -1,0 +1,43 @@
+MPIコンパイル・実行メモ
+
+$ source /opt/intel/composer_xe_2013.3.163/bin/compilervars.sh intel64
+$ source ~/intel/impi/4.1.0.030/mic/bin/mpivars.sh
+$ mpiicc mpihello.c -o mpihello_c.mic -mmic        
+$ mpiicc hybhello.c -o hybhello_c.mic -mmic -openmp
+$ source ~/intel/impi/4.1.0.030/intel64/bin/mpivars.sh
+$ mpiicc mpihello.c -o mpihello_c.host
+$ mpiicc hybhello.c -o hybhello_c.host -openmp
+$ export I_MPI_MIC=enable
+$ export LD_LIBRARY_PATH=/home/ohshima/intel/composer_xe_2013.3.163/compiler/lib/mic:${LD_LIBRARY_PATH}
+$ export OMP_NUM_THREADS=2
+$ mpirun -n 2 -host kncc32 ./mpihello_c.host 
+Hello, parallel world 0 / 2 : kncc32
+Hello, parallel world 1 / 2 : kncc32
+$ mpirun -n 2 -host kncc32 ./hybhello_c.host 
+Hello, parallel world 0 / 2, 0 / 2: kncc32
+Hello, parallel world 0 / 2, 1 / 2: kncc32
+Hello, parallel world 1 / 2, 0 / 2: kncc32
+Hello, parallel world 1 / 2, 1 / 2: kncc32
+$ mpirun -n 2 -host mic0 ./mpihello_c.mic 
+Hello, parallel world 1 / 2 : kncc32-mic0
+Hello, parallel world 0 / 2 : kncc32-mic0
+$ mpirun -n 2 -host mic0 ./hybhello_c.mic 
+Hello, parallel world 0 / 2, 0 / 2: kncc32-mic0
+Hello, parallel world 0 / 2, 1 / 2: kncc32-mic0
+Hello, parallel world 1 / 2, 1 / 2: kncc32-mic0
+Hello, parallel world 1 / 2, 0 / 2: kncc32-mic0
+$ mpirun -n 2 -host kncc32 ./mpihello_c.host : -n 2 -host mic0 ./mpihello_c.mic 
+Hello, parallel world 0 / 4 : kncc32
+Hello, parallel world 1 / 4 : kncc32
+Hello, parallel world 3 / 4 : kncc32-mic0
+Hello, parallel world 2 / 4 : kncc32-mic0
+$ mpirun -n 2 -host kncc32 ./hybhello_c.host : -n 2 -host mic0 ./hybhello_c.mic 
+Hello, parallel world 0 / 4, 0 / 2: kncc32
+Hello, parallel world 0 / 4, 1 / 2: kncc32
+Hello, parallel world 1 / 4, 0 / 2: kncc32
+Hello, parallel world 1 / 4, 1 / 2: kncc32
+Hello, parallel world 3 / 4, 0 / 2: kncc32-mic0
+Hello, parallel world 3 / 4, 1 / 2: kncc32-mic0
+Hello, parallel world 2 / 4, 0 / 2: kncc32-mic0
+Hello, parallel world 2 / 4, 1 / 2: kncc32-mic0
+ホストでfortran？OpenMP？を使うときはリンクが足りない？

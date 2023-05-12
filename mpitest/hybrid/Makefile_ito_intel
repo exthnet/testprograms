@@ -1,0 +1,12 @@
+# -*- makefile -*-
+CC = mpiicc
+FC = mpiifort
+CFLAGS = -ipo -O3 -no-prec-div -fp-model fast=2 -xHost -qopenmp
+FFLAGS = -ipo -O3 -no-prec-div -fp-model fast=2 -xHost -qopenmp
+RM = rm -f
+
+OUTDIR=./ito_i
+
+all:
+	${CC} ${CFLAGS} -o ${OUTDIR}/mpihello_hybrid_c ./mpihello_hybrid.c
+	${FC} ${FFLAGS} -o ${OUTDIR}/mpihello_hybrid_f ./mpihello_hybrid.f

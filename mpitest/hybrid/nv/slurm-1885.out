@@ -1,0 +1,342 @@
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash autoinit
++ _mlcode='module() {
+   unset _mlshdbg;
+   if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '\''1'\'' ]; then
+      case "$-" in
+         *v*x*) set +vx; _mlshdbg='\''vx'\'' ;;
+         *v*) set +v; _mlshdbg='\''v'\'' ;;
+         *x*) set +x; _mlshdbg='\''x'\'' ;;
+         *) _mlshdbg='\'''\'' ;;
+      esac;
+   fi;
+   unset _mlre _mlIFS;
+   if [ -n "${IFS+x}" ]; then
+      _mlIFS=$IFS;
+   fi;
+   IFS='\'' '\'';
+   for _mlv in ${MODULES_RUN_QUARANTINE:-}; do
+      if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+         if [ -n "`eval '\''echo ${'\''$_mlv'\''+x}'\''`" ]; then
+            _mlre="${_mlre:-}${_mlv}_modquar='\''`eval '\''echo ${'\''$_mlv'\''}'\''`'\'' ";
+         fi;
+         _mlrv="MODULES_RUNENV_${_mlv}";
+         _mlre="${_mlre:-}${_mlv}='\''`eval '\''echo ${'\''$_mlrv'\'':-}'\''`'\'' ";
+      fi;
+   done;
+   if [ -n "${_mlre:-}" ]; then
+      eval `eval ${_mlre}/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash '\''"$@"'\''`;
+   else
+      eval `/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash "$@"`;
+   fi;
+   _mlstatus=$?;
+   if [ -n "${_mlIFS+x}" ]; then
+      IFS=$_mlIFS;
+   else
+      unset IFS;
+   fi;
+   unset _mlre _mlv _mlrv _mlIFS;
+   if [ -n "${_mlshdbg:-}" ]; then
+      set -$_mlshdbg;
+   fi;
+   unset _mlshdbg;
+   return $_mlstatus;
+};
+MODULES_CMD=/usr/lib/x86_64-linux-gnu/modulecmd.tcl; export MODULES_CMD;
+ENV=/usr/share/modules/init/profile.sh; export ENV;
+BASH_ENV=/usr/share/modules/init/bash; export BASH_ENV;
+MODULESHOME=/usr/share/modules; export MODULESHOME;
+test 0;'
++ _mlret=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlIFS
++ unset _mlre _mlv _mlrv
++ '[' 0 -eq 0 ']'
++ eval 'module() {
+   unset _mlshdbg;
+   if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '\''1'\'' ]; then
+      case "$-" in
+         *v*x*) set +vx; _mlshdbg='\''vx'\'' ;;
+         *v*) set +v; _mlshdbg='\''v'\'' ;;
+         *x*) set +x; _mlshdbg='\''x'\'' ;;
+         *) _mlshdbg='\'''\'' ;;
+      esac;
+   fi;
+   unset _mlre _mlIFS;
+   if [ -n "${IFS+x}" ]; then
+      _mlIFS=$IFS;
+   fi;
+   IFS='\'' '\'';
+   for _mlv in ${MODULES_RUN_QUARANTINE:-}; do
+      if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+         if [ -n "`eval '\''echo ${'\''$_mlv'\''+x}'\''`" ]; then
+            _mlre="${_mlre:-}${_mlv}_modquar='\''`eval '\''echo ${'\''$_mlv'\''}'\''`'\'' ";
+         fi;
+         _mlrv="MODULES_RUNENV_${_mlv}";
+         _mlre="${_mlre:-}${_mlv}='\''`eval '\''echo ${'\''$_mlrv'\'':-}'\''`'\'' ";
+      fi;
+   done;
+   if [ -n "${_mlre:-}" ]; then
+      eval `eval ${_mlre}/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash '\''"$@"'\''`;
+   else
+      eval `/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash "$@"`;
+   fi;
+   _mlstatus=$?;
+   if [ -n "${_mlIFS+x}" ]; then
+      IFS=$_mlIFS;
+   else
+      unset IFS;
+   fi;
+   unset _mlre _mlv _mlrv _mlIFS;
+   if [ -n "${_mlshdbg:-}" ]; then
+      set -$_mlshdbg;
+   fi;
+   unset _mlshdbg;
+   return $_mlstatus;
+};
+MODULES_CMD=/usr/lib/x86_64-linux-gnu/modulecmd.tcl; export MODULES_CMD;
+ENV=/usr/share/modules/init/profile.sh; export ENV;
+BASH_ENV=/usr/share/modules/init/bash; export BASH_ENV;
+MODULESHOME=/usr/share/modules; export MODULESHOME;
+test 0;'
+++ MODULES_CMD=/usr/lib/x86_64-linux-gnu/modulecmd.tcl
+++ export MODULES_CMD
+++ ENV=/usr/share/modules/init/profile.sh
+++ export ENV
+++ BASH_ENV=/usr/share/modules/init/bash
+++ export BASH_ENV
+++ MODULESHOME=/usr/share/modules
+++ export MODULESHOME
+++ test 0
++ '[' 0 = 1 ']'
++ '[' -t 2 ']'
++ export -f module
++ export -f switchml
++ '[' 5 -ge 3 ']'
++ [[ hxB =~ i ]]
++ [[ ! :/home/share/nvidia/hpc_sdk/Linux_x86_64/22.11/compilers/extras/qd/bin:/home/share/nvidia/hpc_sdk/Linux_x86_64/22.11/comm_libs/mpi/bin:/home/share/nvidia/hpc_sdk/Linux_x86_64/22.11/compilers/bin:/home/share/nvidia/hpc_sdk/Linux_x86_64/22.11/cuda/bin:/home/ohshima/bin:/usr/local/texlive/2021/bin/x86_64-linux:/home/ohshima/bin:/usr/local/texlive/2021/bin/x86_64-linux:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin: =~ :/usr/bin: ]]
++ '[' '!' -n x ']'
+++ manpath
++ [[ ! :/home/share/nvidia/hpc_sdk/Linux_x86_64/22.11/compilers/man:/usr/local/texlive/2021/texmf-dist/doc/man:/usr/local/texlive/2021/texmf-dist/doc/man::/home/share/nvidia/hpc_sdk/Linux_x86_64/22.11/comm_libs/mpi/share/man:/home/share/nvidia/hpc_sdk/Linux_x86_64/22.11/compilers/man:/usr/local/man:/usr/local/share/man:/usr/share/man: =~ :/usr/share/man: ]]
++ unset _mlcode _mlret
++ '[' -n '' ']'
+++ date +%Y%m%d-%H%M%S
++ JOBID=20230414-091223
++ hostname
+fire.lab.exth.net
++ date
+Fri 14 Apr 2023 09:12:23 AM JST
++ . /etc/profile.d/modules.sh
+++++ /bin/ps -p 12923 -ocomm=
++++ /usr/bin/basename slurm_script
+++ shell=slurm_script
+++ '[' -f /usr/share/modules/init/slurm_script ']'
+++ . /usr/share/modules/init/sh
++++ unset _mlshdbg
++++ '[' 0 = 1 ']'
++++ unset _mlre _mlIFS
++++ '[' -n x ']'
++++ _mlIFS=' 	
+'
++++ IFS=' '
++++ '[' -n '' ']'
+++++ /usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl sh autoinit
++++ _mlcode='module() {
+   unset _mlshdbg;
+   if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '\''1'\'' ]; then
+      case "$-" in
+         *v*x*) set +vx; _mlshdbg='\''vx'\'' ;;
+         *v*) set +v; _mlshdbg='\''v'\'' ;;
+         *x*) set +x; _mlshdbg='\''x'\'' ;;
+         *) _mlshdbg='\'''\'' ;;
+      esac;
+   fi;
+   unset _mlre _mlIFS;
+   if [ -n "${IFS+x}" ]; then
+      _mlIFS=$IFS;
+   fi;
+   IFS='\'' '\'';
+   for _mlv in ${MODULES_RUN_QUARANTINE:-}; do
+      if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+         if [ -n "`eval '\''echo ${'\''$_mlv'\''+x}'\''`" ]; then
+            _mlre="${_mlre:-}${_mlv}_modquar='\''`eval '\''echo ${'\''$_mlv'\''}'\''`'\'' ";
+         fi;
+         _mlrv="MODULES_RUNENV_${_mlv}";
+         _mlre="${_mlre:-}${_mlv}='\''`eval '\''echo ${'\''$_mlrv'\'':-}'\''`'\'' ";
+      fi;
+   done;
+   if [ -n "${_mlre:-}" ]; then
+      eval `eval ${_mlre}/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl sh '\''"$@"'\''`;
+   else
+      eval `/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl sh "$@"`;
+   fi;
+   _mlstatus=$?;
+   if [ -n "${_mlIFS+x}" ]; then
+      IFS=$_mlIFS;
+   else
+      unset IFS;
+   fi;
+   unset _mlre _mlv _mlrv _mlIFS;
+   if [ -n "${_mlshdbg:-}" ]; then
+      set -$_mlshdbg;
+   fi;
+   unset _mlshdbg;
+   return $_mlstatus;
+};
+MODULES_CMD=/usr/lib/x86_64-linux-gnu/modulecmd.tcl; export MODULES_CMD;
+ENV=/usr/share/modules/init/profile.sh; export ENV;
+BASH_ENV=/usr/share/modules/init/bash; export BASH_ENV;
+MODULESHOME=/usr/share/modules; export MODULESHOME;
+test 0;'
++++ _mlret=0
++++ '[' -n x ']'
++++ IFS=' 	
+'
++++ unset _mlIFS
++++ unset _mlre _mlv _mlrv
++++ '[' 0 -eq 0 ']'
++++ eval 'module() {
+   unset _mlshdbg;
+   if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '\''1'\'' ]; then
+      case "$-" in
+         *v*x*) set +vx; _mlshdbg='\''vx'\'' ;;
+         *v*) set +v; _mlshdbg='\''v'\'' ;;
+         *x*) set +x; _mlshdbg='\''x'\'' ;;
+         *) _mlshdbg='\'''\'' ;;
+      esac;
+   fi;
+   unset _mlre _mlIFS;
+   if [ -n "${IFS+x}" ]; then
+      _mlIFS=$IFS;
+   fi;
+   IFS='\'' '\'';
+   for _mlv in ${MODULES_RUN_QUARANTINE:-}; do
+      if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+         if [ -n "`eval '\''echo ${'\''$_mlv'\''+x}'\''`" ]; then
+            _mlre="${_mlre:-}${_mlv}_modquar='\''`eval '\''echo ${'\''$_mlv'\''}'\''`'\'' ";
+         fi;
+         _mlrv="MODULES_RUNENV_${_mlv}";
+         _mlre="${_mlre:-}${_mlv}='\''`eval '\''echo ${'\''$_mlrv'\'':-}'\''`'\'' ";
+      fi;
+   done;
+   if [ -n "${_mlre:-}" ]; then
+      eval `eval ${_mlre}/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl sh '\''"$@"'\''`;
+   else
+      eval `/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl sh "$@"`;
+   fi;
+   _mlstatus=$?;
+   if [ -n "${_mlIFS+x}" ]; then
+      IFS=$_mlIFS;
+   else
+      unset IFS;
+   fi;
+   unset _mlre _mlv _mlrv _mlIFS;
+   if [ -n "${_mlshdbg:-}" ]; then
+      set -$_mlshdbg;
+   fi;
+   unset _mlshdbg;
+   return $_mlstatus;
+};
+MODULES_CMD=/usr/lib/x86_64-linux-gnu/modulecmd.tcl; export MODULES_CMD;
+ENV=/usr/share/modules/init/profile.sh; export ENV;
+BASH_ENV=/usr/share/modules/init/bash; export BASH_ENV;
+MODULESHOME=/usr/share/modules; export MODULESHOME;
+test 0;'
+++++ MODULES_CMD=/usr/lib/x86_64-linux-gnu/modulecmd.tcl
+++++ export MODULES_CMD
+++++ ENV=/usr/share/modules/init/profile.sh
+++++ export ENV
+++++ BASH_ENV=/usr/share/modules/init/bash
+++++ export BASH_ENV
+++++ MODULESHOME=/usr/share/modules
+++++ export MODULESHOME
+++++ test 0
++++ '[' 0 = 1 ']'
++++ '[' /bin/bash '!=' '' ']'
++++ '[' -t 2 ']'
++++ export -f module
++++ '[' /bin/bash '!=' '' ']'
++++ export -f switchml
++++ case ":$PATH:" in
++++ '[' '!' -n x ']'
++++ case ":`manpath 2>/dev/null`:" in
+++++ manpath
++++ unset _mlcode _mlret
++++ '[' -n '' ']'
++ module load nvhpc/22.11
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl sh load nvhpc/22.11
++ eval
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ OPT='-display-devel-map --map-by ppr:1:numa'
++ mpirun -n 2 -display-devel-map --map-by ppr:1:numa ./mpihello_hybrid_c
+ Data for JOB [58097,1] offset 0 Total slots allocated 32
+
+ Mapper requested: NULL  Last mapper: ppr  Mapping policy: BYNUMA:NOOVERSUBSCRIBE  Ranking policy: SLOT
+ Binding policy: CORE:IF-SUPPORTED  Cpu set: NULL  PPR: 1:numa  Cpus-per-rank: 0
+ 	Num new daemons: 0	New daemon starting vpid INVALID
+ 	Num nodes: 1
+
+ Data for node: fire	State: 3	Flags: 11
+ 	Daemon: [[58097,0],0]	Daemon launched: True
+ 	Num slots: 32	Slots in use: 2	Oversubscribed: FALSE
+ 	Num slots allocated: 32	Max slots: 0
+ 	Num procs: 2	Next node_rank: 2
+ 	Data for proc: [[58097,1],0]
+ 		Pid: 0	Local rank: 0	Node rank: 0	App rank: 0
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [BB/BB/BB/BB/../../../../../../../../../../../..]
+ 		Binding: [BB/../../../../../../../../../../../../../../..]
+ 	Data for proc: [[58097,1],1]
+ 		Pid: 0	Local rank: 1	Node rank: 1	App rank: 1
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [../../../../BB/BB/BB/BB/../../../../../../../..]
+ 		Binding: [../../../../BB/../../../../../../../../../../..]
+--------------------------------------------------------------------------
+[[58097,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: fire
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+Hello, parallel world 1 / 2 : fire.lab.exth.net : 0 / 4
+Hello, parallel world 1 / 2 : fire.lab.exth.net : 1 / 4
+Hello, parallel world 1 / 2 : fire.lab.exth.net : 2 / 4
+Hello, parallel world 0 / 2 : fire.lab.exth.net : 1 / 4
+Hello, parallel world 0 / 2 : fire.lab.exth.net : 0 / 4
+Hello, parallel world 0 / 2 : fire.lab.exth.net : 3 / 4
+Hello, parallel world 1 / 2 : fire.lab.exth.net : 3 / 4
+Hello, parallel world 0 / 2 : fire.lab.exth.net : 2 / 4
+[fire.lab.exth.net:12944] 1 more process has sent help message help-mpi-btl-base.txt / btl:no-nics
+[fire.lab.exth.net:12944] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

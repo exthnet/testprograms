@@ -1,0 +1,12 @@
+# -*- makefile -*-
+CC = mpicc
+FC = mpifort
+CFLAGS = -fast -mp -tp=haswell
+FFLAGS = -fast -mp -tp=haswell
+RM = rm -f
+
+OUTDIR=./ito_pgi_openmpi
+
+all:
+	${CC} ${CFLAGS} -o ${OUTDIR}/mpihello_hybrid_c ./mpihello_hybrid.c
+	${FC} ${FFLAGS} -o ${OUTDIR}/mpihello_hybrid_f ./mpihello_hybrid.f

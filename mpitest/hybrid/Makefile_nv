@@ -1,0 +1,12 @@
+# -*- makefile -*-
+CC = mpicc
+FC = mpifort
+CFLAGS = -O2 -tp=px -mp
+FFLAGS = -O2 -tp=px -mp
+RM = rm -f
+
+OUTDIR=./nv
+
+all:
+	${CC} ${CFLAGS} -o ${OUTDIR}/mpihello_hybrid_c ./mpihello_hybrid.c
+	${FC} ${FFLAGS} -o ${OUTDIR}/mpihello_hybrid_f ./mpihello_hybrid.f
