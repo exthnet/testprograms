@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 #PJM -L rscunit=ito-a
 #PJM -L rscgrp=ito-ss
 #PJM -L elapse=10:00
