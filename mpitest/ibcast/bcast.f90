@@ -61,6 +61,7 @@ program mm
   t_calc = 0.0d0
 
   call MPI_Barrier(MPI_COMM_WORLD)
+
   t_begin = MPI_Wtime()
   do iter=1,slice
      t_comm1 = MPI_Wtime()

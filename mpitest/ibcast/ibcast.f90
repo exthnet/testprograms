@@ -63,9 +63,10 @@ program mm
 
   t_comm = 0.0d0
   t_calc = 0.0d0
-  t_begin = MPI_Wtime()
 
   call MPI_Barrier(MPI_COMM_WORLD)
+
+  t_begin = MPI_Wtime()
   t_comm1 = MPI_Wtime()
   iter=1
   call MPI_IBcast(a(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, req(1), ierr)
@@ -90,9 +91,10 @@ program mm
      !$omp parallel do collapse(2) private(k)
      do i=1, n
         do j=1, n
-           do k=1, n/2
-              c(j,i,iter) = c(j,i,iter) + a(j,k,iter) * b(k,i,iter)
-           end do
+           c(j,i,iter) = c(j,i,iter) + a(j,i,iter) * b(j,i,iter)
+!           do k=1, n
+!              c(j,i,iter) = c(j,i,iter) + a(j,k,iter) * b(k,i,iter)
+!           end do
         end do
      end do
      t_calc2 = MPI_Wtime()
