@@ -1,7 +1,8 @@
 ! -*- f90 -*-
 program mm
+  use mpi
   implicit none
-  include 'mpif.h'
+  ! include 'mpif.h'
   real*8, allocatable :: a(:,:,:), b(:,:,:), c(:,:,:)
   integer :: i, j, k
   integer :: n, slice, iter
