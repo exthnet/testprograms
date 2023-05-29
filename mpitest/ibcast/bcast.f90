@@ -60,7 +60,7 @@ program mm
   t_comm = 0.0d0
   t_calc = 0.0d0
 
-  call MPI_Barrier(MPI_COMM_WORLD)
+  call MPI_Barrier(MPI_COMM_WORLD, ierr)
 
   t_begin = MPI_Wtime()
   do iter=1,slice
@@ -80,7 +80,7 @@ program mm
      t_calc2 = MPI_Wtime()
      t_calc = t_calc + (t_calc2-t_calc1)
   end do
-  call MPI_Barrier(MPI_COMM_WORLD)
+  call MPI_Barrier(MPI_COMM_WORLD, ierr)
   t_end = MPI_Wtime()
 
   tmpsum = 0.0d0

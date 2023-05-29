@@ -38,11 +38,17 @@ int main(int argc, char **argv)
 	for(i=0; i<n*n*slice; i++)a[i]=frand(1.0);
 	for(i=0; i<n*n*slice; i++)b[i]=frand(1.0);
 	for(i=0; i<n*n*slice; i++)c[i]=0.0;
+  }else{
+	for(i=0; i<n*n*slice; i++)a[i]=0.0;
+	for(i=0; i<n*n*slice; i++)b[i]=0.0;
+	for(i=0; i<n*n*slice; i++)c[i]=0.0;
   }
 
   req = (MPI_Request*)malloc(sizeof(MPI_Request)*slice*3);
   t_comm = 0.0;
   t_calc = 0.0;
+
+  MPI_Barrier(MPI_COMM_WORLD);
 
   t_comm1 = MPI_Wtime();
   iter = 0;
@@ -52,7 +58,6 @@ int main(int argc, char **argv)
   t_comm2 = MPI_Wtime();
   t_comm += t_comm2-t_comm1;
 
-  MPI_Barrier(MPI_COMM_WORLD);
   t_begin = MPI_Wtime();
   for(iter=0; iter<slice; iter++){
 	t_comm1 = MPI_Wtime();
@@ -78,10 +83,12 @@ int main(int argc, char **argv)
   }
   MPI_Barrier(MPI_COMM_WORLD);
   t_end = MPI_Wtime();
+
   tmpsum = 0.0;
   for(i=0; i<n*n*slice; i++)tmpsum += c[i];
   printf("%d result: sum= %lf\n", rank, tmpsum);
   printf("%d result: time= %lf, %lf, %lf\n", rank, t_end-t_begin, t_comm, t_calc);
+
   free(req);
   free(a);
   free(b);
