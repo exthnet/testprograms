@@ -1,7 +1,8 @@
 ! -*- f90 -*-
 program mm
+  use mpi
   implicit none
-  include 'mpif.h'
+  ! include 'mpif.h'
   real*8, allocatable :: a(:,:,:), b(:,:,:), c(:,:,:)
   integer :: i, j, k
   integer :: n, slice, iter
@@ -59,15 +60,12 @@ program mm
 
   t_comm = 0.0d0
   t_calc = 0.0d0
+
+  call MPI_Barrier(MPI_COMM_WORLD, ierr)
+
   t_begin = MPI_Wtime()
   do iter=1,slice
      t_comm1 = MPI_Wtime()
-     call MPI_Bcast(a(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
-     call MPI_Bcast(b(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
-     call MPI_Bcast(c(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
-     call MPI_Bcast(a(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
-     call MPI_Bcast(b(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
-     call MPI_Bcast(c(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
      call MPI_Bcast(a(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
      call MPI_Bcast(b(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
      call MPI_Bcast(c(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
@@ -77,14 +75,13 @@ program mm
      !$omp parallel do collapse(2) private(k)
      do i=1, n
         do j=1, n
-           do k=1, n
-              c(j,i,iter) = c(j,i,iter) + a(j,k,iter) * b(k,i,iter)
-           end do
+           c(j,i,iter) = c(j,i,iter) + a(j,i,iter) * b(j,i,iter)
         end do
      end do
      t_calc2 = MPI_Wtime()
      t_calc = t_calc + (t_calc2-t_calc1)
   end do
+  call MPI_Barrier(MPI_COMM_WORLD, ierr)
   t_end = MPI_Wtime()
 
   tmpsum = 0.0d0
@@ -102,6 +99,7 @@ program mm
   deallocate(a)
   deallocate(b)
   deallocate(c)
+  deallocate(seed)
 
   call MPI_Finalize(ierr)
 contains
