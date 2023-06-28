@@ -17,3 +17,7 @@ ic:
 nvc:
 	mpicc -O3 -mp -o bcast_nvc bcast.c
 	mpicc -O3 -mp -o ibcast_nvc ibcast.c
+
+nvf2:
+	mpifort -O3 -tp=zen3 -cuda -cudalib=cublas,cusolver -mp -o bcast_dev_nvf bcast_dev.f90
+	mpifort -O3 -tp=zen3 -cuda -cudalib=cublas,cusolver -mp -o bcast_managed_nvf bcast_managed.f90

@@ -2,7 +2,7 @@
 program mm
   implicit none
   include 'mpif.h'
-  real*8, allocatable :: a(:,:,:), b(:,:,:), c(:,:,:)
+  real*8, allocatable, managed :: a(:,:,:), b(:,:,:), c(:,:,:)
   integer :: i, j, k
   integer :: n, slice, iter
   integer :: nargs, nlength, nstatus, rank

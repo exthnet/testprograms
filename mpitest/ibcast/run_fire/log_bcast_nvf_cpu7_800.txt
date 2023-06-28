@@ -1,0 +1,90 @@
+ Data for JOB [44524,1] offset 0 Total slots allocated 32
+
+ Mapper requested: NULL  Last mapper: ppr  Mapping policy: BYNUMA:NOOVERSUBSCRIBE  Ranking policy: SLOT
+ Binding policy: NUMA:IF-SUPPORTED  Cpu set: NULL  PPR: 2:numa  Cpus-per-rank: 0
+ 	Num new daemons: 0	New daemon starting vpid INVALID
+ 	Num nodes: 1
+
+ Data for node: fire	State: 3	Flags: 11
+ 	Daemon: [[44524,0],0]	Daemon launched: True
+ 	Num slots: 32	Slots in use: 7	Oversubscribed: FALSE
+ 	Num slots allocated: 32	Max slots: 0
+ 	Num procs: 7	Next node_rank: 7
+ 	Data for proc: [[44524,1],0]
+ 		Pid: 0	Local rank: 0	Node rank: 0	App rank: 0
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [BB/BB/BB/BB/../../../../../../../../../../../..]
+ 		Binding: [BB/BB/BB/BB/../../../../../../../../../../../..]
+ 	Data for proc: [[44524,1],1]
+ 		Pid: 0	Local rank: 1	Node rank: 1	App rank: 1
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [BB/BB/BB/BB/../../../../../../../../../../../..]
+ 		Binding: [BB/BB/BB/BB/../../../../../../../../../../../..]
+ 	Data for proc: [[44524,1],2]
+ 		Pid: 0	Local rank: 2	Node rank: 2	App rank: 2
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [../../../../BB/BB/BB/BB/../../../../../../../..]
+ 		Binding: [../../../../BB/BB/BB/BB/../../../../../../../..]
+ 	Data for proc: [[44524,1],3]
+ 		Pid: 0	Local rank: 3	Node rank: 3	App rank: 3
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [../../../../BB/BB/BB/BB/../../../../../../../..]
+ 		Binding: [../../../../BB/BB/BB/BB/../../../../../../../..]
+ 	Data for proc: [[44524,1],4]
+ 		Pid: 0	Local rank: 4	Node rank: 4	App rank: 4
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [../../../../../../../../BB/BB/BB/BB/../../../..]
+ 		Binding: [../../../../../../../../BB/BB/BB/BB/../../../..]
+ 	Data for proc: [[44524,1],5]
+ 		Pid: 0	Local rank: 5	Node rank: 5	App rank: 5
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [../../../../../../../../BB/BB/BB/BB/../../../..]
+ 		Binding: [../../../../../../../../BB/BB/BB/BB/../../../..]
+ 	Data for proc: [[44524,1],6]
+ 		Pid: 0	Local rank: 6	Node rank: 6	App rank: 6
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [../../../../../../../../../../../../BB/BB/BB/BB]
+ 		Binding: [../../../../../../../../../../../../BB/BB/BB/BB]
+--------------------------------------------------------------------------
+[[44524,1],6]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: fire
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+ rank=            1
+ rank=            2
+ n=          800
+ rank=            3
+ n=          800
+ rank=            5
+ n=          800
+ rank=            6
+ n=          800
+ rank=            0
+ n=          800
+ n=          800
+ rank=            4
+ n=          800
+1 result: sum=  1.2792869E+09
+1 result: time=  3.8211136E+00   6.3783715E-01   3.1832744E+00   2803.00MB/s
+4 result: sum=  1.2792869E+09
+4 result: time=  3.8229458E+00   6.2394582E-01   3.1989976E+00   2741.95MB/s
+5 result: sum=  1.2792869E+09
+5 result: time=  3.8228224E+00   6.2381982E-01   3.1990006E+00   2741.40MB/s
+6 result: sum=  1.2792869E+09
+6 result: time=  3.8246588E+00   6.2144519E-01   3.2032118E+00   2730.96MB/s
+2 result: sum=  1.2792869E+09
+2 result: time=  3.8242381E+00   5.9907009E-01   3.2251648E+00   2632.63MB/s
+0 result: sum=  1.2792869E+09
+0 result: time=  3.6852364E+00   4.6871867E-01   3.2165148E+00   2059.80MB/s
+3 result: sum=  1.2792869E+09
+3 result: time=  3.8584170E+00   3.0117171E-01   3.5572433E+00   1323.51MB/s
+[fire.lab.exth.net:32141] 6 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[fire.lab.exth.net:32141] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

@@ -1,0 +1,104 @@
+ Data for JOB [43265,1] offset 0 Total slots allocated 32
+
+ Mapper requested: NULL  Last mapper: round_robin  Mapping policy: BYNUMA:NOOVERSUBSCRIBE  Ranking policy: SLOT
+ Binding policy: NUMA:IF-SUPPORTED  Cpu set: NULL  PPR: NULL  Cpus-per-rank: 0
+ 	Num new daemons: 0	New daemon starting vpid INVALID
+ 	Num nodes: 1
+
+ Data for node: fire	State: 3	Flags: 11
+ 	Daemon: [[43265,0],0]	Daemon launched: True
+ 	Num slots: 32	Slots in use: 7	Oversubscribed: FALSE
+ 	Num slots allocated: 32	Max slots: 0
+ 	Num procs: 7	Next node_rank: 7
+ 	Data for proc: [[43265,1],0]
+ 		Pid: 0	Local rank: 0	Node rank: 0	App rank: 0
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [BB/BB/BB/BB/../../../../../../../../../../../..]
+ 		Binding: [BB/BB/BB/BB/../../../../../../../../../../../..]
+ 	Data for proc: [[43265,1],1]
+ 		Pid: 0	Local rank: 1	Node rank: 1	App rank: 1
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [../../../../BB/BB/BB/BB/../../../../../../../..]
+ 		Binding: [../../../../BB/BB/BB/BB/../../../../../../../..]
+ 	Data for proc: [[43265,1],2]
+ 		Pid: 0	Local rank: 2	Node rank: 2	App rank: 2
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [../../../../../../../../BB/BB/BB/BB/../../../..]
+ 		Binding: [../../../../../../../../BB/BB/BB/BB/../../../..]
+ 	Data for proc: [[43265,1],3]
+ 		Pid: 0	Local rank: 3	Node rank: 3	App rank: 3
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [../../../../../../../../../../../../BB/BB/BB/BB]
+ 		Binding: [../../../../../../../../../../../../BB/BB/BB/BB]
+ 	Data for proc: [[43265,1],4]
+ 		Pid: 0	Local rank: 4	Node rank: 4	App rank: 4
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [BB/BB/BB/BB/../../../../../../../../../../../..]
+ 		Binding: [BB/BB/BB/BB/../../../../../../../../../../../..]
+ 	Data for proc: [[43265,1],5]
+ 		Pid: 0	Local rank: 5	Node rank: 5	App rank: 5
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [../../../../BB/BB/BB/BB/../../../../../../../..]
+ 		Binding: [../../../../BB/BB/BB/BB/../../../../../../../..]
+ 	Data for proc: [[43265,1],6]
+ 		Pid: 0	Local rank: 6	Node rank: 6	App rank: 6
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [../../../../../../../../BB/BB/BB/BB/../../../..]
+ 		Binding: [../../../../../../../../BB/BB/BB/BB/../../../..]
+1 MIG-d723890c-e142-515a-8b68-6ce33c176140
+./bcast_managed_nvf 800
+5 MIG-4d98f6c8-4712-5b63-8785-b1835badc3fa
+./bcast_managed_nvf 800
+2 MIG-331638fc-7b9b-5f03-89fe-75cf27ec1e94
+./bcast_managed_nvf 800
+3 MIG-7a6127be-95bc-566c-a591-9ad689b5bd43
+./bcast_managed_nvf 800
+4 MIG-83e5bf98-8c13-55cc-b122-742021f0b56d
+./bcast_managed_nvf 800
+6 MIG-1ef75d57-62e2-5204-b89d-18e252814d8c
+./bcast_managed_nvf 800
+7 MIG-73228be6-cf7a-5ebc-849e-beaf0126d0d9
+./bcast_managed_nvf 800
+--------------------------------------------------------------------------
+[[43265,1],3]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: fire
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+ rank=            4
+ rank=            2
+ n=          800
+ rank=            0
+ rank=            3
+ rank=            6
+ n=          800
+ n=          800
+ n=          800
+ n=          800
+ rank=            1
+ rank=            5
+ n=          800
+ n=          800
+[fire.lab.exth.net:31072] 6 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[fire.lab.exth.net:31072] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+3 result: sum=  1.2792869E+09
+3 result: time=  7.1379416E+00   1.6568181E+00   5.4811216E+00   7280.94MB/s
+1 result: sum=  1.2792869E+09
+1 result: time=  7.1407048E+00   1.6342632E+00   5.5064393E+00   7181.82MB/s
+5 result: sum=  1.2792869E+09
+5 result: time=  7.1237228E+00   1.6163045E+00   5.5074160E+00   7102.90MB/s
+2 result: sum=  1.2792869E+09
+2 result: time=  7.1321503E+00   1.5846210E+00   5.5475274E+00   6963.67MB/s
+6 result: sum=  1.2792869E+09
+6 result: time=  7.1238394E+00   1.6014448E+00   5.5223924E+00   7037.60MB/s
+4 result: sum=  1.2792869E+09
+4 result: time=  7.1317641E+00   1.5707611E+00   5.5610005E+00   6902.76MB/s
+0 result: sum=  1.2792869E+09
+0 result: time=  7.0227916E+00   1.2424827E+00   5.7803069E+00   5460.13MB/s

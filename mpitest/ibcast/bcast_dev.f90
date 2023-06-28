@@ -3,6 +3,7 @@ program mm
   implicit none
   include 'mpif.h'
   real*8, allocatable :: a(:,:,:), b(:,:,:), c(:,:,:)
+  real*8, allocatable, device :: da(:,:,:), db(:,:,:), dc(:,:,:)
   integer :: i, j, k
   integer :: n, slice, iter
   integer :: nargs, nlength, nstatus, rank
@@ -28,6 +29,9 @@ program mm
   allocate(a(n,n,slice))
   allocate(b(n,n,slice))
   allocate(c(n,n,slice))
+  allocate(da(n,n,slice))
+  allocate(db(n,n,slice))
+  allocate(dc(n,n,slice))
 
   call random_seed(size=seedsize)
   allocate(seed(seedsize))
@@ -57,28 +61,31 @@ program mm
      c = 0.0d0
   endif
 
+  da = a; db = b; dc = c
+
   t_comm = 0.0d0
   t_calc = 0.0d0
   t_begin = MPI_Wtime()
   do iter=1,slice
      t_comm1 = MPI_Wtime()
-     call MPI_Bcast(a(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
-     call MPI_Bcast(b(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
-     call MPI_Bcast(c(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
-     call MPI_Bcast(a(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
-     call MPI_Bcast(b(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
-     call MPI_Bcast(c(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
-     call MPI_Bcast(a(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
-     call MPI_Bcast(b(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
-     call MPI_Bcast(c(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
+     call MPI_Bcast(da(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
+     call MPI_Bcast(db(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
+     call MPI_Bcast(dc(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
+     call MPI_Bcast(da(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
+     call MPI_Bcast(db(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
+     call MPI_Bcast(dc(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
+     call MPI_Bcast(da(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
+     call MPI_Bcast(db(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
+     call MPI_Bcast(dc(1,1,iter), n*n, MPI_REAL8, 0, MPI_COMM_WORLD, ierr)
      t_comm2 = MPI_Wtime()
      t_comm = t_comm + (t_comm2-t_comm1)
      t_calc1 = MPI_Wtime()
-     !$omp parallel do collapse(2) private(k)
+     ! !$omp parallel do collapse(2) private(k)
+     !$cuf kernel do(2)<<<*,*>>>
      do i=1, n
         do j=1, n
            do k=1, n
-              c(j,i,iter) = c(j,i,iter) + a(j,k,iter) * b(k,i,iter)
+              dc(j,i,iter) = dc(j,i,iter) + da(j,k,iter) * db(k,i,iter)
            end do
         end do
      end do
@@ -86,6 +93,8 @@ program mm
      t_calc = t_calc + (t_calc2-t_calc1)
   end do
   t_end = MPI_Wtime()
+
+  c = dc
 
   tmpsum = 0.0d0
   do iter=1,slice
@@ -99,6 +108,9 @@ program mm
   write(*,fmt='(i0,1x,a,1pe15.7)') rank, "result: sum=", tmpsum
   write(*,fmt='(i0,1x,a,1pe15.7,1x,1pe15.7,1x,1pe15.7,f10.2,a)') rank, "result: time=", t_end - t_begin, t_comm, t_calc, dble(n*n*9*8*slice)*(t_comm)/1024.0d0/1024.0d0, "MB/s"
 
+  deallocate(da)
+  deallocate(db)
+  deallocate(dc)
   deallocate(a)
   deallocate(b)
   deallocate(c)
