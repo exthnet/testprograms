@@ -1,0 +1,79 @@
+! -*- f90 -*-
+program stream
+  use omp_lib
+  use cudafor
+  implicit none
+
+  type :: st_x
+     integer :: value
+     integer :: value2
+     integer,pointer,managed :: tmp(:) => null()
+  end type st_x
+
+  integer   comm, ierr
+  integer :: n, i
+  integer :: ret
+  integer(int_ptr_kind()) :: nFree, nTotal
+  integer :: devID, tid, istat, ndevices
+  type (cudaDeviceProp) :: prop
+  integer, allocatable :: h_data(:)
+  type (st_x), allocatable, managed :: d_data(:)
+  integer :: nargs, len, nlength, nstatus
+  character*64 :: str
+
+  ! check device
+  istat = cudaGetDeviceCount(nDevices)
+  if(istat/=0)then
+     ret = cudaGetLastError()
+     print *, "error: ", trim(cudaGetErrorString(ret))
+     stop
+  endif
+  write(*,"(a19,i2)") "Number of devices: ", nDevices
+  do i=0,nDevices-1
+     istat = cudaGetDeviceProperties(prop,i)
+     write(*,"(a7,I2,a2,a20)") "Device ",i,": ",trim(prop%name)
+  enddo
+
+  nargs=command_argument_count()
+  if(nargs==0)then
+     len = 100
+  else
+     call get_command_argument(1,str,nlength,nstatus)
+     read(str,*)len
+  endif
+  write(*,*)"len=",len
+
+  allocate(h_data(len))
+  allocate(d_data(len))
+
+  do i=1, len
+     h_data(i) = i
+  end do
+
+!  do i=1, len
+!     allocate(d_data(i)%tmp(i*2))
+!  end do
+
+  write(*,*)"before"
+  write(*,*)h_data
+
+  d_data%value = h_data
+
+  !$cuf kernel do<<<*,*>>>
+  do i=1, len
+     d_data(i)%value = d_data(i)%value * 2
+  end do
+
+  h_data = d_data%value
+
+  write(*,*)"after"
+  write(*,*)h_data
+!  write(*,*)d_data
+
+!  do i=1, len
+!     deallocate(d_data(i)%tmp)
+!  end do
+  deallocate(d_data)
+  deallocate(h_data)
+end program stream
+

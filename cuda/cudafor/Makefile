@@ -1,3 +1,7 @@
+tmp:
+	nvfortran -gopt -cuda -Minfo=all -gpu=cc70,managed -o struct struct.cuf
+	nvfortran -gopt -cuda -Minfo=all -gpu=cc70,managed -o struct0 struct0.cuf
+
 all:
 	nvfortran -mp -cuda -Minfo=all -cudalib=cublas,cusolver -gpu=cc80,managed -o stream_cc80 stream.cuf
 	nvfortran -mp -cuda -Minfo=all -cudalib=cublas,cusolver -gpu=ccall,managed -o stream_ccall stream.cuf
