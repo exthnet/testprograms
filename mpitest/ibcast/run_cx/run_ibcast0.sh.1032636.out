@@ -1,0 +1,343 @@
++ date
+Fri May 12 14:18:14 JST 2023
++ hostname
+cx140
++ module load oneapi
+++ /usr/bin/modulecmd bash load oneapi
++ eval ACL_BOARD_VENDOR_PATH=/opt/Intel/OpenCLFPGA/oneAPI/Boards ';export' 'ACL_BOARD_VENDOR_PATH;ADVISOR_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest' ';export' 'ADVISOR_2022_DIR;APM=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/perfmodels' ';export' 'APM;CCL_CONFIGURATION=cpu_gpu_dpcpp' ';export' 'CCL_CONFIGURATION;CCL_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest' ';export' 'CCL_ROOT;CLASSPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/mpi.jar:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/onedal.jar' ';export' 'CLASSPATH;CLCK_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest' ';export' 'CLCK_ROOT;CMAKE_PREFIX_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/../lib/cmake:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/IntelDPCPP' ';export' 'CMAKE_PREFIX_PATH;CMPLR_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest' ';export' 'CMPLR_ROOT;CPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest/linux/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dev-utilities/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/include/cpu_gpu_dpcpp' ';export' 'CPATH;CPLUS_INCLUDE_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/include' ';export' 'CPLUS_INCLUDE_PATH;DAALROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest' ';export' 'DAALROOT;DALROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest' ';export' 'DALROOT;DAL_MAJOR_BINARY=1' ';export' 'DAL_MAJOR_BINARY;DAL_MINOR_BINARY=1' ';export' 'DAL_MINOR_BINARY;DIAGUTIL_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/sys_check/vtune_sys_check.py:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/sys_check/sys_check.sh:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/sys_check/debugger_sys_check.py:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/sys_check/sys_check.sh:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/sys_check/advisor_sys_check.py' ';export' 'DIAGUTIL_PATH;DNNLROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp' ';export' 'DNNLROOT;DPCT_BUNDLE_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest' ';export' 'DPCT_BUNDLE_ROOT;DPL_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest' ';export' 'DPL_ROOT;FI_PROVIDER_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib/prov:/usr/lib64/libfabric' ';export' 'FI_PROVIDER_PATH;FLOW_CORE_NAME=oneapi' ';export' 'FLOW_CORE_NAME;FLOW_CORE_VER=2022.3' ';export' 'FLOW_CORE_VER;FLOW_MPI_NAME=impi' ';export' 'FLOW_MPI_NAME;FLOW_MPI_VER=2021.7.1' ';export' 'FLOW_MPI_VER;FPGA_VARS_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga' ';export' 'FPGA_VARS_DIR;GDB_INFO=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/documentation/info' ';export' 'GDB_INFO;INFOPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/lib' ';export' 'INFOPATH;INSPECTOR_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest' ';export' 'INSPECTOR_2022_DIR;INTELFPGAOCLSDKROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga' ';export' 'INTELFPGAOCLSDKROOT;INTEL_LICENSE_FILE=/opt/intel/licenses:/home/center/a49979a/intel/licenses:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/licensing' ';export' 'INTEL_LICENSE_FILE;INTEL_PYTHONHOME=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/dep' ';export' 'INTEL_PYTHONHOME;IPPCP_TARGET_ARCH=intel64' ';export' 'IPPCP_TARGET_ARCH;IPPCRYPTOROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest' ';export' 'IPPCRYPTOROOT;IPPROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest' ';export' 'IPPROOT;IPP_TARGET_ARCH=intel64' ';export' 'IPP_TARGET_ARCH;I_MPI_HYDRA_BOOTSTRAP=rsh' ';export' 'I_MPI_HYDRA_BOOTSTRAP;I_MPI_HYDRA_BOOTSTRAP_AUTOFORK=0' ';export' 'I_MPI_HYDRA_BOOTSTRAP_AUTOFORK;I_MPI_HYDRA_BOOTSTRAP_EXEC=/usr/bin/pjrsh' ';export' 'I_MPI_HYDRA_BOOTSTRAP_EXEC;I_MPI_HYDRA_HOST_FILE=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001032636_nodeinfo' ';export' 'I_MPI_HYDRA_HOST_FILE;I_MPI_PERHOST=1' ';export' 'I_MPI_PERHOST;I_MPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest' ';export' 'I_MPI_ROOT;LD_LIBRARY_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/intel64/gcc4.8:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/slib:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/libipt/intel64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/dep/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/x64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga/host/linux64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/cpu_gpu_dpcpp' ';export' 'LD_LIBRARY_PATH;LIBRARY_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/intel64/gcc4.8:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/cpu_gpu_dpcpp' ';export' 'LIBRARY_PATH;LOADEDMODULES=onemkl/2022.2.1:impi/2021.7.1:oneapi/2022.3' ';export' 'LOADEDMODULES;MANPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/man:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/man:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/documentation/man:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/documentation/en/man/common:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/man:/data/group1/a49979a/opt/emacs-27.2/share/man:/usr/local/share/man:/usr/share/man' ';export' 'MANPATH;MKLROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest' ';export' 'MKLROOT;MODULEPATH=/home/center/opt/x86_64/modulefiles/CX/mpi/oneapi/2022.3/impi/2021.7.1:/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3:/home/center/opt/x86_64/modulefiles/CX/core:/center/local/app/x86/hpci/modulefiles' ';export' 'MODULEPATH;NLSPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64/locale/%l_%t/%N:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin/locale/%l_%t/%N' ';export' 'NLSPATH;OCL_ICD_FILENAMES=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/x64/libintelocl.so:libintelocl_emu.so:libalteracl.so' ';export' 'OCL_ICD_FILENAMES;ONEAPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3' ';export' 'ONEAPI_ROOT;PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/bin64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest/bin64:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/dev-utilities/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/bin64:/home/center/a49979a/opt/bin:/data/group1/a49979a/opt/emacs-27.2/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/center/a49979a/.local/bin:/home/center/a49979a/bin' ';export' 'PATH;PKG_CONFIG_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/include/pkgconfig/lib64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest/include/pkgconfig/lib64:/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/../lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/include/pkgconfig/lib64' ';export' 'PKG_CONFIG_PATH;PYTHONPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/pythonapi' ';export' 'PYTHONPATH;SETVARS_COMPLETED=1' ';export' 'SETVARS_COMPLETED;TBBROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest' ';export' 'TBBROOT;VTUNE_PROFILER_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest' ';export' 'VTUNE_PROFILER_2022_DIR;VTUNE_PROFILER_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest' ';export' 'VTUNE_PROFILER_DIR;VT_ADD_LIBS=-ldwarf\' '-lelf\' '-lvtunwind\' '-lm\' -lpthread ';export' 'VT_ADD_LIBS;VT_LIB_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/lib' ';export' 'VT_LIB_DIR;VT_MPI=impi4' ';export' 'VT_MPI;VT_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest' ';export' 'VT_ROOT;VT_SLIB_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/slib' ';export' 'VT_SLIB_DIR;_LMFILES_=/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3/onemkl/2022.2.1:/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3/impi/2021.7.1:/home/center/opt/x86_64/modulefiles/CX/core/oneapi/2022.3' ';export' '_LMFILES_;unset' 'INTEL_TARGET_ARCH_IA32;'
+++ ACL_BOARD_VENDOR_PATH=/opt/Intel/OpenCLFPGA/oneAPI/Boards
+++ export ACL_BOARD_VENDOR_PATH
+++ ADVISOR_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest
+++ export ADVISOR_2022_DIR
+++ APM=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/perfmodels
+++ export APM
+++ CCL_CONFIGURATION=cpu_gpu_dpcpp
+++ export CCL_CONFIGURATION
+++ CCL_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest
+++ export CCL_ROOT
+++ CLASSPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/mpi.jar:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/onedal.jar
+++ export CLASSPATH
+++ CLCK_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest
+++ export CLCK_ROOT
+++ CMAKE_PREFIX_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/../lib/cmake:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/IntelDPCPP
+++ export CMAKE_PREFIX_PATH
+++ CMPLR_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest
+++ export CMPLR_ROOT
+++ CPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest/linux/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dev-utilities/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/include/cpu_gpu_dpcpp
+++ export CPATH
+++ CPLUS_INCLUDE_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/include
+++ export CPLUS_INCLUDE_PATH
+++ DAALROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest
+++ export DAALROOT
+++ DALROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest
+++ export DALROOT
+++ DAL_MAJOR_BINARY=1
+++ export DAL_MAJOR_BINARY
+++ DAL_MINOR_BINARY=1
+++ export DAL_MINOR_BINARY
+++ DIAGUTIL_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/sys_check/vtune_sys_check.py:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/sys_check/sys_check.sh:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/sys_check/debugger_sys_check.py:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/sys_check/sys_check.sh:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/sys_check/advisor_sys_check.py
+++ export DIAGUTIL_PATH
+++ DNNLROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp
+++ export DNNLROOT
+++ DPCT_BUNDLE_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest
+++ export DPCT_BUNDLE_ROOT
+++ DPL_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest
+++ export DPL_ROOT
+++ FI_PROVIDER_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib/prov:/usr/lib64/libfabric
+++ export FI_PROVIDER_PATH
+++ FLOW_CORE_NAME=oneapi
+++ export FLOW_CORE_NAME
+++ FLOW_CORE_VER=2022.3
+++ export FLOW_CORE_VER
+++ FLOW_MPI_NAME=impi
+++ export FLOW_MPI_NAME
+++ FLOW_MPI_VER=2021.7.1
+++ export FLOW_MPI_VER
+++ FPGA_VARS_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga
+++ export FPGA_VARS_DIR
+++ GDB_INFO=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/documentation/info
+++ export GDB_INFO
+++ INFOPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/lib
+++ export INFOPATH
+++ INSPECTOR_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest
+++ export INSPECTOR_2022_DIR
+++ INTELFPGAOCLSDKROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga
+++ export INTELFPGAOCLSDKROOT
+++ INTEL_LICENSE_FILE=/opt/intel/licenses:/home/center/a49979a/intel/licenses:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/licensing
+++ export INTEL_LICENSE_FILE
+++ INTEL_PYTHONHOME=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/dep
+++ export INTEL_PYTHONHOME
+++ IPPCP_TARGET_ARCH=intel64
+++ export IPPCP_TARGET_ARCH
+++ IPPCRYPTOROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest
+++ export IPPCRYPTOROOT
+++ IPPROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest
+++ export IPPROOT
+++ IPP_TARGET_ARCH=intel64
+++ export IPP_TARGET_ARCH
+++ I_MPI_HYDRA_BOOTSTRAP=rsh
+++ export I_MPI_HYDRA_BOOTSTRAP
+++ I_MPI_HYDRA_BOOTSTRAP_AUTOFORK=0
+++ export I_MPI_HYDRA_BOOTSTRAP_AUTOFORK
+++ I_MPI_HYDRA_BOOTSTRAP_EXEC=/usr/bin/pjrsh
+++ export I_MPI_HYDRA_BOOTSTRAP_EXEC
+++ I_MPI_HYDRA_HOST_FILE=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001032636_nodeinfo
+++ export I_MPI_HYDRA_HOST_FILE
+++ I_MPI_PERHOST=1
+++ export I_MPI_PERHOST
+++ I_MPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest
+++ export I_MPI_ROOT
+++ LD_LIBRARY_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/intel64/gcc4.8:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/slib:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/libipt/intel64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/dep/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/x64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga/host/linux64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/cpu_gpu_dpcpp
+++ export LD_LIBRARY_PATH
+++ LIBRARY_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/intel64/gcc4.8:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/cpu_gpu_dpcpp
+++ export LIBRARY_PATH
+++ LOADEDMODULES=onemkl/2022.2.1:impi/2021.7.1:oneapi/2022.3
+++ export LOADEDMODULES
+++ MANPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/man:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/man:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/documentation/man:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/documentation/en/man/common:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/man:/data/group1/a49979a/opt/emacs-27.2/share/man:/usr/local/share/man:/usr/share/man
+++ export MANPATH
+++ MKLROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest
+++ export MKLROOT
+++ MODULEPATH=/home/center/opt/x86_64/modulefiles/CX/mpi/oneapi/2022.3/impi/2021.7.1:/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3:/home/center/opt/x86_64/modulefiles/CX/core:/center/local/app/x86/hpci/modulefiles
+++ export MODULEPATH
+++ NLSPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64/locale/%l_%t/%N:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin/locale/%l_%t/%N
+++ export NLSPATH
+++ OCL_ICD_FILENAMES=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/x64/libintelocl.so:libintelocl_emu.so:libalteracl.so
+++ export OCL_ICD_FILENAMES
+++ ONEAPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3
+++ export ONEAPI_ROOT
+++ PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/bin64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest/bin64:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/dev-utilities/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/bin64:/home/center/a49979a/opt/bin:/data/group1/a49979a/opt/emacs-27.2/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/center/a49979a/.local/bin:/home/center/a49979a/bin
+++ export PATH
+++ PKG_CONFIG_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/include/pkgconfig/lib64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest/include/pkgconfig/lib64:/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/../lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/include/pkgconfig/lib64
+++ export PKG_CONFIG_PATH
+++ PYTHONPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/pythonapi
+++ export PYTHONPATH
+++ SETVARS_COMPLETED=1
+++ export SETVARS_COMPLETED
+++ TBBROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest
+++ export TBBROOT
+++ VTUNE_PROFILER_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest
+++ export VTUNE_PROFILER_2022_DIR
+++ VTUNE_PROFILER_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest
+++ export VTUNE_PROFILER_DIR
+++ VT_ADD_LIBS='-ldwarf -lelf -lvtunwind -lm -lpthread'
+++ export VT_ADD_LIBS
+++ VT_LIB_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/lib
+++ export VT_LIB_DIR
+++ VT_MPI=impi4
+++ export VT_MPI
+++ VT_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest
+++ export VT_ROOT
+++ VT_SLIB_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/slib
+++ export VT_SLIB_DIR
+++ _LMFILES_=/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3/onemkl/2022.2.1:/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3/impi/2021.7.1:/home/center/opt/x86_64/modulefiles/CX/core/oneapi/2022.3
+++ export _LMFILES_
+++ unset INTEL_TARGET_ARCH_IA32
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export I_MPI_DEBUG=10
++ I_MPI_DEBUG=10
++ export I_MPI_PIN_ORDER=compact
++ I_MPI_PIN_ORDER=compact
++ export I_MPI_PIN_DOMAIN=10
++ I_MPI_PIN_DOMAIN=10
++ env
+MKLROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest
+CPLUS_INCLUDE_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/include
+MANPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/man:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/man:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/documentation/man:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/documentation/en/man/common:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/man:/data/group1/a49979a/opt/emacs-27.2/share/man:/usr/local/share/man:/usr/share/man
+PJM_DPREFIX=#PJM
+PJM_JOBNAME=run_ibcast0.sh
+VT_MPI=impi4
+HOSTNAME=cx140
+PJM_STDERR_PATH=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/run_ibcast0.sh.1032636.out
+IPPROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest
+INTEL_LICENSE_FILE=/opt/intel/licenses:/home/center/a49979a/intel/licenses:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/licensing
+PJM_O_PATH=/home/center/a49979a/opt/bin:/data/group1/a49979a/opt/emacs-27.2/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/center/a49979a/.local/bin:/home/center/a49979a/bin
+PJM_MPI_PROC=1
+CLCK_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest
+I_MPI_PIN_DOMAIN=10
+PJM_STDOUT_PATH=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/run_ibcast0.sh.1032636.out
+HISTSIZE=1000
+PLE_SCRIPT_TYPE=JOB_SCRIPT
+LIBRARY_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/intel64/gcc4.8:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/cpu_gpu_dpcpp
+PJM_CUSTOM_RESOURCES=beeond=0,gpu/n=4
+JOBID=1032636
+PJM_SHELL=/bin/bash
+QTDIR=/usr/lib64/qt-3.3
+VTUNE_PROFILER_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest
+PJM_O_NODEINF=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001032636_nodeinfo
+QTINC=/usr/lib64/qt-3.3/include
+OCL_ICD_FILENAMES=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/x64/libintelocl.so:libintelocl_emu.so:libalteracl.so
+QT_GRAPHICSSYSTEM_CHECKED=1
+CCL_CONFIGURATION=cpu_gpu_dpcpp
+USER=a49979a
+http_proxy=http://flow-cx01:3128
+LD_LIBRARY_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/intel64/gcc4.8:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/slib:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/libipt/intel64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/dep/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/x64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga/host/linux64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/cpu_gpu_dpcpp
+IPPCRYPTOROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest
+FPGA_VARS_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga
+DALROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest
+PJM_ELAPSED_TIME_MODE=fixed
+WORKDIR=/data/group1/a49979a
+FI_PROVIDER_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib/prov:/usr/lib64/libfabric
+CMPLR_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest
+PJM_O_HOME=/home/center/a49979a
+PJM_CORE_MEM_LIMIT=0
+CPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest/linux/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dev-utilities/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/include/cpu_gpu_dpcpp
+DPL_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest
+ftp_proxy=http://flow-cx01:3128
+INTELFPGAOCLSDKROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga
+FLOW_CORE_NAME=oneapi
+PJM_RSCUNIT=cx
+PJM_SUBJOBID=1032636
+PJM_NODE=1
+IPPCP_TARGET_ARCH=intel64
+PJM_O_LOGNAME=a49979a
+PJM_VNODES=1
+SETVARS_COMPLETED=1
+NLSPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64/locale/%l_%t/%N:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin/locale/%l_%t/%N
+PJM_O_LANG=en_US.UTF-8
+VT_ADD_LIBS=-ldwarf -lelf -lvtunwind -lm -lpthread
+PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/bin64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest/bin64:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/dev-utilities/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/bin64:/home/center/a49979a/opt/bin:/data/group1/a49979a/opt/emacs-27.2/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/center/a49979a/.local/bin:/home/center/a49979a/bin
+MAIL=/var/spool/mail/a49979a
+RSYNC_PROXY=flow-cx01:3128
+TBBROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest
+PJM_JOBID=1032636
+PJM_PROC_BY_NODE=1
+PWD=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx
+_LMFILES_=/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3/onemkl/2022.2.1:/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3/impi/2021.7.1:/home/center/opt/x86_64/modulefiles/CX/core/oneapi/2022.3
+DPCT_BUNDLE_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest
+DNNLROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp
+LANG=en_US.UTF-8
+FLOW_MPI_NAME=impi
+PJM_O_MAIL=/var/spool/mail/a49979a
+MODULEPATH=/home/center/opt/x86_64/modulefiles/CX/mpi/oneapi/2022.3/impi/2021.7.1:/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3:/home/center/opt/x86_64/modulefiles/CX/core:/center/local/app/x86/hpci/modulefiles
+VT_LIB_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/lib
+LOADEDMODULES=onemkl/2022.2.1:impi/2021.7.1:oneapi/2022.3
+DAL_MAJOR_BINARY=1
+INSPECTOR_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest
+PJM_LOCALDIR=/local/1032636
+VT_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest
+IPP_TARGET_ARCH=intel64
+DAALROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest
+PJM_VNODE_MEM_LIMIT=362924736512
+PJM_NODE_CPUTIME_LIMIT=18446744073709551615
+https_proxy=http://flow-cx01:3128
+DAL_MINOR_BINARY=1
+HISTCONTROL=ignoredups
+INTEL_PYTHONHOME=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/dep
+FLOW_CORE_VER=2022.3
+PJM_O_WORKDIR=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx
+CCL_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest
+HOME=/home/center/a49979a
+PJM_NET_ROUTE=static
+SHLVL=2
+I_MPI_HYDRA_BOOTSTRAP_EXEC=/usr/bin/pjrsh
+I_MPI_DEBUG=10
+I_MPI_HYDRA_BOOTSTRAP_AUTOFORK=0
+PJM_MAILOPTION=0x0
+OMPI_CKPTCONFIG=0x00
+VT_SLIB_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/slib
+DIAGUTIL_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/sys_check/vtune_sys_check.py:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/sys_check/sys_check.sh:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/sys_check/debugger_sys_check.py:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/sys_check/sys_check.sh:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/sys_check/advisor_sys_check.py
+FJPNCKPT_CONFIG=0x00
+PYTHONPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/pythonapi
+LOGNAME=a49979a
+APM=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/perfmodels
+ACL_BOARD_VENDOR_PATH=/opt/Intel/OpenCLFPGA/oneAPI/Boards
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+CLASSPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/mpi.jar:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/onedal.jar
+ADVISOR_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest
+PJM_ENVIRONMENT=BATCH
+XDG_DATA_DIRS=/home/center/a49979a/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+I_MPI_HYDRA_BOOTSTRAP=rsh
+MODULESHOME=/usr/share/Modules
+OMP_NUM_THREADS=4
+PKG_CONFIG_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/include/pkgconfig/lib64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest/include/pkgconfig/lib64:/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/../lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/include/pkgconfig/lib64
+I_MPI_HYDRA_HOST_FILE=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001032636_nodeinfo
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+GDB_INFO=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/documentation/info
+I_MPI_PIN_ORDER=compact
+INFOPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/lib
+I_MPI_PERHOST=1
+CMAKE_PREFIX_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/../lib/cmake:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/IntelDPCPP
+ONEAPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3
+FLOW_MPI_VER=2021.7.1
+PJM_RSCGRP=cx-single
+VTUNE_PROFILER_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest
+PJM_JOBDIR=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx
+PJM_O_SHELL=/bin/bash
+PJM_O_HOST=flow-cx01
+PJM_ASSIGN_LOGICAL_CPU=job
+PJM_ELAPSE_LIMIT=180
+I_MPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+_=/usr/bin/env
++ mpiexec.hydra -n 4 ./run2.sh ./ibcast_intel 10
++ c=2
++ c=3
++ c2=29
++ c2=39
++ echo c=2
+c=2
++ echo c=3
+c=3
+c2=29
++ echo c2=29
++ export I_MPI_ASYNC_PROGRESS=ON
+c2=39
++ echo c2=39
++ I_MPI_ASYNC_PROGRESS=ON
++ export I_MPI_ASYNC_PROGRESS=ON
++ export I_MPI_ASYNC_PROGRESS_PIN=29
++ I_MPI_ASYNC_PROGRESS=ON
++ I_MPI_ASYNC_PROGRESS_PIN=29
++ ./ibcast_intel 10
++ export I_MPI_ASYNC_PROGRESS_PIN=39
++ I_MPI_ASYNC_PROGRESS_PIN=39
++ ./ibcast_intel 10
++ c=0
++ c=1
++ c2=19
++ c2=9
++ echo c=0
+c=0
++ echo c=1
+c2=9
++ echo c2=9
++ export I_MPI_ASYNC_PROGRESS=ON
++ I_MPI_ASYNC_PROGRESS=ON
+c=1
+c2=19
++ echo c2=19
++ export I_MPI_ASYNC_PROGRESS=ON
++ I_MPI_ASYNC_PROGRESS=ON
++ export I_MPI_ASYNC_PROGRESS_PIN=9
++ I_MPI_ASYNC_PROGRESS_PIN=9
++ ./ibcast_intel 10
++ export I_MPI_ASYNC_PROGRESS_PIN=19
++ I_MPI_ASYNC_PROGRESS_PIN=19
++ ./ibcast_intel 10
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.7  Build 20221022 (id: f7b29a2495)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): max number of MPI_Request per vci: 67108864 (pools: 1)
+[0] MPI startup(): libfabric provider: mlx
+[0] MPI startup(): File "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi_mlx_100.dat" not found
+[0] MPI startup(): Load tuning file: "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi.dat"
+[1] MPI startup(): global_rank 1, local_rank 1, local_size 4, threads_per_node 4
+ERROR: unexpected end of affinity string, expected 4 numbers, read 1, affinity string 19
+Abort(566543) on node 1 (rank 1 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(237)......: 
+MPID_Init_async_thread(651): MPID_Thread_create failed
+(unknown)(): Other MPI error
+[0] MPI startup(): threading: mode: handoff
+[0] MPI startup(): threading: vcis: 1
+[0] MPI startup(): threading: progress_threads: 0
+[0] MPI startup(): threading: progress_threads: 1
+[0] MPI startup(): threading: async_progress: 1
+[0] MPI startup(): threading: lock_level: nolock
+[0] MPI startup(): tag bits available: 20 (TAG_UB value: 1048575) 
+[0] MPI startup(): source bits available: 21 (Maximal number of rank: 2097151) 
++ date
+Fri May 12 14:18:17 JST 2023

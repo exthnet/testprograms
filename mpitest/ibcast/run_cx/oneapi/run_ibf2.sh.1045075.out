@@ -1,0 +1,53 @@
+Mon May 29 16:15:58 JST 2023
+cx141
+(10.102.1.141:0,1,2,3)
+
+export I_MPI_ASYNC_PROGRESS_PIN=9
+export I_MPI_ASYNC_PROGRESS_PIN=29
+export I_MPI_ASYNC_PROGRESS_PIN=19
+export I_MPI_ASYNC_PROGRESS_PIN=39
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.7  Build 20221022 (id: f7b29a2495)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): max number of MPI_Request per vci: 67108864 (pools: 1)
+[0] MPI startup(): libfabric provider: mlx
+[0] MPI startup(): File "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi_mlx_100.dat" not found
+[0] MPI startup(): Load tuning file: "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi.dat"
+[1] MPI startup(): global_rank 1, local_rank 1, local_size 4, threads_per_node 4
+ERROR: unexpected end of affinity string, expected 4 numbers, read 1, affinity string 19
+Abort(566543) on node 1 (rank 1 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(237)......: 
+MPID_Init_async_thread(651): MPID_Thread_create failed
+(unknown)(): Other MPI error
+[3] MPI startup(): global_rank 3, local_rank 3, local_size 4, threads_per_node 4
+ERROR: unexpected end of affinity string, expected 4 numbers, read 1, affinity string 39
+(10.102.1.141:0,1,2,3)
+
+export I_MPI_ASYNC_PROGRESS_PIN=29
+export I_MPI_ASYNC_PROGRESS_PIN=39
+export I_MPI_ASYNC_PROGRESS_PIN=9
+export I_MPI_ASYNC_PROGRESS_PIN=19
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.7  Build 20221022 (id: f7b29a2495)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): max number of MPI_Request per vci: 67108864 (pools: 1)
+[0] MPI startup(): libfabric provider: mlx
+[0] MPI startup(): File "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi_mlx_100.dat" not found
+[0] MPI startup(): Load tuning file: "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi.dat"
+[0] MPI startup(): threading: mode: handoff
+[0] MPI startup(): threading: vcis: 1
+[0] MPI startup(): threading: progress_threads: 0
+[0] MPI startup(): threading: progress_threads: 1
+[0] MPI startup(): threading: async_progress: 1
+[0] MPI startup(): threading: lock_level: nolock
+[0] MPI startup(): tag bits available: 20 (TAG_UB value: 1048575) 
+[0] MPI startup(): source bits available: 21 (Maximal number of rank: 2097151) 
+[3] MPI startup(): global_rank 3, local_rank 3, local_size 4, threads_per_node 4
+ERROR: unexpected end of affinity string, expected 4 numbers, read 1, affinity string 39
+Abort(566543) on node 3 (rank 3 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(237)......: 
+MPID_Init_async_thread(651): MPID_Thread_create failed
+(unknown)(): Other MPI error
+Mon May 29 16:16:04 JST 2023

@@ -1,0 +1,640 @@
++ date
+Thu May 18 23:26:10 JST 2023
++ hostname
+cx169
++ module load oneapi
+++ /usr/bin/modulecmd bash load oneapi
++ eval ACL_BOARD_VENDOR_PATH=/opt/Intel/OpenCLFPGA/oneAPI/Boards ';export' 'ACL_BOARD_VENDOR_PATH;ADVISOR_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest' ';export' 'ADVISOR_2022_DIR;APM=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/perfmodels' ';export' 'APM;CCL_CONFIGURATION=cpu_gpu_dpcpp' ';export' 'CCL_CONFIGURATION;CCL_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest' ';export' 'CCL_ROOT;CLASSPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/mpi.jar:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/onedal.jar' ';export' 'CLASSPATH;CLCK_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest' ';export' 'CLCK_ROOT;CMAKE_PREFIX_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/../lib/cmake:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/IntelDPCPP' ';export' 'CMAKE_PREFIX_PATH;CMPLR_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest' ';export' 'CMPLR_ROOT;CPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest/linux/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dev-utilities/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/include/cpu_gpu_dpcpp' ';export' 'CPATH;CPLUS_INCLUDE_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/include' ';export' 'CPLUS_INCLUDE_PATH;DAALROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest' ';export' 'DAALROOT;DALROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest' ';export' 'DALROOT;DAL_MAJOR_BINARY=1' ';export' 'DAL_MAJOR_BINARY;DAL_MINOR_BINARY=1' ';export' 'DAL_MINOR_BINARY;DIAGUTIL_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/sys_check/vtune_sys_check.py:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/sys_check/sys_check.sh:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/sys_check/debugger_sys_check.py:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/sys_check/sys_check.sh:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/sys_check/advisor_sys_check.py' ';export' 'DIAGUTIL_PATH;DNNLROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp' ';export' 'DNNLROOT;DPCT_BUNDLE_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest' ';export' 'DPCT_BUNDLE_ROOT;DPL_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest' ';export' 'DPL_ROOT;FI_PROVIDER_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib/prov:/usr/lib64/libfabric' ';export' 'FI_PROVIDER_PATH;FLOW_CORE_NAME=oneapi' ';export' 'FLOW_CORE_NAME;FLOW_CORE_VER=2022.3' ';export' 'FLOW_CORE_VER;FLOW_MPI_NAME=impi' ';export' 'FLOW_MPI_NAME;FLOW_MPI_VER=2021.7.1' ';export' 'FLOW_MPI_VER;FPGA_VARS_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga' ';export' 'FPGA_VARS_DIR;GDB_INFO=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/documentation/info' ';export' 'GDB_INFO;INFOPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/lib' ';export' 'INFOPATH;INSPECTOR_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest' ';export' 'INSPECTOR_2022_DIR;INTELFPGAOCLSDKROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga' ';export' 'INTELFPGAOCLSDKROOT;INTEL_LICENSE_FILE=/opt/intel/licenses:/home/center/a49979a/intel/licenses:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/licensing' ';export' 'INTEL_LICENSE_FILE;INTEL_PYTHONHOME=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/dep' ';export' 'INTEL_PYTHONHOME;IPPCP_TARGET_ARCH=intel64' ';export' 'IPPCP_TARGET_ARCH;IPPCRYPTOROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest' ';export' 'IPPCRYPTOROOT;IPPROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest' ';export' 'IPPROOT;IPP_TARGET_ARCH=intel64' ';export' 'IPP_TARGET_ARCH;I_MPI_HYDRA_BOOTSTRAP=rsh' ';export' 'I_MPI_HYDRA_BOOTSTRAP;I_MPI_HYDRA_BOOTSTRAP_AUTOFORK=0' ';export' 'I_MPI_HYDRA_BOOTSTRAP_AUTOFORK;I_MPI_HYDRA_BOOTSTRAP_EXEC=/usr/bin/pjrsh' ';export' 'I_MPI_HYDRA_BOOTSTRAP_EXEC;I_MPI_HYDRA_HOST_FILE=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001039015_nodeinfo' ';export' 'I_MPI_HYDRA_HOST_FILE;I_MPI_PERHOST=1' ';export' 'I_MPI_PERHOST;I_MPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest' ';export' 'I_MPI_ROOT;LD_LIBRARY_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/intel64/gcc4.8:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/slib:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/libipt/intel64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/dep/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/x64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga/host/linux64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/cpu_gpu_dpcpp' ';export' 'LD_LIBRARY_PATH;LIBRARY_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/intel64/gcc4.8:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/cpu_gpu_dpcpp' ';export' 'LIBRARY_PATH;LOADEDMODULES=onemkl/2022.2.1:impi/2021.7.1:oneapi/2022.3' ';export' 'LOADEDMODULES;MANPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/man:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/man:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/documentation/man:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/documentation/en/man/common:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/man:/data/group1/a49979a/opt/emacs-27.2/share/man:/usr/local/share/man:/usr/share/man' ';export' 'MANPATH;MKLROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest' ';export' 'MKLROOT;MODULEPATH=/home/center/opt/x86_64/modulefiles/CX/mpi/oneapi/2022.3/impi/2021.7.1:/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3:/home/center/opt/x86_64/modulefiles/CX/core:/center/local/app/x86/hpci/modulefiles' ';export' 'MODULEPATH;NLSPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64/locale/%l_%t/%N:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin/locale/%l_%t/%N' ';export' 'NLSPATH;OCL_ICD_FILENAMES=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/x64/libintelocl.so:libintelocl_emu.so:libalteracl.so' ';export' 'OCL_ICD_FILENAMES;ONEAPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3' ';export' 'ONEAPI_ROOT;PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/bin64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest/bin64:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/dev-utilities/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/bin64:/home/center/a49979a/opt/bin:/data/group1/a49979a/opt/emacs-27.2/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/center/a49979a/.local/bin:/home/center/a49979a/bin' ';export' 'PATH;PKG_CONFIG_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/include/pkgconfig/lib64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest/include/pkgconfig/lib64:/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/../lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/include/pkgconfig/lib64' ';export' 'PKG_CONFIG_PATH;PYTHONPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/pythonapi' ';export' 'PYTHONPATH;SETVARS_COMPLETED=1' ';export' 'SETVARS_COMPLETED;TBBROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest' ';export' 'TBBROOT;VTUNE_PROFILER_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest' ';export' 'VTUNE_PROFILER_2022_DIR;VTUNE_PROFILER_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest' ';export' 'VTUNE_PROFILER_DIR;VT_ADD_LIBS=-ldwarf\' '-lelf\' '-lvtunwind\' '-lm\' -lpthread ';export' 'VT_ADD_LIBS;VT_LIB_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/lib' ';export' 'VT_LIB_DIR;VT_MPI=impi4' ';export' 'VT_MPI;VT_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest' ';export' 'VT_ROOT;VT_SLIB_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/slib' ';export' 'VT_SLIB_DIR;_LMFILES_=/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3/onemkl/2022.2.1:/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3/impi/2021.7.1:/home/center/opt/x86_64/modulefiles/CX/core/oneapi/2022.3' ';export' '_LMFILES_;unset' 'INTEL_TARGET_ARCH_IA32;'
+++ ACL_BOARD_VENDOR_PATH=/opt/Intel/OpenCLFPGA/oneAPI/Boards
+++ export ACL_BOARD_VENDOR_PATH
+++ ADVISOR_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest
+++ export ADVISOR_2022_DIR
+++ APM=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/perfmodels
+++ export APM
+++ CCL_CONFIGURATION=cpu_gpu_dpcpp
+++ export CCL_CONFIGURATION
+++ CCL_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest
+++ export CCL_ROOT
+++ CLASSPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/mpi.jar:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/onedal.jar
+++ export CLASSPATH
+++ CLCK_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest
+++ export CLCK_ROOT
+++ CMAKE_PREFIX_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/../lib/cmake:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/IntelDPCPP
+++ export CMAKE_PREFIX_PATH
+++ CMPLR_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest
+++ export CMPLR_ROOT
+++ CPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest/linux/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dev-utilities/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/include:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/include/cpu_gpu_dpcpp
+++ export CPATH
+++ CPLUS_INCLUDE_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/include
+++ export CPLUS_INCLUDE_PATH
+++ DAALROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest
+++ export DAALROOT
+++ DALROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest
+++ export DALROOT
+++ DAL_MAJOR_BINARY=1
+++ export DAL_MAJOR_BINARY
+++ DAL_MINOR_BINARY=1
+++ export DAL_MINOR_BINARY
+++ DIAGUTIL_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/sys_check/vtune_sys_check.py:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/sys_check/sys_check.sh:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/sys_check/debugger_sys_check.py:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/sys_check/sys_check.sh:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/sys_check/advisor_sys_check.py
+++ export DIAGUTIL_PATH
+++ DNNLROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp
+++ export DNNLROOT
+++ DPCT_BUNDLE_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest
+++ export DPCT_BUNDLE_ROOT
+++ DPL_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest
+++ export DPL_ROOT
+++ FI_PROVIDER_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib/prov:/usr/lib64/libfabric
+++ export FI_PROVIDER_PATH
+++ FLOW_CORE_NAME=oneapi
+++ export FLOW_CORE_NAME
+++ FLOW_CORE_VER=2022.3
+++ export FLOW_CORE_VER
+++ FLOW_MPI_NAME=impi
+++ export FLOW_MPI_NAME
+++ FLOW_MPI_VER=2021.7.1
+++ export FLOW_MPI_VER
+++ FPGA_VARS_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga
+++ export FPGA_VARS_DIR
+++ GDB_INFO=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/documentation/info
+++ export GDB_INFO
+++ INFOPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/lib
+++ export INFOPATH
+++ INSPECTOR_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest
+++ export INSPECTOR_2022_DIR
+++ INTELFPGAOCLSDKROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga
+++ export INTELFPGAOCLSDKROOT
+++ INTEL_LICENSE_FILE=/opt/intel/licenses:/home/center/a49979a/intel/licenses:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/licensing
+++ export INTEL_LICENSE_FILE
+++ INTEL_PYTHONHOME=/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/dep
+++ export INTEL_PYTHONHOME
+++ IPPCP_TARGET_ARCH=intel64
+++ export IPPCP_TARGET_ARCH
+++ IPPCRYPTOROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest
+++ export IPPCRYPTOROOT
+++ IPPROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest
+++ export IPPROOT
+++ IPP_TARGET_ARCH=intel64
+++ export IPP_TARGET_ARCH
+++ I_MPI_HYDRA_BOOTSTRAP=rsh
+++ export I_MPI_HYDRA_BOOTSTRAP
+++ I_MPI_HYDRA_BOOTSTRAP_AUTOFORK=0
+++ export I_MPI_HYDRA_BOOTSTRAP_AUTOFORK
+++ I_MPI_HYDRA_BOOTSTRAP_EXEC=/usr/bin/pjrsh
+++ export I_MPI_HYDRA_BOOTSTRAP_EXEC
+++ I_MPI_HYDRA_HOST_FILE=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001039015_nodeinfo
+++ export I_MPI_HYDRA_HOST_FILE
+++ I_MPI_PERHOST=1
+++ export I_MPI_PERHOST
+++ I_MPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest
+++ export I_MPI_ROOT
+++ LD_LIBRARY_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/intel64/gcc4.8:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/slib:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/libipt/intel64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/dep/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/x64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga/host/linux64/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/cpu_gpu_dpcpp
+++ export LD_LIBRARY_PATH
+++ LIBRARY_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/intel64/gcc4.8:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ipp/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/lib/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/cpu_gpu_dpcpp
+++ export LIBRARY_PATH
+++ LOADEDMODULES=onemkl/2022.2.1:impi/2021.7.1:oneapi/2022.3
+++ export LOADEDMODULES
+++ MANPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/man:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/man:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/documentation/man:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/documentation/en/man/common:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/man:/data/group1/a49979a/opt/emacs-27.2/share/man:/usr/local/share/man:/usr/share/man
+++ export MANPATH
+++ MKLROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest
+++ export MKLROOT
+++ MODULEPATH=/home/center/opt/x86_64/modulefiles/CX/mpi/oneapi/2022.3/impi/2021.7.1:/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3:/home/center/opt/x86_64/modulefiles/CX/core:/center/local/app/x86/hpci/modulefiles
+++ export MODULEPATH
+++ NLSPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/intel64/locale/%l_%t/%N:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/compiler/lib/intel64_lin/locale/%l_%t/%N
+++ export NLSPATH
+++ OCL_ICD_FILENAMES=/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/x64/libintelocl.so:libintelocl_emu.so:libalteracl.so
+++ export OCL_ICD_FILENAMES
+++ ONEAPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3
+++ export ONEAPI_ROOT
+++ PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/libfabric/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/bin64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest/bin64:/home/center/opt/x86_64/cores/oneapi/2022.3/dpcpp-ct/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/dev-utilities/latest/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/debugger/latest/gdb/intel64/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/lib/oclfpga/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/linux/bin:/home/center/opt/x86_64/cores/oneapi/2022.3/clck/latest/bin/intel64:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/bin64:/home/center/a49979a/opt/bin:/data/group1/a49979a/opt/emacs-27.2/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/center/a49979a/.local/bin:/home/center/a49979a/bin
+++ export PATH
+++ PKG_CONFIG_PATH=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/mkl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest/include/pkgconfig/lib64:/home/center/opt/x86_64/cores/oneapi/2022.3/vpl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/ippcp/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/inspector/latest/include/pkgconfig/lib64:/home/center/opt/x86_64/cores/oneapi/2022.3/dpl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/dnnl/latest/cpu_dpcpp_gpu_dpcpp/../lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/dal/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/compiler/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/ccl/latest/lib/pkgconfig:/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/include/pkgconfig/lib64
+++ export PKG_CONFIG_PATH
+++ PYTHONPATH=/home/center/opt/x86_64/cores/oneapi/2022.3/advisor/latest/pythonapi
+++ export PYTHONPATH
+++ SETVARS_COMPLETED=1
+++ export SETVARS_COMPLETED
+++ TBBROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/tbb/latest
+++ export TBBROOT
+++ VTUNE_PROFILER_2022_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest
+++ export VTUNE_PROFILER_2022_DIR
+++ VTUNE_PROFILER_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/vtune/latest
+++ export VTUNE_PROFILER_DIR
+++ VT_ADD_LIBS='-ldwarf -lelf -lvtunwind -lm -lpthread'
+++ export VT_ADD_LIBS
+++ VT_LIB_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/lib
+++ export VT_LIB_DIR
+++ VT_MPI=impi4
+++ export VT_MPI
+++ VT_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest
+++ export VT_ROOT
+++ VT_SLIB_DIR=/home/center/opt/x86_64/cores/oneapi/2022.3/itac/latest/slib
+++ export VT_SLIB_DIR
+++ _LMFILES_=/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3/onemkl/2022.2.1:/home/center/opt/x86_64/modulefiles/CX/compiler/oneapi/2022.3/impi/2021.7.1:/home/center/opt/x86_64/modulefiles/CX/core/oneapi/2022.3
+++ export _LMFILES_
+++ unset INTEL_TARGET_ARCH_IA32
++ export OMP_NUM_THREADS=3
++ OMP_NUM_THREADS=3
++ export I_MPI_DEBUG=10
++ I_MPI_DEBUG=10
++ export I_MPI_PIN_ORDER=compact
++ I_MPI_PIN_ORDER=compact
++ export I_MPI_PIN_DOMAIN=4
++ I_MPI_PIN_DOMAIN=4
++ export I_MPI_ASYNC_PROGRESS=1
++ I_MPI_ASYNC_PROGRESS=1
++ export I_MPI_ASYNC_PROGRESS_THREADS=1
++ I_MPI_ASYNC_PROGRESS_THREADS=1
++ n=1000
++ mpiexec.hydra -n 4 -print-rank-map numactl -l ./ibcast_intelc 1000
+(10.102.1.169:0,1,2,3)
+
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.7  Build 20221022 (id: f7b29a2495)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): max number of MPI_Request per vci: 67108864 (pools: 1)
+[0] MPI startup(): libfabric provider: mlx
+[0] MPI startup(): File "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi_mlx_100.dat" not found
+[0] MPI startup(): Load tuning file: "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi.dat"
+[0] MPI startup(): threading: mode: handoff
+[0] MPI startup(): threading: vcis: 1
+[0] MPI startup(): threading: progress_threads: 0
+[0] MPI startup(): threading: progress_threads: 1
+[0] MPI startup(): threading: async_progress: 1
+[0] MPI startup(): threading: lock_level: nolock
+[0] MPI startup(): tag bits available: 20 (TAG_UB value: 1048575) 
+[0] MPI startup(): source bits available: 21 (Maximal number of rank: 2097151) 
+[1] MPI startup(): global_rank 1, local_rank 1, local_size 4, threads_per_node 4
+rank=1
+n=1000
+[3] MPI startup(): global_rank 3, local_rank 3, local_size 4, threads_per_node 4
+rank=3
+n=1000
+[2] MPI startup(): global_rank 2, local_rank 2, local_size 4, threads_per_node 4
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       69       cx169      {0,1,2,3}
+[0] MPI startup(): 1       70       cx169      {4,5,6,7}
+[0] rank=2
+n=1000
+MPI startup(): 2       71       cx169      {8,9,10,11}
+[0] MPI startup(): 3       72       cx169      {12,13,14,15}
+[0] MPI startup(): I_MPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_EXEC=/usr/bin/pjrsh
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_AUTOFORK=0
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_HYDRA_HOST_FILE=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001039015_nodeinfo
+[0] MPI startup(): I_MPI_PERHOST=1
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP=rsh
+[0] MPI startup(): I_MPI_PIN_DOMAIN=4
+[0] MPI startup(): I_MPI_PIN_ORDER=compact
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): I_MPI_ASYNC_PROGRESS=1
+[0] MPI startup(): I_MPI_ASYNC_PROGRESS_THREADS=1
+[0] MPI startup(): I_MPI_DEBUG=10
+[0] MPI startup(): global_rank 0, local_rank 0, local_size 4, threads_per_node 4
+[0] MPI startup(): threading: thread: 0, processor: 39
+[0] MPI startup(): threading: thread: 1, processor: 38
+[0] MPI startup(): threading: thread: 2, processor: 37
+[0] MPI startup(): threading: thread: 3, processor: 36
+rank=0
+n=1000
+0 result: sum= 1250254461.723114
+0 result: time= 1.474888, 0.033064, 1.441822
+1 result: sum= 1250254461.723114
+1 result: time= 1.851321, 0.373621, 1.477698
+3 result: sum= 1250254461.723114
+3 result: time= 1.865612, 0.374742, 1.490868
+2 result: sum= 1250254461.723114
+2 result: time= 1.876134, 0.374279, 1.501853
++ mpiexec.hydra -n 4 -print-rank-map numactl -l ./ibcast_intelc 1000
+(10.102.1.169:0,1,2,3)
+
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.7  Build 20221022 (id: f7b29a2495)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): max number of MPI_Request per vci: 67108864 (pools: 1)
+[0] MPI startup(): libfabric provider: mlx
+[0] MPI startup(): File "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi_mlx_100.dat" not found
+[0] MPI startup(): Load tuning file: "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi.dat"
+[1] MPI startup(): global_rank 1, local_rank 1, local_size 4, threads_per_node 4
+rank=1
+n=1000
+[0] MPI startup(): threading: mode: handoff
+[0] MPI startup(): threading: vcis: 1
+[0] MPI startup(): threading: progress_threads: 0
+[0] MPI startup(): threading: progress_threads: 1
+[0] MPI startup(): threading: async_progress: 1
+[0] MPI startup(): threading: lock_level: nolock
+[0] MPI startup(): tag bits available: 20 (TAG_UB value: 1048575) 
+[0] MPI startup(): source bits available: 21 (Maximal number of rank: 2097151) 
+[3] MPI startup(): global_rank 3, local_rank 3, local_size 4, threads_per_node 4
+rank=3
+n=1000
+[2] MPI startup(): global_rank 2, local_rank 2, local_size 4, threads_per_node 4
+rank=2
+n=1000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       94       cx169      {0,1,2,3}
+[0] MPI startup(): 1       95       cx169      {4,5,6,7}
+[0] MPI startup(): 2       96       cx169      {8,9,10,11}
+[0] MPI startup(): 3       97       cx169      {12,13,14,15}
+[0] MPI startup(): I_MPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_EXEC=/usr/bin/pjrsh
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_AUTOFORK=0
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_HYDRA_HOST_FILE=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001039015_nodeinfo
+[0] MPI startup(): I_MPI_PERHOST=1
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP=rsh
+[0] MPI startup(): I_MPI_PIN_DOMAIN=4
+[0] MPI startup(): I_MPI_PIN_ORDER=compact
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): I_MPI_ASYNC_PROGRESS=1
+[0] MPI startup(): I_MPI_ASYNC_PROGRESS_THREADS=1
+[0] MPI startup(): I_MPI_DEBUG=10
+[0] MPI startup(): global_rank 0, local_rank 0, local_size 4, threads_per_node 4
+[0] MPI startup(): threading: thread: 0, processor: 39
+[0] MPI startup(): threading: thread: 1, processor: 38
+[0] MPI startup(): threading: thread: 2, processor: 37
+[0] MPI startup(): threading: thread: 3, processor: 36
+rank=0
+n=1000
+1 result: sum= 1250254461.723114
+1 result: time= 1.798124, 0.371149, 1.426973
+3 result: sum= 1250254461.723114
+3 result: time= 1.812329, 0.380361, 1.431966
+*** Error in `./ibcast_intelc': free(): invalid pointer: 0x00000000028caf50 ***
+0 result: sum= 1250254461.723114
+0 result: time= 1.472815, 0.028092, 1.444722
+======= Backtrace: =========
+/lib64/libc.so.6(+0x81679)[0x2b6955dc4679]
+/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release/libmpi.so.12(+0x5f015d)[0x2b6953b7f15d]
+/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release/libmpi.so.12(+0x1bc7c7)[0x2b695374b7c7]
+/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release/libmpi.so.12(+0x2cdad2)[0x2b695385cad2]
+/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release/libmpi.so.12(+0x36c557)[0x2b69538fb557]
+/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release/libmpi.so.12(+0x690b1c)[0x2b6953c1fb1c]
+/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release/libmpi.so.12(+0x6090de)[0x2b6953b980de]
+/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release/libmpi.so.12(+0x1f601d)[0x2b695378501d]
+/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/lib/release/libmpi.so.12(PMPI_Finalize+0x1cb)[0x2b695389e89b]
+./ibcast_intelc[0x401e49]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2b6955d65505]
+./ibcast_intelc[0x401439]
+======= Memory map: ========
+00400000-00406000 r-xp 00000000 9a1:42b38 144120034325746233             /data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/ibcast_intelc
+00606000-00607000 r--p 00006000 9a1:42b38 144120034325746233             /data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/ibcast_intelc
+00607000-00608000 rw-p 00007000 9a1:42b38 144120034325746233             /data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/ibcast_intelc
+023d0000-02e62000 rw-p 00000000 00:00 0                                  [heap]
+2b6952fb7000-2b6952fd9000 r-xp 00000000 08:03 402656891                  /lib64/ld-2.17.so
+2b6952fd9000-2b6952fec000 rw-p 00000000 00:00 0 
+2b6952fec000-2b6952fed000 rw-s 00000000 00:12 19945611                   /dev/shm/Intel_MPI_CS43Pz (deleted)
+2b6952fed000-2b6952fee000 -w-s 00000000 00:05 24745                      /dev/infiniband/uverbs0
+2b6952fee000-2b6952fef000 -w-s 00001000 00:05 24745                      /dev/infiniband/uverbs0
+2b6952fef000-2b6952ff0000 -w-s 00002000 00:05 24745                      /dev/infiniband/uverbs0
+2b6952ff0000-2b6952ff1000 -w-s 00003000 00:05 24745                      /dev/infiniband/uverbs0
+2b6952ff1000-2b6952ff2000 -w-s 00004000 00:05 24745                      /dev/infiniband/uverbs0
+2b6952ff2000-2b6952ff3000 -w-s 00005000 00:05 24745                      /dev/infiniband/uverbs0
+2b6952ff3000-2b6952ff4000 -w-s 00006000 00:05 24745                      /dev/infiniband/uverbs0
+2b6952ff4000-2b6952ff5000 -w-s 00007000 00:05 24745                      /dev/infiniband/uverbs0
+2b6952ff5000-2b6952ff6000 r--s 00500000 00:05 24745                      /dev/infiniband/uverbs0
+2b6952ff6000-2b6952ff7000 r--s 00700000 00:05 24745                      /dev/infiniband/uverbs0
+2b6952ff7000-2b6952ff8000 -w-s 00000000 00:05 24746                      /dev/infiniband/uverbs1
+2b6952ff8000-2b6952ff9000 -w-s 00001000 00:05 24746                      /dev/infiniband/uverbs1
+2b6952ff9000-2b6952ffa000 -w-s 00002000 00:05 24746                      /dev/infiniband/uverbs1
+2b6952ffa000-2b6952ffb000 -w-s 00003000 00:05 24746                      /dev/infiniband/uverbs1
+2b6952ffb000-2b6952ffc000 -w-s 00004000 00:05 24746                      /dev/infiniband/uverbs1
+2b6952ffc000-2b6953197000 rw-p 00000000 00:00 0 
+2b6953197000-2b6953198000 -w-s 00005000 00:05 24746                      /dev/infiniband/uverbs1
+2b6953198000-2b6953199000 -w-s 00006000 00:05 24746                      /dev/infiniband/uverbs1
+2b6953199000-2b695319a000 -w-s 00007000 00:05 24746                      /dev/infiniband/uverbs1
+2b695319a000-2b695319b000 r--s 00500000 00:05 24746                      /dev/infiniband/uverbs1
+2b695319b000-2b695319c000 r--s 00700000 00:05 24746                      /dev/infiniband/uverbs1
+2b695319c000-2b695319d000 -w-s 00000000 00:05 24745                      /dev/infiniband/uverbs0
+2b695319d000-2b695319e000 -w-s 00001000 00:05 24745                      /dev/infiniband/uverbs0
+2b695319e000-2b695319f000 -w-s 00002000 00:05 24745                      /dev/infiniband/uverbs0
+2b695319f000-2b69531a0000 -w-s 00003000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531a0000-2b69531a1000 -w-s 00004000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531a1000-2b69531a2000 -w-s 00005000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531a2000-2b69531a3000 -w-s 00006000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531a3000-2b69531a4000 -w-s 00007000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531a4000-2b69531a5000 r--s 00500000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531a5000-2b69531a6000 r--s 00700000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531a6000-2b69531a7000 -w-s 00000000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531a7000-2b69531a8000 -w-s 00001000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531a8000-2b69531a9000 -w-s 00002000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531a9000-2b69531aa000 -w-s 00003000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531aa000-2b69531ab000 -w-s 00004000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531ab000-2b69531ac000 -w-s 00005000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531ac000-2b69531ad000 -w-s 00006000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531ad000-2b69531ae000 -w-s 00007000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531ae000-2b69531af000 r--s 00500000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531af000-2b69531b0000 r--s 00700000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531b0000-2b69531b1000 -w-s 00000000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531b1000-2b69531b2000 -w-s 00001000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531b2000-2b69531b3000 -w-s 00002000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531b3000-2b69531b4000 -w-s 00003000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531b4000-2b69531b5000 -w-s 00004000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531b5000-2b69531b6000 -w-s 00005000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531b6000-2b69531b7000 -w-s 00006000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531b7000-2b69531b8000 -w-s 00007000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531b8000-2b69531b9000 r--s 00500000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531b9000-2b69531ba000 r--s 00700000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531ba000-2b69531bb000 -w-s 00000000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531bb000-2b69531bc000 -w-s 00001000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531bc000-2b69531bd000 -w-s 00002000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531bd000-2b69531be000 -w-s 00003000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531be000-2b69531bf000 -w-s 00004000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531bf000-2b69531c0000 -w-s 00005000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531c0000-2b69531c1000 -w-s 00006000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531c1000-2b69531c2000 -w-s 00007000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531c2000-2b69531c3000 r--s 00500000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531c3000-2b69531c4000 r--s 00700000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531c4000-2b69531c7000 rw-s 00000000 00:12 19949320                   /dev/shm/ucx_shm_posix_43e50638 (deleted)
+2b69531c7000-2b69531ca000 rw-s 00000000 00:04 1048576                    /SYSV00000000 (deleted)
+2b69531ca000-2b69531cb000 rw-s 00800000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531cb000-2b69531cc000 rw-s 00800000 00:05 24746                      /dev/infiniband/uverbs1
+2b69531cc000-2b69531cd000 rw-p 00000000 00:00 0 
+2b69531ce000-2b69531cf000 -w-s 00600000 00:05 24745                      /dev/infiniband/uverbs0
+2b69531cf000-2b69531d1000 rw-p 00000000 00:00 0 
+2b69531d1000-2b69531d4000 rw-s 00000000 00:12 19950761                   /dev/shm/ucx_shm_posix_97251d3 (deleted)
+2b69531d4000-2b69531d7000 rw-s 00000000 00:04 1179652                    /SYSV00000000 (deleted)
+2b69531d8000-2b69531d9000 r--p 00021000 08:03 402656891                  /lib64/ld-2.17.so
+2b69531d9000-2b69531da000 rw-p 00022000 08:03 402656891                  /lib64/ld-2.17.so
+2b69531da000-2b69531db000 rw-p 00000000 00:00 0 
+2b69531db000-2b6953363000 r-xp 00000000 b5:84fa2 144117316601284712      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/lib/libmpifort.so.12.0.0
+2b6953363000-2b6953563000 ---p 00188000 b5:84fa2 144117316601284712      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/lib/libmpifort.so.12.0.0
+2b6953563000-2b6953567000 r--p 00188000 b5:84fa2 144117316601284712      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/lib/libmpifort.so.12.0.0
+2b6953567000-2b695356b000 rw-p 0018c000 b5:84fa2 144117316601284712      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/lib/libmpifort.so.12.0.0
+2b695356b000-2b695358f000 rw-p 00000000 00:00 0 
+2b695358f000-2b69543b9000 r-xp 00000000 b5:84fa2 144117316601284721      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/lib/release/libmpi.so.12.0.0
+2b69543b9000-2b69545b9000 ---p 00e2a000 b5:84fa2 144117316601284721      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/lib/release/libmpi.so.12.0.0
+2b69545b9000-2b69545ca000 r--p 00e2a000 b5:84fa2 144117316601284721      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/lib/release/libmpi.so.12.0.0
+2b69545ca000-2b69545de000 rw-p 00e3b000 b5:84fa2 144117316601284721      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/lib/release/libmpi.so.12.0.0
+2b69545de000-2b6954dc4000 rw-p 00000000 00:00 0 
+2b6954dc4000-2b6954dc6000 r-xp 00000000 08:03 402656919                  /lib64/libdl-2.17.so
+2b6954dc6000-2b6954fc6000 ---p 00002000 08:03 402656919                  /lib64/libdl-2.17.so
+2b6954fc6000-2b6954fc7000 r--p 00002000 08:03 402656919                  /lib64/libdl-2.17.so
+2b6954fc7000-2b6954fc8000 rw-p 00003000 08:03 402656919                  /lib64/libdl-2.17.so
+2b6954fc8000-2b6954fcf000 r-xp 00000000 08:03 402657004                  /lib64/librt-2.17.so
+2b6954fcf000-2b69551ce000 ---p 00007000 08:03 402657004                  /lib64/librt-2.17.so
+2b69551ce000-2b69551cf000 r--p 00006000 08:03 402657004                  /lib64/librt-2.17.so
+2b69551cf000-2b69551d0000 rw-p 00007000 08:03 402657004                  /lib64/librt-2.17.so
+2b69551d0000-2b69551e7000 r-xp 00000000 08:03 402656996                  /lib64/libpthread-2.17.so
+2b69551e7000-2b69553e6000 ---p 00017000 08:03 402656996                  /lib64/libpthread-2.17.so
+2b69553e6000-2b69553e7000 r--p 00016000 08:03 402656996                  /lib64/libpthread-2.17.so
+2b69553e7000-2b69553e8000 rw-p 00017000 08:03 402656996                  /lib64/libpthread-2.17.so
+2b69553e8000-2b69553ec000 rw-p 00000000 00:00 0 
+2b69553ec000-2b69554ed000 r-xp 00000000 08:03 402656923                  /lib64/libm-2.17.so
+2b69554ed000-2b69556ec000 ---p 00101000 08:03 402656923                  /lib64/libm-2.17.so
+2b69556ec000-2b69556ed000 r--p 00100000 08:03 402656923                  /lib64/libm-2.17.so
+2b69556ed000-2b69556ee000 rw-p 00101000 08:03 402656923                  /lib64/libm-2.17.so
+2b69556ee000-2b69558f5000 r-xp 00000000 b5:84fa2 144117316601285965      /home/center/opt/x86_64/cores/oneapi/2022.3/compiler/2022.2.1/linux/compiler/lib/intel64_lin/libiomp5.so
+2b69558f5000-2b6955af4000 ---p 00207000 b5:84fa2 144117316601285965      /home/center/opt/x86_64/cores/oneapi/2022.3/compiler/2022.2.1/linux/compiler/lib/intel64_lin/libiomp5.so
+2b6955af4000-2b6955af6000 r--p 00206000 b5:84fa2 144117316601285965      /home/center/opt/x86_64/cores/oneapi/2022.3/compiler/2022.2.1/linux/compiler/lib/intel64_lin/libiomp5.so
+2b6955af6000-2b6955b00000 rw-p 00208000 b5:84fa2 144117316601285965      /home/center/opt/x86_64/cores/oneapi/2022.3/compiler/2022.2.1/linux/compiler/lib/intel64_lin/libiomp5.so
+2b6955b00000-2b6955b2d000 rw-p 00000000 00:00 0 
+2b6955b2d000-2b6955b42000 r-xp 00000000 08:03 402656876                  /lib64/libgcc_s-4.8.5-20150702.so.1
+2b6955b42000-2b6955d41000 ---p 00015000 08:03 402656876                  /lib64/libgcc_s-4.8.5-20150702.so.1
+2b6955d41000-2b6955d42000 r--p 00014000 08:03 402656876                  /lib64/libgcc_s-4.8.5-20150702.so.1
+2b6955d42000-2b6955d43000 rw-p 00015000 08:03 402656876                  /lib64/libgcc_s-4.8.5-20150702.so.1
+2b6955d43000-2b6955e38000 r-xp 00000000 08:03 402656907                  /lib64/libc-2.17.so
+2b6955e38000-2b6955e39000 r-xp 000f5000 08:03 402656907                  /lib64/libc-2.17.so
+2b6955e39000-2b6955e3b000 r-xp 000f6000 08:03 402656907                  /lib64/libc-2.17.so
+2b6955e3b000-2b6955e3c000 r-xp 000f8000 08:03 402656907                  /lib64/libc-2.17.so
+2b6955e3c000-2b6955e42000 r-xp 000f9000 08:03 402656907                  /lib64/libc-2.17.so
+2b6955e42000-2b6955e44000 r-xp 000ff000 08:03 402656907                  /lib64/libc-2.17.so
+2b6955e44000-2b6955f06000 r-xp 00101000 08:03 402656907                  /lib64/libc-2.17.so
+2b6955f06000-2b6956106000 ---p 001c3000 08:03 402656907                  /lib64/libc-2.17.so
+2b6956106000-2b695610a000 r--p 001c3000 08:03 402656907                  /lib64/libc-2.17.so
+2b695610a000-2b695610c000 rw-p 001c7000 08:03 402656907                  /lib64/libc-2.17.so
+2b695610c000-2b6956717000 rw-p 00000000 00:00 0 
+2b6956717000-2b6956721000 r-xp 00000000 08:03 402657713                  /lib64/libnuma.so.1.0.0
+2b6956721000-2b6956920000 ---p 0000a000 08:03 402657713                  /lib64/libnuma.so.1.0.0
+2b6956920000-2b6956921000 r--p 00009000 08:03 402657713                  /lib64/libnuma.so.1.0.0
+2b6956921000-2b6956922000 rw-p 0000a000 08:03 402657713                  /lib64/libnuma.so.1.0.0
+2b6956922000-2b6956e28000 rw-p 00000000 00:00 0 
+2b6956e28000-2b699722a000 rw-s 00000000 00:12 19945612                   /dev/shm/Intel_MPI_AKoTw1 (deleted)
+2b699722a000-2b6997273000 r-xp 00000000 b5:84fa2 144117316601284732      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/libfabric.so.1
+2b6997273000-2b6997472000 ---p 00049000 b5:84fa2 144117316601284732      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/libfabric.so.1
+2b6997472000-2b6997475000 rw-p 00048000 b5:84fa2 144117316601284732      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/libfabric.so.1
+2b6997475000-2b6997476000 rw-p 00000000 00:00 0 
+2b6997476000-2b69974cd000 r-xp 00000000 b5:84fa2 144117316601284742      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libverbs-1.1-fi.so
+2b69974cd000-2b69976cc000 ---p 00057000 b5:84fa2 144117316601284742      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libverbs-1.1-fi.so
+2b69976cc000-2b69976d0000 rw-p 00056000 b5:84fa2 144117316601284742      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libverbs-1.1-fi.so
+2b69976d0000-2b69976e7000 r-xp 00000000 08:03 408628981                  /lib64/librdmacm.so.1.3.30.0
+2b69976e7000-2b69978e7000 ---p 00017000 08:03 408628981                  /lib64/librdmacm.so.1.3.30.0
+2b69978e7000-2b69978e8000 r--p 00017000 08:03 408628981                  /lib64/librdmacm.so.1.3.30.0
+2b69978e8000-2b69978e9000 rw-p 00018000 08:03 408628981                  /lib64/librdmacm.so.1.3.30.0
+2b69978e9000-2b69978ea000 rw-p 00000000 00:00 0 
+2b69978ea000-2b6997904000 r-xp 00000000 08:03 408628977                  /lib64/libibverbs.so.1.10.30.0
+2b6997904000-2b6997b04000 ---p 0001a000 08:03 408628977                  /lib64/libibverbs.so.1.10.30.0
+2b6997b04000-2b6997b05000 r--p 0001a000 08:03 408628977                  /lib64/libibverbs.so.1.10.30.0
+2b6997b05000-2b6997b06000 rw-p 0001b000 08:03 408628977                  /lib64/libibverbs.so.1.10.30.0
+2b6997b06000-2b6997b24000 r-xp 00000000 08:03 402657084                  /lib64/libnl-3.so.200.23.0
+2b6997b24000-2b6997d24000 ---p 0001e000 08:03 402657084                  /lib64/libnl-3.so.200.23.0
+2b6997d24000-2b6997d26000 r--p 0001e000 08:03 402657084                  /lib64/libnl-3.so.200.23.0
+2b6997d26000-2b6997d27000 rw-p 00020000 08:03 402657084                  /lib64/libnl-3.so.200.23.0
+2b6997d27000-2b6997d8b000 r-xp 00000000 08:03 402657101                  /lib64/libnl-route-3.so.200.23.0
+2b6997d8b000-2b6997f8a000 ---p 00064000 08:03 402657101                  /lib64/libnl-route-3.so.200.23.0
+2b6997f8a000-2b6997f8d000 r--p 00063000 08:03 402657101                  /lib64/libnl-route-3.so.200.23.0
+2b6997f8d000-2b6997f92000 rw-p 00066000 08:03 402657101                  /lib64/libnl-route-3.so.200.23.0
+2b6997f92000-2b6997f94000 rw-p 00000000 00:00 0 
+2b6997f94000-2b6997fd9000 r-xp 00000000 b5:84fa2 144117316601284741      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libtcp-fi.so
+2b6997fd9000-2b69981d9000 ---p 00045000 b5:84fa2 144117316601284741      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libtcp-fi.so
+2b69981d9000-2b69981dc000 rw-p 00045000 b5:84fa2 144117316601284741      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libtcp-fi.so
+2b69981dc000-2b6998237000 r-xp 00000000 b5:84fa2 144117316601284740      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libsockets-fi.so
+2b6998237000-2b6998436000 ---p 0005b000 b5:84fa2 144117316601284740      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libsockets-fi.so
+2b6998436000-2b699843a000 rw-p 0005a000 b5:84fa2 144117316601284740      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libsockets-fi.so
+2b699843a000-2b699848a000 r-xp 00000000 b5:84fa2 144117316601284739      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libshm-fi.so
+2b699848a000-2b6998689000 ---p 00050000 b5:84fa2 144117316601284739      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libshm-fi.so
+2b6998689000-2b699868d000 rw-p 0004f000 b5:84fa2 144117316601284739      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libshm-fi.so
+2b699868d000-2b69986e1000 r-xp 00000000 b5:84fa2 144117316601284738      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/librxm-fi.so
+2b69986e1000-2b69988e0000 ---p 00054000 b5:84fa2 144117316601284738      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/librxm-fi.so
+2b69988e0000-2b69988e4000 rw-p 00053000 b5:84fa2 144117316601284738      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/librxm-fi.so
+2b69988e4000-2b699895c000 r-xp 00000000 b5:84fa2 144117316601284737      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libpsmx2-fi.so
+2b699895c000-2b6998b5c000 ---p 00078000 b5:84fa2 144117316601284737      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libpsmx2-fi.so
+2b6998b5c000-2b6998b62000 rw-p 00078000 b5:84fa2 144117316601284737      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libpsmx2-fi.so
+2b6998b62000-2b6998b66000 rw-p 00000000 00:00 0 
+2b6998b66000-2b6998bc8000 r-xp 00000000 08:03 404896349                  /lib64/libpsm2.so.2.1
+2b6998bc8000-2b6998dc8000 ---p 00062000 08:03 404896349                  /lib64/libpsm2.so.2.1
+2b6998dc8000-2b6998dc9000 r--p 00062000 08:03 404896349                  /lib64/libpsm2.so.2.1
+2b6998dc9000-2b6998dca000 rw-p 00063000 08:03 404896349                  /lib64/libpsm2.so.2.1
+2b6998dca000-2b6998dcc000 rw-p 00000000 00:00 0 
+2b6998dcc000-2b6998f1a000 r-xp 00000000 b5:84fa2 144117316601284736      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libpsm3-fi.so
+2b6998f1a000-2b6999119000 ---p 0014e000 b5:84fa2 144117316601284736      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libpsm3-fi.so
+2b6999119000-2b6999121000 rw-p 0014d000 b5:84fa2 144117316601284736      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libpsm3-fi.so
+2b6999121000-2b6999149000 rw-p 00000000 00:00 0 
+2b6999149000-2b699914d000 r-xp 00000000 08:03 402657005                  /lib64/libuuid.so.1.3.0
+2b699914d000-2b699934c000 ---p 00004000 08:03 402657005                  /lib64/libuuid.so.1.3.0
+2b699934c000-2b699934d000 r--p 00003000 08:03 402657005                  /lib64/libuuid.so.1.3.0
+2b699934d000-2b699934e000 rw-p 00004000 08:03 402657005                  /lib64/libuuid.so.1.3.0
+2b699934e000-2b699938f000 r-xp 00000000 b5:84fa2 144117316601284735      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libmlx-fi.so
+2b699938f000-2b699958f000 ---p 00041000 b5:84fa2 144117316601284735      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libmlx-fi.so
+2b699958f000-2b6999592000 rw-p 00041000 b5:84fa2 144117316601284735      /home/center/opt/x86_64/cores/oneapi/2022.3/mpi/2021.7.1/libfabric/lib/prov/libmlx-fi.so
+2b6999592000-2b69995f0000 r-xp 00000000 08:03 408817517                  /lib64/libucp.so.0.0.0
+2b69995f0000-2b69997ef000 ---p 0005e000 08:03 408817517                  /lib64/libucp.so.0.0.0
+2b69997ef000-2b69997f0000 r--p 0005d000 08:03 408817517                  /lib64/libucp.so.0.0.0
+2b69997f0000-2b69997f3000 rw-p 0005e000 08:03 408817517                  /lib64/libucp.so.0.0.0
+2b69997f3000-2b6999808000 r-xp 00000000 08:03 402657020                  /lib64/libz.so.1.2.7
+2b6999808000-2b6999a07000 ---p 00015000 08:03 402657020                  /lib64/libz.so.1.2.7
+2b6999a07000-2b6999a08000 r--p 00014000 08:03 402657020                  /lib64/libz.so.1.2.7
+2b6999a08000-2b6999a09000 rw-p 00015000 08:03 402657020                  /lib64/libz.so.1.2.7
+2b6999a09000-2b6999a33000 r-xp 00000000 08:03 408819643                  /usr/lib64/libuct.so.0.0.0
+2b6999a33000-2b6999c32000 ---p 0002a000 08:03 408819643                  /usr/lib64/libuct.so.0.0.0
+2b6999c32000-2b6999c33000 r--p 00029000 08:03 408819643                  /usr/lib64/libuct.so.0.0.0
+2b6999c33000-2b6999c37000 rw-p 0002a000 08:03 408819643                  /usr/lib64/libuct.so.0.0.0
+2b6999c37000-2b6999d7b000 r-xp 00000000 08:03 408819636                  /usr/lib64/libucs.so.0.0.0
+2b6999d7b000-2b6999f7b000 ---p 00144000 08:03 408819636                  /usr/lib64/libucs.so.0.0.0
+2b6999f7b000-2b6999f8e000 r--p 00144000 08:03 408819636                  /usr/lib64/libucs.so.0.0.0
+2b6999f8e000-2b6999f96000 rw-p 00157000 08:03 408819636                  /usr/lib64/libucs.so.0.0.0
+2b6999f96000-2b6999f9f000 rw-p 00000000 00:00 0 
+2b6999f9f000-2b6999fb3000 r-xp 00000000 08:03 408817506                  /usr/lib64/libucm.so.0.0.0
+2b6999fb3000-2b699a1b2000 ---p 00014000 08:03 408817506                  /usr/lib64/libucm.so.0.0.0
+2b699a1b2000-2b699a1b3000 r--p 00013000 08:03 408817506                  /usr/lib64/libucm.so.0.0.0
+2b699a1b3000-2b699a1b4000 rw-p 00014000 08:03 408817506                  /usr/lib64/libucm.so.0.0.0
+2b699a1b4000-2b699a1d8000 rw-p 00000000 00:00 0 
+2b699a1d8000-2b699a223000 r-xp 00000000 08:03 408628979                  /usr/lib64/libmlx5.so.1.14.30.0
+2b699a223000-2b699a422000 ---p 0004b000 08:03 408628979                  /usr/lib64/libmlx5.so.1.14.30.0
+2b699a422000-2b699a423000 r--p 0004a000 08:03 408628979                  /usr/lib64/libmlx5.so.1.14.30.0
+2b699a423000-2b699a424000 rw-p 0004b000 08:03 408628979                  /usr/lib64/libmlx5.so.1.14.30.0
+2b699a424000-2b699a426000 rw-p 00000000 00:00 0 
+2b699a426000-2b699a432000 r-xp 00000000 08:03 402656977                  /lib64/libnss_files-2.17.so
+2b699a432000-2b699a631000 ---p 0000c000 08:03 402656977                  /lib64/libnss_files-2.17.so
+2b699a631000-2b699a632000 r--p 0000b000 08:03 402656977                  /lib64/libnss_files-2.17.so
+2b699a632000-2b699a633000 rw-p 0000c000 08:03 402656977                  /lib64/libnss_files-2.17.so
+2b699a633000-2b699a639000 rw-p 00000000 00:00 0 
+2b699a639000-2b699a69b000 r-xp 00000000 08:03 134775229                  /usr/lib64/ucx/libuct_ib.so.0.0.0
+2b699a69b000-2b699a89b000 ---p 00062000 08:03 134775229                  /usr/lib64/ucx/libuct_ib.so.0.0.0
+2b699a89b000-2b699a89c000 r--p 00062000 08:03 134775229                  /usr/lib64/ucx/libuct_ib.so.0.0.0
+2b699a89c000-2b699a8a1000 rw-p 00063000 08:03 134775229                  /usr/lib64/ucx/libuct_ib.so.0.0.0
+2b699a8a1000-2b699a8ad000 r-xp 00000000 08:03 134775231                  /usr/lib64/ucx/libuct_rdmacm.so.0.0.0
+2b699a8ad000-2b699aaac000 ---p 0000c000 08:03 134775231                  /usr/lib64/ucx/libuct_rdmacm.so.0.0.0
+2b699aaac000-2b699aaad000 r--p 0000b000 08:03 134775231                  /usr/lib64/ucx/libuct_rdmacm.so.0.0.0
+2b699aaad000-2b699aaae000 rw-p 0000c000 08:03 134775231                  /usr/lib64/ucx/libuct_rdmacm.so.0.0.0
+2b699aaae000-2b699aab1000 r-xp 00000000 08:03 134775226                  /usr/lib64/ucx/libuct_cma.so.0.0.0
+2b699aab1000-2b699acb0000 ---p 00003000 08:03 134775226                  /usr/lib64/ucx/libuct_cma.so.0.0.0
+2b699acb0000-2b699acb1000 r--p 00002000 08:03 134775226                  /usr/lib64/ucx/libuct_cma.so.0.0.0
+2b699acb1000-2b699acb2000 rw-p 00003000 08:03 134775226                  /usr/lib64/ucx/libuct_cma.so.0.0.0
+2b699acb2000-2b699acb6000 r-xp 00000000 08:03 134769760                  /usr/lib64/ucx/libuct_knem.so.0.0.0
+2b699acb6000-2b699aeb5000 ---p 00004000 08:03 134769760                  /usr/lib64/ucx/libuct_knem.so.0.0.0
+2b699aeb5000-2b699aeb6000 r--p 00003000 08:03 134769760                  /usr/lib64/ucx/libuct_knem.so.0.0.0
+2b699aeb6000-2b699aeb7000 rw-p 00004000 08:03 134769760                  /usr/lib64/ucx/libuct_knem.so.0.0.0
+2b699aeb7000-2b699b2d0000 rw-s 00000000 00:12 19949322                   /dev/shm/ucx_shm_posix_100045d8 (deleted)
+2b699b2d0000-2b699b6e9000 rw-s 00000000 00:04 1081345                    /SYSV00000000 (deleted)
+2b699b6e9000-2b699b895000 rw-p 00000000 00:00 0 
+2b699b895000-2b699b896000 ---p 00000000 00:00 0 
+2b699b896000-2b699be00000 rw-p 00000000 00:00 0 
+2b699be00000-2b699c400000 rw-p 00000000 00:00 0 
+2b699c400000-2b699c600000 rw-p 00000000 00:00 0 
+2b699c600000-2b699ec00000 rw-p 00000000 00:00 0 
+2b699ec00000-2b699ed8e000 rw-p 00000000 00:00 0 
+2b699ed8e000-2b699ed91000 rw-s 00000000 00:12 19948466                   /dev/shm/ucx_shm_posix_cf90de0 (deleted)
+2b699ed91000-2b699ed94000 rw-s 00000000 00:04 1245190                    /SYSV00000000 (deleted)
+2b699ed94000-2b699ed97000 rw-s 00000000 00:12 19949862                   /dev/shm/ucx_shm_posix_58805502 (deleted)
+2b699ed97000-2b699ed9a000 rw-s 00000000 00:04 1114114                    /SYSV00000000 (deleted)
+2b699ed9a000-2b699ed9d000 rw-s 00000000 00:12 19949320                   /dev/shm/ucx_shm_posix_43e50638 (deleted)
+2b699ed9d000-2b699eda0000 rw-s 00000000 00:04 1048576                    /SYSV00000000 (deleted)
+2b699eda0000-2b699efa6000 rw-p 00000000 00:00 0 
+2b69a0000000-2b69a0200000 rw-p 00000000 00:00 0 
+2b69a0200000-2b69a1600000 rw-p 00000000 00:00 0 
+2b69a1600000-2b69a1621000 rw-p 00000000 00:00 0 
+2b69a1621000-2b69a4000000 ---p 00000000 00:00 0 
+2b69a4000000-2b69a5001000 rw-p 00000000 00:00 0 
+2b69a5001000-2b69a541a000 rw-s 00000000 00:12 19949864                   /dev/shm/ucx_shm_posix_6d0e3916 (deleted)
+2b69a541a000-2b69a541b000 ---p 00000000 00:00 0 
+2b69a541b000-2b69a561b000 rw-p 00000000 00:00 0 
+2b69b3aff000-2b69b3f18000 rw-s 00000000 00:12 19950763                   /dev/shm/ucx_shm_posix_2573cf93 (deleted)
+2b69b4000000-2b69b4025000 rw-p 00000000 00:00 0 
+2b69b4025000-2b69b8000000 ---p 00000000 00:00 0 
+2b69b8000000-2b69b8001000 ---p 00000000 00:00 0 
+2b69b8001000-2b69b8402000 rw-p 00000000 00:00 0 
+2b69b8402000-2b69b8403000 ---p 00000000 00:00 0 
+2b69b8403000-2b69b8804000 rw-p 00000000 00:00 0 
+2b69bc000000-2b69bc021000 rw-p 00000000 00:00 0 
+2b69bc021000-2b69c0000000 ---p 00000000 00:00 0 
+2b69c0000000-2b69c0021000 rw-p 00000000 00:00 0 
+2b69c0021000-2b69c4000000 ---p 00000000 00:00 0 
+7ffc86370000-7ffc86394000 rw-p 00000000 00:00 0                          [stack]
+7ffc863a6000-7ffc863a8000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 0 PID 94 RUNNING AT 10.102.1.169
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 1 PID 95 RUNNING AT 10.102.1.169
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 2 PID 96 RUNNING AT 10.102.1.169
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 3 PID 97 RUNNING AT 10.102.1.169
+=   KILLED BY SIGNAL: 6 (Aborted)
+===================================================================================
++ mpiexec.hydra -n 4 -print-rank-map numactl -l ./ibcast_intelc 1000
+(10.102.1.169:0,1,2,3)
+
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.7  Build 20221022 (id: f7b29a2495)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): max number of MPI_Request per vci: 67108864 (pools: 1)
+[0] MPI startup(): libfabric provider: mlx
+[0] MPI startup(): File "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi_mlx_100.dat" not found
+[0] MPI startup(): Load tuning file: "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi.dat"
+[0] MPI startup(): threading: mode: handoff
+[0] MPI startup(): threading: vcis: 1
+[0] MPI startup(): threading: progress_threads: 0
+[0] MPI startup(): threading: progress_threads: 1
+[0] MPI startup(): threading: async_progress: 1
+[0] MPI startup(): threading: lock_level: nolock
+[0] MPI startup(): tag bits available: 20 (TAG_UB value: 1048575) 
+[0] MPI startup(): source bits available: 21 (Maximal number of rank: 2097151) 
+[3] MPI startup(): global_rank 3, local_rank 3, local_size 4, threads_per_node 4
+[2] [1] MPI startup(): global_rank 1, local_rank 1, local_size 4, threads_per_node 4
+MPI startup(): global_rank 2, local_rank 2, local_size 4, threads_per_node 4
+rank=3
+n=1000
+rank=2
+n=1000
+rank=1
+n=1000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       119      cx169      {0,1,2,3}
+[0] MPI startup(): 1       120      cx169      {4,5,6,7}
+[0] MPI startup(): 2       121      cx169      {8,9,10,11}
+[0] MPI startup(): 3       122      cx169      {12,13,14,15}
+[0] MPI startup(): I_MPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_EXEC=/usr/bin/pjrsh
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_AUTOFORK=0
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_HYDRA_HOST_FILE=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001039015_nodeinfo
+[0] MPI startup(): I_MPI_PERHOST=1
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP=rsh
+[0] MPI startup(): I_MPI_PIN_DOMAIN=4
+[0] MPI startup(): I_MPI_PIN_ORDER=compact
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): I_MPI_ASYNC_PROGRESS=1
+[0] MPI startup(): I_MPI_ASYNC_PROGRESS_THREADS=1
+[0] MPI startup(): I_MPI_DEBUG=10
+[0] MPI startup(): global_rank 0, local_rank 0, local_size 4, threads_per_node 4
+[0] MPI startup(): threading: thread: 0, processor: 39
+[0] MPI startup(): threading: thread: 1, processor: 38
+[0] MPI startup(): threading: thread: 2, processor: 37
+[0] MPI startup(): threading: thread: 3, processor: 36
+rank=0
+n=1000
+Abort(470385925) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Ibcast: Invalid communicator, error stack:
+PMPI_Ibcast(548):  MPI_Ibcast(buffer=0x2b68ce3c9c10, count=1000000, datatype=MPI_DOUBLE, comm=MPI_COMM_WORLD, request=0x2dc8cd8)
+PMPI_Ibcast(499): Invalid communicator
++ date
+Thu May 18 23:26:19 JST 2023

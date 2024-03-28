@@ -1,0 +1,154 @@
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.7  Build 20221022 (id: f7b29a2495)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): max number of MPI_Request per vci: 67108864 (pools: 1)
+[0] MPI startup(): libfabric provider: mlx
+[0] MPI startup(): File "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi_mlx_100.dat" not found
+[0] MPI startup(): Load tuning file: "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi.dat"
+[1] MPI startup(): global_rank 1, local_rank 1, local_size 4, threads_per_node 4
+[0] MPI startup(): threading: mode: handoff
+[0] MPI startup(): threading: vcis: 1
+[0] MPI startup(): threading: progress_threads: 0
+[0] MPI startup(): threading: progress_threads: 1
+[0] MPI startup(): threading: async_progress: 1
+[0] MPI startup(): threading: lock_level: nolock
+[0] MPI startup(): tag bits available: 20 (TAG_UB value: 1048575) 
+[0] MPI startup(): source bits available: 21 (Maximal number of rank: 2097151) 
+[3] MPI startup(): global_rank 3, local_rank 3, local_size 4, threads_per_node 4
+[2] MPI startup(): global_rank 2, local_rank 2, local_size 4, threads_per_node 4
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       70       cx163      {0,1,2,3}
+[0] MPI startup(): 1       71       cx163      {4,5,6,7}
+[0] MPI startup(): 2       72       cx163      {8,9,10,11}
+[0] MPI startup(): 3       73       cx163      {12,13,14,15}
+[0] MPI startup(): I_MPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_EXEC=/usr/bin/pjrsh
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_AUTOFORK=0
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_HYDRA_HOST_FILE=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001038988_nodeinfo
+[0] MPI startup(): I_MPI_PERHOST=1
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP=rsh
+[0] MPI startup(): I_MPI_PIN_DOMAIN=4
+[0] MPI startup(): I_MPI_PIN_ORDER=compact
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): I_MPI_ASYNC_PROGRESS=1
+[0] MPI startup(): 0 result: sum=  2.4994181E+09
+0 result: time=  4.7133365E+00   5.3858060E-01   4.1747514E+00
+1 result: sum=  2.4994181E+09
+1 result: time=  5.0160542E+00   7.5369457E-01   4.2623561E+00
+2 result: sum=  2.4994181E+09
+2 result: time=  5.0172281E+00   6.1728017E-01   4.3999445E+00
+3 result: sum=  2.4994181E+09
+3 result: time=  5.0249735E+00   8.2217195E-01   4.2027980E+00
+           0
+ rank=           1
+ rank=           2
+ rank=           3
+ n=        1000
+ n=        1000
+ n=        1000
+ n=        1000
+Abort(201950469) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Ibcast: Invalid communicator, error stack:
+PMPI_Ibcast(548):  MPI_Ibcast(buffer=0x2b363600d200, count=1000000, datatype=dtype=0x4c000829, comm=MPI_COMM_WORLD, request=0x2b35e1d83fa0)
+PMPI_Ibcast(499): Invalid communicator
+183 MB total
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): max number of MPI_Request per vci: 67108864 (pools: 1)
+[0] MPI startup(): libfabric provider: mlx
+[0] MPI startup(): File "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi_mlx_100.dat" not found
+[0] MPI startup(): Load tuning file: "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi.dat"
+[0] MPI startup(): threading: mode: direct
+[0] MPI startup(): threading: vcis: 1
+[0] MPI startup(): threading: app_threads: -1
+[0] MPI startup(): threading: runtime: generic
+[0] MPI startup(): threading: progress_threads: 0
+[0] MPI startup(): threading: async_progress: 0
+ rank=           3
+ n=        1000
+[0] MPI startup(): threading: lock_level: global
+[0] MPI startup(): tag bits available: 20 (TAG_UB value: 1048575) 
+[0] MPI startup(): source bits available: 21 (Maximal number of rank: 2097151) 
+ rank=           1
+ n=        1000
+ rank=           2
+ n=        1000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       92       cx162      {0,1,2,3}
+[0] MPI startup(): 1       93       cx162      {4,5,6,7}
+[0] MPI startup(): 2       94       cx162      {8,9,10,11}
+[0] MPI startup(): 3       95       cx162      {12,13,14,15}
+[0] MPI startup(): I_MPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_EXEC=/usr/bin/pjrsh
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_AUTOFORK=0
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_HYDRA_HOST_FILE=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001038987_nodeinfo
+[0] MPI startup(): I_MPI_PERHOST=1
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP=rsh
+[0] MPI startup(): I_MPI_PIN_DOMAIN=4
+[0] MPI startup(): I_MPI_PIN_ORDER=compact
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): I_MPI_DEBUG=10
+ rank=           0
+ n=        1000
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.7  Build 20221022 (id: f7b29a2495)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): max number of MPI_Request per vci: 67108864 (pools: 1)
+[0] MPI startup(): libfabric provider: mlx
+[0] MPI startup(): File "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi_mlx_100.dat" not found
+[0] MPI startup(): Load tuning file: "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi.dat"
+[1] MPI startup(): global_rank 1, local_rank 1, local_size 4, threads_per_node 4
+[0] MPI startup(): threading: mode: handoff
+[0] MPI startup(): threading: vcis: 1
+[0] MPI startup(): threading: progress_threads: 0
+[0] MPI startup(): threading: progress_threads: 1
+[0] MPI startup(): threading: async_progress: 1
+[0] MPI startup(): threading: lock_level: nolock
+[0] MPI startup(): tag bits available: 20 (TAG_UB value: 1048575) 
+[0] MPI startup(): source bits available: 21 (Maximal number of rank: 2097151) 
+[3] MPI startup(): global_rank 3, local_rank 3, local_size 4, threads_per_node 4
+[2] MPI startup(): global_rank 2, local_rank 2, local_size 4, threads_per_node 4
+ rank=           1
+ n=        1000
+ rank=           2
+ n=        1000
+ rank=           3
+ n=        1000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       96       cx163      {0,1,2,3}
+[0] MPI startup(): 1       97       cx163      {4,5,6,7}
+[0] MPI startup(): 2       98       cx163      {8,9,10,11}
+[0] MPI startup(): 3       99       cx163      {12,13,14,15}
+[0] MPI startup(): I_MPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_EXEC=/usr/bin/pjrsh
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_AUTOFORK=0
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_HYDRA_HOST_FILE=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001038988_nodeinfo
+[0] MPI startup(): I_MPI_PERHOST=1
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP=rsh
+[0] MPI startup(): I_MPI_PIN_DOMAIN=4
+[0] MPI startup(): I_MPI_PIN_ORDER=compact
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): I_MPI_ASYNC_PROGRESS=1
+[0] MPI startup(): I_MPI_ASYNC_PROGRESS_THREADS=1
+[0] MPI startup(): I_MPI_DEBUG=10
+[0] MPI startup(): global_rank 0, local_rank 0, local_size 4, threads_per_node 4
+[0] MPI startup(): threading: thread: 0, processor: 39
+[0] MPI startup(): threading: thread: 1, processor: 38
+[0] MPI startup(): threading: thread: 2, processor: 37
+[0] MPI startup(): threading: thread: 3, processor: 36
+ rank=           0
+ n=        1000
+0 result: sum=  2.4994181E+09
+0 result: time=  4.7006983E+00   5.3758543E-01   4.1631073E+00
+2 result: sum=  2.4994181E+09
+2 result: time=  5.0227624E+00   7.3660261E-01   4.2861564E+00
+1 result: sum=  2.4994181E+09
+1 result: time=  5.0499361E+00   7.5919612E-01   4.2907363E+00
+3 result: sum=  2.4994181E+09
+3 result: time=  5.0900798E+00   6.5093818E-01   4.4391383E+00
+Abort(470385925) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Ibcast: Invalid communicator, error stack:
+PMPI_Ibcast(548):  MPI_Ibcast(buffer=0x2b694ecad400, count=1000000, datatype=dtype=0x4c000829, comm=MPI_COMM_WORLD, request=0x2b68fa22ffc4)
+PMPI_Ibcast(499): Invalid communicator

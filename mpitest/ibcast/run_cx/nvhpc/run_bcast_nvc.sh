@@ -7,19 +7,19 @@ date
 hostname
 
 module load hpc_sdk/23.1
-export OMP_NUM_THREADS=4
+export OMP_NUM_THREADS=1
 
 env
 
-n=10000
+n=5000
 #mpirun -display-devel-map -n 4 --map-by ppr:2:socket ./bcast_nvc ${n}
 #mpirun -display-devel-map -n 4 --map-by ppr:2:socket ./bcast_nvc ${n}
 #mpirun -display-devel-map -n 4 --map-by ppr:2:socket ./bcast_nvc ${n}
 mpirun -display-devel-map -n 4 --map-by ppr:4:socket:pe=4 ./bcast_nvc ${n}
 mpirun -display-devel-map -n 4 --map-by ppr:4:socket:pe=4 ./bcast_nvc ${n}
 mpirun -display-devel-map -n 4 --map-by ppr:4:socket:pe=4 ./bcast_nvc ${n}
-mpirun -display-devel-map -n 4 --map-by ppr:4:socket:pe=5 ./bcast_nvc ${n}
-mpirun -display-devel-map -n 4 --map-by ppr:4:socket:pe=5 ./bcast_nvc ${n}
-mpirun -display-devel-map -n 4 --map-by ppr:4:socket:pe=5 ./bcast_nvc ${n}
+#mpirun -display-devel-map -n 4 --map-by ppr:4:socket:pe=5 ./bcast_nvc ${n}
+#mpirun -display-devel-map -n 4 --map-by ppr:4:socket:pe=5 ./bcast_nvc ${n}
+#mpirun -display-devel-map -n 4 --map-by ppr:4:socket:pe=5 ./bcast_nvc ${n}
 
 date

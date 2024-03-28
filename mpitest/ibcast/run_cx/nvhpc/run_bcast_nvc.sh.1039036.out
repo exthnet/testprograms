@@ -1,0 +1,285 @@
++ date
+Thu May 18 23:52:40 JST 2023
++ hostname
+cx169
++ module load hpc_sdk/23.1
+++ /usr/bin/modulecmd bash load hpc_sdk/23.1
++ eval CC=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvc ';export' 'CC;CPATH=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/extras/qd/include/qd:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/nvshmem/include:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/nccl/include:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/mpi/include:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/math_libs/include' ';export' 'CPATH;CPP=cpp' ';export' 'CPP;CXX=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvc++' ';export' 'CXX;F77=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvfortran' ';export' 'F77;F90=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvfortran' ';export' 'F90;FC=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvfortran' ';export' 'FC;FLOW_CORE_NAME=hpc_sdk' ';export' 'FLOW_CORE_NAME;FLOW_CORE_VER=23.1' ';export' 'FLOW_CORE_VER;LD_LIBRARY_PATH=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/cuda/12.0/extras/CUPTI/lib64:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/nvshmem/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/nccl/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/mpi/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/math_libs/lib64:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/extras/qd/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/cuda/lib64' ';export' 'LD_LIBRARY_PATH;LOADEDMODULES=hpc_sdk/23.1' ';export' 'LOADEDMODULES;MANPATH=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/man:/data/group1/a49979a/opt/emacs-27.2/share/man:/usr/local/share/man:/usr/share/man' ';export' 'MANPATH;MODULEPATH=/home/center/opt/x86_64/modulefiles/CX/compiler/hpc_sdk/23.1:/home/center/opt/x86_64/modulefiles/CX/core:/center/local/app/x86/hpci/modulefiles' ';export' 'MODULEPATH;NVHPC=/home/center/opt/x86_64/cores/hpc_sdk' ';export' 'NVHPC;NVHPC_ROOT=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1' ';export' 'NVHPC_ROOT;OMPI_MCA_btl_openib_warn_default_gid_prefix=0' ';export' 'OMPI_MCA_btl_openib_warn_default_gid_prefix;OMPI_MCA_plm_rsh_agent=/bin/pjrsh' ';export' 'OMPI_MCA_plm_rsh_agent;OPAL_PREFIX=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/mpi' ';export' 'OPAL_PREFIX;PATH=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/extras/qd/bin:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/mpi/bin:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/cuda/bin:/home/center/a49979a/opt/bin:/data/group1/a49979a/opt/emacs-27.2/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/center/a49979a/.local/bin:/home/center/a49979a/bin' ';export' 'PATH;_LMFILES_=/home/center/opt/x86_64/modulefiles/CX/core/hpc_sdk/23.1' ';export' '_LMFILES_;'
+++ CC=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvc
+++ export CC
+++ CPATH=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/extras/qd/include/qd:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/nvshmem/include:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/nccl/include:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/mpi/include:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/math_libs/include
+++ export CPATH
+++ CPP=cpp
+++ export CPP
+++ CXX=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvc++
+++ export CXX
+++ F77=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvfortran
+++ export F77
+++ F90=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvfortran
+++ export F90
+++ FC=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvfortran
+++ export FC
+++ FLOW_CORE_NAME=hpc_sdk
+++ export FLOW_CORE_NAME
+++ FLOW_CORE_VER=23.1
+++ export FLOW_CORE_VER
+++ LD_LIBRARY_PATH=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/cuda/12.0/extras/CUPTI/lib64:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/nvshmem/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/nccl/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/mpi/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/math_libs/lib64:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/extras/qd/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/cuda/lib64
+++ export LD_LIBRARY_PATH
+++ LOADEDMODULES=hpc_sdk/23.1
+++ export LOADEDMODULES
+++ MANPATH=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/man:/data/group1/a49979a/opt/emacs-27.2/share/man:/usr/local/share/man:/usr/share/man
+++ export MANPATH
+++ MODULEPATH=/home/center/opt/x86_64/modulefiles/CX/compiler/hpc_sdk/23.1:/home/center/opt/x86_64/modulefiles/CX/core:/center/local/app/x86/hpci/modulefiles
+++ export MODULEPATH
+++ NVHPC=/home/center/opt/x86_64/cores/hpc_sdk
+++ export NVHPC
+++ NVHPC_ROOT=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1
+++ export NVHPC_ROOT
+++ OMPI_MCA_btl_openib_warn_default_gid_prefix=0
+++ export OMPI_MCA_btl_openib_warn_default_gid_prefix
+++ OMPI_MCA_plm_rsh_agent=/bin/pjrsh
+++ export OMPI_MCA_plm_rsh_agent
+++ OPAL_PREFIX=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/mpi
+++ export OPAL_PREFIX
+++ PATH=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/extras/qd/bin:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/mpi/bin:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/cuda/bin:/home/center/a49979a/opt/bin:/data/group1/a49979a/opt/emacs-27.2/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/center/a49979a/.local/bin:/home/center/a49979a/bin
+++ export PATH
+++ _LMFILES_=/home/center/opt/x86_64/modulefiles/CX/core/hpc_sdk/23.1
+++ export _LMFILES_
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ env
+OMPI_MCA_plm_rsh_agent=/bin/pjrsh
+MANPATH=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/man:/data/group1/a49979a/opt/emacs-27.2/share/man:/usr/local/share/man:/usr/share/man
+PJM_DPREFIX=#PJM
+PJM_JOBNAME=run_bcast_nvc.sh
+HOSTNAME=cx169
+PJM_STDERR_PATH=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/run_bcast_nvc.sh.1039036.out
+PJM_O_PATH=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/extras/qd/bin:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/mpi/bin:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/cuda/bin:/home/center/a49979a/opt/bin:/data/group1/a49979a/opt/emacs-27.2/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/center/a49979a/.local/bin:/home/center/a49979a/bin
+PJM_MPI_PROC=1
+NVHPC_ROOT=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1
+PJM_STDOUT_PATH=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/run_bcast_nvc.sh.1039036.out
+HISTSIZE=1000
+PLE_SCRIPT_TYPE=JOB_SCRIPT
+PJM_CUSTOM_RESOURCES=beeond=0,gpu/n=4
+JOBID=1039036
+PJM_SHELL=/bin/bash
+QTDIR=/usr/lib64/qt-3.3
+PJM_O_NODEINF=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001039036_nodeinfo
+QTINC=/usr/lib64/qt-3.3/include
+NVHPC=/home/center/opt/x86_64/cores/hpc_sdk
+QT_GRAPHICSSYSTEM_CHECKED=1
+OPAL_PREFIX=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/mpi
+USER=a49979a
+http_proxy=http://flow-cx01:3128
+LD_LIBRARY_PATH=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/cuda/12.0/extras/CUPTI/lib64:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/nvshmem/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/nccl/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/mpi/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/math_libs/lib64:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/extras/qd/lib:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/cuda/lib64
+PJM_ELAPSED_TIME_MODE=fixed
+WORKDIR=/data/group1/a49979a
+PJM_O_HOME=/home/center/a49979a
+PJM_CORE_MEM_LIMIT=0
+CPATH=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/extras/qd/include/qd:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/nvshmem/include:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/nccl/include:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/mpi/include:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/math_libs/include
+ftp_proxy=http://flow-cx01:3128
+FLOW_CORE_NAME=hpc_sdk
+PJM_RSCUNIT=cx
+PJM_SUBJOBID=1039036
+PJM_NODE=1
+CPP=cpp
+PJM_O_LOGNAME=a49979a
+PJM_VNODES=1
+PJM_O_LANG=en_US.UTF-8
+PATH=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/extras/qd/bin:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/comm_libs/mpi/bin:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin:/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/cuda/bin:/home/center/a49979a/opt/bin:/data/group1/a49979a/opt/emacs-27.2/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/center/a49979a/.local/bin:/home/center/a49979a/bin
+MAIL=/var/spool/mail/a49979a
+RSYNC_PROXY=flow-cx01:3128
+PJM_JOBID=1039036
+F90=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvfortran
+PJM_PROC_BY_NODE=1
+PWD=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx
+_LMFILES_=/home/center/opt/x86_64/modulefiles/CX/core/hpc_sdk/23.1
+LANG=en_US.UTF-8
+PJM_O_MAIL=/var/spool/mail/a49979a
+MODULEPATH=/home/center/opt/x86_64/modulefiles/CX/compiler/hpc_sdk/23.1:/home/center/opt/x86_64/modulefiles/CX/core:/center/local/app/x86/hpci/modulefiles
+LOADEDMODULES=hpc_sdk/23.1
+OMPI_MCA_btl_openib_warn_default_gid_prefix=0
+F77=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvfortran
+PJM_LOCALDIR=/local/1039036
+PJM_VNODE_MEM_LIMIT=362924736512
+PJM_NODE_CPUTIME_LIMIT=18446744073709551615
+https_proxy=http://flow-cx01:3128
+CXX=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvc++
+HISTCONTROL=ignoredups
+FLOW_CORE_VER=23.1
+PJM_O_WORKDIR=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx
+HOME=/home/center/a49979a
+PJM_NET_ROUTE=static
+SHLVL=2
+PJM_MAILOPTION=0x0
+OMPI_CKPTCONFIG=0x00
+FC=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvfortran
+FJPNCKPT_CONFIG=0x00
+LOGNAME=a49979a
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+PJM_ENVIRONMENT=BATCH
+XDG_DATA_DIRS=/home/center/a49979a/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+MODULESHOME=/usr/share/Modules
+OMP_NUM_THREADS=10
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+CC=/home/center/opt/x86_64/cores/hpc_sdk/Linux_x86_64/23.1/compilers/bin/nvc
+PJM_RSCGRP=cx-single
+PJM_JOBDIR=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx
+PJM_O_SHELL=/bin/bash
+PJM_O_HOST=flow-cx01
+PJM_ASSIGN_LOGICAL_CPU=job
+PJM_ELAPSE_LIMIT=180
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+_=/usr/bin/env
++ n=1000
++ mpirun -display-devel-map -n 4 --map-by ppr:4:socket:pe=2 ./bcast_nvc 1000
+ Data for JOB [31236,1] offset 0 Total slots allocated 40
+
+ Mapper requested: NULL  Last mapper: ppr  Mapping policy: BYSOCKET:NOOVERSUBSCRIBE  Ranking policy: SLOT
+ Binding policy: CORE  Cpu set: NULL  PPR: 4:socket  Cpus-per-rank: 2
+ 	Num new daemons: 0	New daemon starting vpid INVALID
+ 	Num nodes: 1
+
+ Data for node: cx169	State: 3	Flags: 11
+ 	Daemon: [[31236,0],0]	Daemon launched: True
+ 	Num slots: 40	Slots in use: 4	Oversubscribed: FALSE
+ 	Num slots allocated: 40	Max slots: 0
+ 	Num procs: 4	Next node_rank: 4
+ 	Data for proc: [[31236,1],0]
+ 		Pid: 0	Local rank: 0	Node rank: 0	App rank: 0
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././.]
+ 		Binding: [B/B/./././././././././././././././././.][./././././././././././././././././././.]
+ 	Data for proc: [[31236,1],1]
+ 		Pid: 0	Local rank: 1	Node rank: 1	App rank: 1
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././.]
+ 		Binding: [././B/B/./././././././././././././././.][./././././././././././././././././././.]
+ 	Data for proc: [[31236,1],2]
+ 		Pid: 0	Local rank: 2	Node rank: 2	App rank: 2
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././.]
+ 		Binding: [././././B/B/./././././././././././././.][./././././././././././././././././././.]
+ 	Data for proc: [[31236,1],3]
+ 		Pid: 0	Local rank: 3	Node rank: 3	App rank: 3
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././.]
+ 		Binding: [././././././B/B/./././././././././././.][./././././././././././././././././././.]
+rank=0
+n=1000
+rank=1
+n=1000
+rank=2
+n=1000
+rank=3
+n=1000
+1 result: sum= 1250254461.723143
+1 result: time= 11.089551, 1.190847, 9.898702
+3 result: sum= 1250254461.723143
+3 result: time= 11.094725, 1.136617, 9.958106
+2 result: sum= 1250254461.723143
+2 result: time= 11.096806, 1.412368, 9.684437
+0 result: sum= 1250254461.723143
+0 result: time= 10.773590, 0.557062, 10.216526
++ mpirun -display-devel-map -n 4 --map-by ppr:4:socket:pe=2 ./bcast_nvc 1000
+ Data for JOB [31309,1] offset 0 Total slots allocated 40
+
+ Mapper requested: NULL  Last mapper: ppr  Mapping policy: BYSOCKET:NOOVERSUBSCRIBE  Ranking policy: SLOT
+ Binding policy: CORE  Cpu set: NULL  PPR: 4:socket  Cpus-per-rank: 2
+ 	Num new daemons: 0	New daemon starting vpid INVALID
+ 	Num nodes: 1
+
+ Data for node: cx169	State: 3	Flags: 11
+ 	Daemon: [[31309,0],0]	Daemon launched: True
+ 	Num slots: 40	Slots in use: 4	Oversubscribed: FALSE
+ 	Num slots allocated: 40	Max slots: 0
+ 	Num procs: 4	Next node_rank: 4
+ 	Data for proc: [[31309,1],0]
+ 		Pid: 0	Local rank: 0	Node rank: 0	App rank: 0
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././.]
+ 		Binding: [B/B/./././././././././././././././././.][./././././././././././././././././././.]
+ 	Data for proc: [[31309,1],1]
+ 		Pid: 0	Local rank: 1	Node rank: 1	App rank: 1
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././.]
+ 		Binding: [././B/B/./././././././././././././././.][./././././././././././././././././././.]
+ 	Data for proc: [[31309,1],2]
+ 		Pid: 0	Local rank: 2	Node rank: 2	App rank: 2
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././.]
+ 		Binding: [././././B/B/./././././././././././././.][./././././././././././././././././././.]
+ 	Data for proc: [[31309,1],3]
+ 		Pid: 0	Local rank: 3	Node rank: 3	App rank: 3
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././.]
+ 		Binding: [././././././B/B/./././././././././././.][./././././././././././././././././././.]
+rank=1
+n=1000
+rank=3
+n=1000
+rank=2
+n=1000
+rank=0
+n=1000
+1 result: sum= 1250254461.723143
+1 result: time= 11.002109, 1.172804, 9.829303
+2 result: sum= 1250254461.723143
+2 result: time= 11.005694, 0.833523, 10.172169
+3 result: sum= 1250254461.723143
+3 result: time= 11.005262, 0.881591, 10.123670
+0 result: sum= 1250254461.723143
+0 result: time= 10.732297, 1.013037, 9.719257
++ mpirun -display-devel-map -n 4 --map-by ppr:4:socket:pe=2 ./bcast_nvc 1000
+ Data for JOB [31370,1] offset 0 Total slots allocated 40
+
+ Mapper requested: NULL  Last mapper: ppr  Mapping policy: BYSOCKET:NOOVERSUBSCRIBE  Ranking policy: SLOT
+ Binding policy: CORE  Cpu set: NULL  PPR: 4:socket  Cpus-per-rank: 2
+ 	Num new daemons: 0	New daemon starting vpid INVALID
+ 	Num nodes: 1
+
+ Data for node: cx169	State: 3	Flags: 11
+ 	Daemon: [[31370,0],0]	Daemon launched: True
+ 	Num slots: 40	Slots in use: 4	Oversubscribed: FALSE
+ 	Num slots allocated: 40	Max slots: 0
+ 	Num procs: 4	Next node_rank: 4
+ 	Data for proc: [[31370,1],0]
+ 		Pid: 0	Local rank: 0	Node rank: 0	App rank: 0
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././.]
+ 		Binding: [B/B/./././././././././././././././././.][./././././././././././././././././././.]
+ 	Data for proc: [[31370,1],1]
+ 		Pid: 0	Local rank: 1	Node rank: 1	App rank: 1
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././.]
+ 		Binding: [././B/B/./././././././././././././././.][./././././././././././././././././././.]
+ 	Data for proc: [[31370,1],2]
+ 		Pid: 0	Local rank: 2	Node rank: 2	App rank: 2
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././.]
+ 		Binding: [././././B/B/./././././././././././././.][./././././././././././././././././././.]
+ 	Data for proc: [[31370,1],3]
+ 		Pid: 0	Local rank: 3	Node rank: 3	App rank: 3
+ 		State: INITIALIZED	App_context: 0
+ 		Locale:  [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././.]
+ 		Binding: [././././././B/B/./././././././././././.][./././././././././././././././././././.]
+rank=0
+n=1000
+rank=1
+n=1000
+rank=2
+n=1000
+rank=3
+n=1000
+1 result: sum= 1250254461.723143
+1 result: time= 11.216114, 1.680485, 9.535628
+3 result: sum= 1250254461.723143
+3 result: time= 11.216327, 1.624743, 9.591583
+2 result: sum= 1250254461.723143
+2 result: time= 11.259769, 1.242729, 10.017039
+0 result: sum= 1250254461.723143
+0 result: time= 10.926076, 0.711032, 10.215041
++ date
+Thu May 18 23:53:16 JST 2023
