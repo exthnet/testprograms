@@ -1,0 +1,164 @@
++ module load nvhpc/24.1
++ _module_raw load nvhpc/24.1
+++ /usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash load nvhpc/24.1
++ eval
++ _mlstatus=0
++ return 0
++ sudo nvidia-smi -i 1 -pm 1
+No devices were found
++ sudo nvidia-smi mig -cgi 1g.5gb,1g.5gb,1g.5gb,1g.5gb,1g.5gb,1g.5gb,1g.5gb -C
+Successfully created GPU instance ID 13 on GPU  0 using profile MIG 1g.5gb (ID 19)
+Successfully created compute instance ID  0 on GPU  0 GPU instance ID 13 using profile MIG 1g.5gb (ID  0)
+Successfully created GPU instance ID 11 on GPU  0 using profile MIG 1g.5gb (ID 19)
+Successfully created compute instance ID  0 on GPU  0 GPU instance ID 11 using profile MIG 1g.5gb (ID  0)
+Successfully created GPU instance ID 12 on GPU  0 using profile MIG 1g.5gb (ID 19)
+Successfully created compute instance ID  0 on GPU  0 GPU instance ID 12 using profile MIG 1g.5gb (ID  0)
+Successfully created GPU instance ID  7 on GPU  0 using profile MIG 1g.5gb (ID 19)
+Successfully created compute instance ID  0 on GPU  0 GPU instance ID  7 using profile MIG 1g.5gb (ID  0)
+Successfully created GPU instance ID  8 on GPU  0 using profile MIG 1g.5gb (ID 19)
+Successfully created compute instance ID  0 on GPU  0 GPU instance ID  8 using profile MIG 1g.5gb (ID  0)
+Successfully created GPU instance ID  9 on GPU  0 using profile MIG 1g.5gb (ID 19)
+Successfully created compute instance ID  0 on GPU  0 GPU instance ID  9 using profile MIG 1g.5gb (ID  0)
+Successfully created GPU instance ID 10 on GPU  0 using profile MIG 1g.5gb (ID 19)
+Successfully created compute instance ID  0 on GPU  0 GPU instance ID 10 using profile MIG 1g.5gb (ID  0)
++ nvidia-smi
+Mon Apr 15 17:01:20 2024       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 545.23.08              Driver Version: 545.23.08    CUDA Version: 12.3     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-PCIE-40GB          On  | 00000000:C1:00.0 Off |                   On |
+| N/A   32C    P0              59W / 250W |     87MiB / 40960MiB |     N/A      Default |
+|                                         |                      |              Enabled |
++-----------------------------------------+----------------------+----------------------+
+
++---------------------------------------------------------------------------------------+
+| MIG devices:                                                                          |
++------------------+--------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |                   Memory-Usage |        Vol|      Shared           |
+|      ID  ID  Dev |                     BAR1-Usage | SM     Unc| CE ENC DEC OFA JPG    |
+|                  |                                |        ECC|                       |
+|==================+================================+===========+=======================|
+|  0    7   0   0  |              12MiB /  4864MiB  | 14      0 |  1   0    0    0    0 |
+|                  |               0MiB /  8191MiB  |           |                       |
++------------------+--------------------------------+-----------+-----------------------+
+|  0    8   0   1  |              12MiB /  4864MiB  | 14      0 |  1   0    0    0    0 |
+|                  |               0MiB /  8191MiB  |           |                       |
++------------------+--------------------------------+-----------+-----------------------+
+|  0    9   0   2  |              12MiB /  4864MiB  | 14      0 |  1   0    0    0    0 |
+|                  |               0MiB /  8191MiB  |           |                       |
++------------------+--------------------------------+-----------+-----------------------+
+|  0   10   0   3  |              12MiB /  4864MiB  | 14      0 |  1   0    0    0    0 |
+|                  |               0MiB /  8191MiB  |           |                       |
++------------------+--------------------------------+-----------+-----------------------+
+|  0   11   0   4  |              12MiB /  4864MiB  | 14      0 |  1   0    0    0    0 |
+|                  |               0MiB /  8191MiB  |           |                       |
++------------------+--------------------------------+-----------+-----------------------+
+|  0   12   0   5  |              12MiB /  4864MiB  | 14      0 |  1   0    0    0    0 |
+|                  |               0MiB /  8191MiB  |           |                       |
++------------------+--------------------------------+-----------+-----------------------+
+|  0   13   0   6  |              12MiB /  4864MiB  | 14      0 |  1   0    0    0    0 |
+|                  |               0MiB /  8191MiB  |           |                       |
++------------------+--------------------------------+-----------+-----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
++ nvidia-smi -L
+GPU 0: NVIDIA A100-PCIE-40GB (UUID: GPU-f80fbf29-2b66-fdb6-0eda-9eb6b5161b33)
+  MIG 1g.5gb      Device  0: (UUID: MIG-d723890c-e142-515a-8b68-6ce33c176140)
+  MIG 1g.5gb      Device  1: (UUID: MIG-331638fc-7b9b-5f03-89fe-75cf27ec1e94)
+  MIG 1g.5gb      Device  2: (UUID: MIG-7a6127be-95bc-566c-a591-9ad689b5bd43)
+  MIG 1g.5gb      Device  3: (UUID: MIG-83e5bf98-8c13-55cc-b122-742021f0b56d)
+  MIG 1g.5gb      Device  4: (UUID: MIG-4d98f6c8-4712-5b63-8785-b1835badc3fa)
+  MIG 1g.5gb      Device  5: (UUID: MIG-1ef75d57-62e2-5204-b89d-18e252814d8c)
+  MIG 1g.5gb      Device  6: (UUID: MIG-73228be6-cf7a-5ebc-849e-beaf0126d0d9)
++ nvidia-smi -L
++ grep MIG
++ tee mig.txt
++ awk '{print $6}'
++ sed 's/)//'
+MIG-d723890c-e142-515a-8b68-6ce33c176140
+MIG-331638fc-7b9b-5f03-89fe-75cf27ec1e94
+MIG-7a6127be-95bc-566c-a591-9ad689b5bd43
+MIG-83e5bf98-8c13-55cc-b122-742021f0b56d
+MIG-4d98f6c8-4712-5b63-8785-b1835badc3fa
+MIG-1ef75d57-62e2-5204-b89d-18e252814d8c
+MIG-73228be6-cf7a-5ebc-849e-beaf0126d0d9
++ export NVCOMPILER_ACC_NOTIFY=15
++ NVCOMPILER_ACC_NOTIFY=15
++ export CUDA_VISIBLE_DEVICES=0
++ CUDA_VISIBLE_DEVICES=0
++ ./cublas_acc_c.out 4
+Enter enter data construct file=/home/ohshima/work/projects/testprograms.github/gpublas/cublas_acc.c function=main line=82 device=0 threadid=1
+upload CUDA data  file=/home/ohshima/work/projects/testprograms.github/gpublas/cublas_acc.c function=main line=82 device=0 threadid=1 variable=a[:n*n] bytes=128
+upload CUDA data  file=/home/ohshima/work/projects/testprograms.github/gpublas/cublas_acc.c function=main line=82 device=0 threadid=1 variable=b[:n*n] bytes=128
+upload CUDA data  file=/home/ohshima/work/projects/testprograms.github/gpublas/cublas_acc.c function=main line=82 device=0 threadid=1 variable=c[:n*n] bytes=128
+Implicit wait  file=/home/ohshima/work/projects/testprograms.github/gpublas/cublas_acc.c function=main line=82 device=0 threadid=1 queue=acc_async_sync
+Leave enter data /home/ohshima/work/projects/testprograms.github/gpublas/cublas_acc.c main:82 device=0 threadid=1
+Enter exit data construct file=/home/ohshima/work/projects/testprograms.github/gpublas/cublas_acc.c function=main line=82 device=0 threadid=1
+download CUDA data  file=/home/ohshima/work/projects/testprograms.github/gpublas/cublas_acc.c function=main line=87 device=0 threadid=1 variable=c[:n*n] bytes=128
+Implicit wait  file=/home/ohshima/work/projects/testprograms.github/gpublas/cublas_acc.c function=main line=87 device=0 threadid=1 queue=acc_async_sync
+Leave exit data /home/ohshima/work/projects/testprograms.github/gpublas/cublas_acc.c main:87 device=0 threadid=1
+n = 4
+A
+ 3.00 4.00 5.00 6.00
+ 5.00 6.00 7.00 8.00
+ 7.00 8.00 9.00 10.00
+ 9.00 10.00 11.00 12.00
+B
+ 3.00 4.00 5.00 6.00
+ 5.00 6.00 7.00 8.00
+ 7.00 8.00 9.00 10.00
+ 9.00 10.00 11.00 12.00
+time      0.01569 sec
+C
+ 118.00 136.00 154.00 172.00
+ 166.00 192.00 218.00 244.00
+ 214.00 248.00 282.00 316.00
+ 262.00 304.00 346.00 388.00
++ ./cublas_acc_mc.out 4
+Wait  file=/home/ohshima/work/projects/testprograms.github/gpublas/cublas_acc_m.c function=main line=88 device=0 threadid=1 queue=acc_async_sync
+n = 4
+A
+ 3.00 4.00 5.00 6.00
+ 5.00 6.00 7.00 8.00
+ 7.00 8.00 9.00 10.00
+ 9.00 10.00 11.00 12.00
+B
+ 3.00 4.00 5.00 6.00
+ 5.00 6.00 7.00 8.00
+ 7.00 8.00 9.00 10.00
+ 9.00 10.00 11.00 12.00
+time     0.001217 sec
+C
+ 118.00 136.00 154.00 172.00
+ 166.00 192.00 218.00 244.00
+ 214.00 248.00 282.00 316.00
+ 262.00 304.00 346.00 388.00
++ ./cublas_acc_m2c.out 4
+Wait  file=/home/ohshima/work/projects/testprograms.github/gpublas/cublas_acc_m2.c function=main line=88 device=0 threadid=1 queue=acc_async_sync
+n = 4
+A
+ 3.00 4.00 5.00 6.00
+ 5.00 6.00 7.00 8.00
+ 7.00 8.00 9.00 10.00
+ 9.00 10.00 11.00 12.00
+B
+ 3.00 4.00 5.00 6.00
+ 5.00 6.00 7.00 8.00
+ 7.00 8.00 9.00 10.00
+ 9.00 10.00 11.00 12.00
+time     0.000942 sec
+C
+ 118.00 136.00 154.00 172.00
+ 166.00 192.00 218.00 244.00
+ 214.00 248.00 282.00 316.00
+ 262.00 304.00 346.00 388.00
