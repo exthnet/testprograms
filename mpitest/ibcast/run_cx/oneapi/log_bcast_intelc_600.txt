@@ -1,0 +1,50 @@
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.7  Build 20221022 (id: f7b29a2495)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): shm segment size (801 MB per rank) * (4 local ranks) = 3207 MB total
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): max number of MPI_Request per vci: 67108864 (pools: 1)
+[0] MPI startup(): libfabric provider: mlx
+[0] MPI startup(): File "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi_mlx_100.dat" not found
+[0] MPI startup(): Load tuning file: "/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest/etc/tuning_skx_shm-ofi.dat"
+[0] MPI startup(): threading: mode: direct
+[0] MPI startup(): threading: vcis: 1
+[0] MPI startup(): threading: app_threads: -1
+[0] MPI startup(): threading: runtime: generic
+[0] MPI startup(): threading: progress_threads: 0
+[0] MPI startup(): threading: async_progress: 0
+[0] MPI startup(): threading: lock_level: global
+[0] MPI startup(): tag bits available: 20 (TAG_UB value: 1048575) 
+[0] MPI startup(): source bits available: 21 (Maximal number of rank: 2097151) 
+rank=1
+n=600
+rank=3
+n=600
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       70       cx140      {0,1,2,3,4,5,6,7,8,9}
+[0] MPI startup(): 1       71       cx140      {10,11,12,13,14,15,16,17,18,19}
+[0] MPI startup(): 2       72       cx140      {20,21,22,23,24,25,26,27,28,29}
+[0] MPI startup(): 3       73       cx140      {30,31,32,33,34,35,36,37,38,39}
+[0] MPI startup(): I_MPI_ROOT=/home/center/opt/x86_64/cores/oneapi/2022.3/mpi/latest
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_EXEC=/usr/bin/pjrsh
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_AUTOFORK=0
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_HYDRA_HOST_FILE=/data/group1/a49979a/work/testprograms/mpitest/ibcast/run_cx/.d0001033046_nodeinfo
+[0] MPI startup(): I_MPI_PERHOST=1
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP=rsh
+[0] MPI startup(): I_MPI_PIN_DOMAIN=10
+[0] MPI startup(): I_MPI_PIN_ORDER=compact
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): I_MPI_DEBUG=10
+rank=2
+n=600
+rank=0
+n=600
+3 result: sum= 540093387.337545
+3 result: time= 0.423002, 0.216009, 0.206990
+2 result: sum= 540093387.337545
+2 result: time= 0.419764, 0.200380, 0.219382
+0 result: sum= 540093387.337545
+0 result: time= 0.304510, 0.093188, 0.211319
+1 result: sum= 540093387.337545
+1 result: time= 0.424067, 0.206423, 0.217642
