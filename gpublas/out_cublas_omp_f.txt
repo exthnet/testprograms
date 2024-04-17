@@ -22,7 +22,7 @@ Successfully created compute instance ID  0 on GPU  0 GPU instance ID  9 using p
 Successfully created GPU instance ID 10 on GPU  0 using profile MIG 1g.5gb (ID 19)
 Successfully created compute instance ID  0 on GPU  0 GPU instance ID 10 using profile MIG 1g.5gb (ID  0)
 + nvidia-smi
-Tue Apr 16 10:36:47 2024       
+Wed Apr 17 09:43:53 2024       
 +---------------------------------------------------------------------------------------+
 | NVIDIA-SMI 545.23.08              Driver Version: 545.23.08    CUDA Version: 12.3     |
 |-----------------------------------------+----------------------+----------------------+
@@ -31,7 +31,7 @@ Tue Apr 16 10:36:47 2024
 |                                         |                      |               MIG M. |
 |=========================================+======================+======================|
 |   0  NVIDIA A100-PCIE-40GB          On  | 00000000:C1:00.0 Off |                   On |
-| N/A   33C    P0              53W / 250W |     87MiB / 40960MiB |     N/A      Default |
+| N/A   33C    P0              58W / 250W |     87MiB / 40960MiB |     N/A      Default |
 |                                         |                      |              Enabled |
 +-----------------------------------------+----------------------+----------------------+
 
@@ -81,10 +81,10 @@ GPU 0: NVIDIA A100-PCIE-40GB (UUID: GPU-f80fbf29-2b66-fdb6-0eda-9eb6b5161b33)
   MIG 1g.5gb      Device  5: (UUID: MIG-1ef75d57-62e2-5204-b89d-18e252814d8c)
   MIG 1g.5gb      Device  6: (UUID: MIG-73228be6-cf7a-5ebc-849e-beaf0126d0d9)
 + nvidia-smi -L
-+ tee mig.txt
-+ awk '{print $6}'
 + grep MIG
++ tee mig.txt
 + sed 's/)//'
++ awk '{print $6}'
 MIG-d723890c-e142-515a-8b68-6ce33c176140
 MIG-331638fc-7b9b-5f03-89fe-75cf27ec1e94
 MIG-7a6127be-95bc-566c-a591-9ad689b5bd43
@@ -121,7 +121,7 @@ Leave exit data /home/ohshima/work/projects/testprograms.github/gpublas/cublas_o
    5.00   6.00   7.00   8.00 
    7.00   8.00   9.00  10.00 
    9.00  10.00  11.00  12.00 
-time   0.1576     sec
+time   0.1537     sec
  C
  118.00 136.00 154.00 172.00 
  166.00 192.00 218.00 244.00 
@@ -152,7 +152,7 @@ Leave exit data /home/ohshima/work/projects/testprograms.github/gpublas/cublas_o
    5.00   6.00   7.00   8.00 
    7.00   8.00   9.00  10.00 
    9.00  10.00  11.00  12.00 
-time   0.1560     sec
+time   0.1480     sec
  C
  118.00 136.00 154.00 172.00 
  166.00 192.00 218.00 244.00 
@@ -170,9 +170,27 @@ time   0.1560     sec
    5.00   6.00   7.00   8.00 
    7.00   8.00   9.00  10.00 
    9.00  10.00  11.00  12.00 
-time   0.1290E-01 sec
+time   0.2410E-03 sec
  C
-   0.00   0.00   0.00   0.00 
-   0.00   0.00   0.00   0.00 
-   0.00   0.00   0.00   0.00 
-   0.00   0.00   0.00   0.00 
+ 118.00 136.00 154.00 172.00 
+ 166.00 192.00 218.00 244.00 
+ 214.00 248.00 282.00 316.00 
+ 262.00 304.00 346.00 388.00 
++ ./cublas_omp_m2f.out 4
+ n=            4
+ A
+   3.00   4.00   5.00   6.00 
+   5.00   6.00   7.00   8.00 
+   7.00   8.00   9.00  10.00 
+   9.00  10.00  11.00  12.00 
+ B
+   3.00   4.00   5.00   6.00 
+   5.00   6.00   7.00   8.00 
+   7.00   8.00   9.00  10.00 
+   9.00  10.00  11.00  12.00 
+time   0.2129E-03 sec
+ C
+ 118.00 136.00 154.00 172.00 
+ 166.00 192.00 218.00 244.00 
+ 214.00 248.00 282.00 316.00 
+ 262.00 304.00 346.00 388.00 

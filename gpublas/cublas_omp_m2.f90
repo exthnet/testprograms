@@ -1,6 +1,6 @@
 program cublas_test
   use omp_lib
-  use cublas
+!  use cublas
   implicit none
   real*8, allocatable, dimension(:,:) :: a, b, c
   integer :: i, j, k, n
@@ -11,6 +11,22 @@ program cublas_test
   real*8 :: tmp
   real*8 :: t1, t2
 1000 format (1x,f6.2)
+
+interface
+   subroutine cublasDgemm(transa,transb,m,n,k,alpha,a,lda,b,ldb,beta,c,ldc) &
+         bind(c,name='cublasDgemm')
+      use iso_c_binding
+      integer(c_int), value :: m, n, k, lda, ldb, ldc
+      real(c_double), intent(in), device :: a(lda,*), b(ldb,*)
+      real(c_double), intent(inout), device :: c(ldc,*)
+      real(c_double), value :: alpha, beta
+      character(kind=c_char), value :: transa, transb
+   end subroutine
+   subroutine cublasInit() bind(c,name="cublasInit")
+   end subroutine
+   subroutine cublasShutdown() bind(c,name="cublasShutdown")
+   end subroutine
+end interface
 
   nargs=command_argument_count()
   if(nargs.ne.1)then
@@ -68,23 +84,23 @@ program cublas_test
      write(*,*)""
   end do
 
-  ret = cublasInit()
+  call cublasInit
 
   t1 = omp_get_wtime()
   !  !$omp target data map(to:a(1:n,1:n),b(1:n,1:n)) map(tofrom:c(1:n,1:n))
   !  !$omp target is_device_ptr(a,b,c)
+  !  !$omp target data use_device_ptr(a,b,c)
   !  !$omp target has_device_addr(a,b,c)
   !  !$omp target data use_device_addr(a,b,c)
-  !$omp target data use_device_ptr(a,b,c)
   call cublasDgemm('N','N', n, n, n, 1.0d0, a, n, b, n, 0.0d0, c, n)
-  !$omp end target data
+  !  !$omp end target data
   !  !$omp end target data
   !  !$omp end target
-!  !$omp taskwait
+  !$omp taskwait
   t2 = omp_get_wtime()
   write(*,'(a,g12.4,a)')"time ",t2-t1," sec"
 
-  ret = cublasShutdown()
+  call cublasShutdown
 
   write(*,*)"C"
   do j=1, n

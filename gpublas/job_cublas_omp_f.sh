@@ -15,3 +15,4 @@ export CUDA_VISIBLE_DEVICES=0
 ./cublas_omp_f.out 4
 ./cublas_omp_2f.out 4
 ./cublas_omp_mf.out 4
+./cublas_omp_m2f.out 4

@@ -30,7 +30,8 @@ cublas_omp: cublas_omp.c cublas_omp.f90
 	nvc -L${LIBDIR} -fopenmp -mp=gpu -lcublas -Minfo=accel -gpu=cc80 -g -o cublas_omp_c.out cublas_omp.c
 	nvfortran -fopenmp -mp=gpu -lcublas -Minfo=accel -gpu=cc80,managed -cudalib=cublas -g -o cublas_omp_mf.out cublas_omp_m.f90
 	nvc -L${LIBDIR} -fopenmp -mp=gpu -lcublas -Minfo=accel -gpu=cc80,managed -g -o cublas_omp_mc.out cublas_omp_m.c
+	nvfortran -fopenmp -cuda -mp=gpu -lcublas -Minfo=accel -gpu=cc80,managed -cudalib=cublas -g -o cublas_omp_m2f.out cublas_omp_m2.f90
 
 all: baseline cublas
 clean:
-	/bin/rm *~ *.out *.mod
+	-/bin/rm *~ *.out *.mod
