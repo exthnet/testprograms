@@ -1,0 +1,36 @@
+! -*- f90 -*-
+program test
+  implicit none
+  real(kind=8), dimension(:,:), allocatable :: A, B, C
+  real(kind=8), dimension(:,:), allocatable, device :: dA, dB, dC
+  integer :: N, nargs, nlength, nstatus, i, j
+  character*256 :: value
+
+  nargs=command_argument_count()
+  if(nargs>0)then
+     call get_command_argument(1,value,nlength,nstatus)
+     read(value,*) N
+  else
+     N = 10
+  end if
+  write(*,*)"N=",N
+  ! メモリの確保
+  allocate(A(N,N), B(N,N), C(N,N))
+  allocate(dA(N,N), dB(N,N), dC(N,N))
+  ! CPUからGPUへのデータ転送
+  dA = A; dB = B; dC = C
+  ! 計算（GPU上）
+  !$cuf kernel do(2) <<<*,*>>>
+  do i = 1, N
+     do j = 1, N
+       dC(i,j) = dA(i,j) + dB(i,j)
+     end do
+  end do
+  ! GPUからCPUへのデータ転送
+  C = dC
+  ! 計算結果の利用
+  print *, C
+  ! メモリの解放
+  deallocate(dA, dB, dC)
+  deallocate(A, B, C)
+end program test

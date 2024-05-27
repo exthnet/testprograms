@@ -1,0 +1,160 @@
+! -*- f90 -*-
+
+module data
+  type :: hdata
+     real*8, pointer :: data(:,:) => null()
+  end type hdata
+  type :: mdata
+     integer :: key
+     real*8, pointer, managed :: data(:,:) => null()
+  end type mdata
+  type :: ddata
+     integer :: key
+     real*8, pointer, device :: data(:,:) => null()
+  end type ddata
+contains
+  subroutine func(dd, x, y)
+    use cudafor
+    implicit none
+    integer :: n
+    type(mdata) :: dd(:)
+    integer :: i, j, x, y
+    real*8, pointer, managed :: tmp(:,:)
+    tmp => dd(1)%data
+    !$cuf kernel do(2)<<<*,*>>>
+    do i=1, x
+       do j=1, y
+          !dd(1)%data(i,j) = dd(1)%data(i,j) * 2.0d0
+          tmp(i,j) = tmp(i,j) * 2.0d0
+       enddo
+    enddo
+  end subroutine func
+end module data
+
+program stream
+  use omp_lib
+  use cudafor
+  use data
+  implicit none
+  integer :: n, i, j, k, x, y, z
+  real*8, dimension(:,:), allocatable :: ha
+  real*8, dimension(:,:), allocatable, managed :: ma
+!  real*8, dimension(:,:), allocatable, device :: da
+  integer :: ret, nargs, nlength, nstatus
+  character*256 value
+  type(hdata), dimension(:), allocatable :: hd
+  type(mdata), dimension(:), allocatable, managed :: md
+  type(ddata), dimension(:), allocatable, device :: dd
+  type(mdata), dimension(:), allocatable :: hmd
+  real*8 :: tmp
+  real*8, pointer :: pt(:,:) => null()
+
+
+  nargs=command_argument_count()
+  if(nargs.ne.3)then
+     write(*,*)"usage: ./a.out x y, z"
+     stop
+  endif
+  call get_command_argument(1,value,nlength,nstatus)
+  if(value.ne."")then
+     read(value,*) x
+  endif
+  call get_command_argument(2,value,nlength,nstatus)
+  if(value.ne."")then
+     read(value,*) y
+  endif
+  call get_command_argument(3,value,nlength,nstatus)
+  if(value.ne."")then
+     read(value,*) z
+  endif
+  write(*,*)"x,y,z=",x,y,z
+
+  write(*,*)"allocate1"
+  allocate(ha(x,y))
+  allocate(ma(x,y))
+!  allocate(da(x,y))
+  allocate(hd(z))
+  allocate(md(z))
+  allocate(dd(z))
+  allocate(hmd(z))
+
+  do i=1, x
+     do j=1, y
+        call random_number(tmp)
+        ha(i,j) = tmp
+        ma(i,j) = tmp
+!        da(i,j) = tmp
+     enddo
+  enddo
+
+  ! write(*,*) ha
+  write(*,*)"before:"
+  do i=1, x
+     do j=1, y
+        write(*,fmt='(f6.2)',advance='no') ha(i,j)
+     enddo
+     write(*,*)""
+  enddo
+
+  write(*,*)"allocate2"
+  do i=1, z
+     allocate(hd(i)%data(x,y))
+     allocate(md(i)%data(x,y))
+!     allocate(dd(i)%data(x,y))
+     allocate(hmd(i)%data(x,y))
+  enddo
+
+  write(*,*)"copy"
+  do i=1, z
+     hd(i)%data = ha
+     md(i)%data = ma
+!     dd(i)%data = da
+     hmd(i)%data = ma
+  enddo
+
+#if 0
+  write(*,*)"calc1"
+  !$cuf kernel do(2)<<<*,*>>>
+  do i=1, x
+     do j=1, y
+        md(1)%data(i,j) = md(1)%data(i,j) * 2.0d0
+        !md(i,j) = md(i,j) * 2.0d0
+     enddo
+  enddo
+  ha = md(1)%data
+#endif
+
+  write(*,*)"calc2"
+#if 0
+  !$cuf kernel do(2)<<<*,*>>>
+  do i=1, x
+     do j=1, y
+        hmd(1)%data(i,j) = hmd(1)%data(i,j) * 2.0d0
+        !md(i,j) = md(i,j) * 2.0d0
+     enddo
+  enddo
+#endif
+  call func(hmd, x, y)
+  ha = hmd(1)%data
+
+  ! write(*,*) ha
+  write(*,*)"after:"
+  do i=1, x
+     do j=1, y
+        write(*,fmt='(f6.2)',advance='no') ha(i,j)
+     enddo
+     write(*,*)""
+  enddo
+
+  deallocate(ha)
+  deallocate(ma)
+!  deallocate(da)
+  deallocate(hd%data)
+  deallocate(md%data)
+!  deallocate(dd%data)
+  deallocate(hd)
+  deallocate(md)
+!  deallocate(dd)
+  deallocate(hmd)
+end program stream
+

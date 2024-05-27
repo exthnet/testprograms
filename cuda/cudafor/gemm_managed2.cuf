@@ -1,0 +1,54 @@
+! -*- f90 -*-
+program test
+  use cudafor
+  implicit none
+  real(kind=8), dimension(:,:), allocatable, managed :: A1, B1, C1
+  real(kind=8), dimension(:,:), allocatable, managed :: A2, B2, C2
+  integer :: N, nargs, nlength, nstatus, i, j, k
+  integer :: ret
+  integer(kind=cuda_stream_kind) :: stream
+  character*256 :: value
+
+  nargs=command_argument_count()
+  if(nargs>0)then
+     call get_command_argument(1,value,nlength,nstatus)
+     read(value,*) N
+  else
+     N = 10
+  end if
+  write(*,*)"N=",N
+
+  allocate(A1(N,N), B1(N,N), C1(N,N))
+  allocate(A2(N,N), B2(N,N), C2(N,N))
+
+  stream = cudaforGetDefaultStream()
+  ret = cudaMemPrefetchAsync(A1, N*N, 0, stream)
+  ret = cudaMemPrefetchAsync(B1, N*N, 0, stream)
+  ret = cudaMemPrefetchAsync(C1, N*N, 0, stream)
+  ret = cudaMemPrefetchAsync(A2, N*N, 0, stream)
+  ret = cudaMemPrefetchAsync(B2, N*N, 0, stream)
+  ret = cudaMemPrefetchAsync(C2, N*N, 0, stream)
+  ret = cudaDeviceSynchronize()
+
+  !$cuf kernel do(2) <<<*,*>>>
+  do i = 1, N
+     do j = 1, N
+        do k = 1, N
+           C1(i,j) = C1(i,j) + A1(i,k) + B1(k,j)
+        end do
+     end do
+  end do
+
+  !$cuf kernel do(2) <<<*,*>>>
+  do i = 1, N
+     do j = 1, N
+        do k = 1, N
+           C2(i,j) = C2(i,j) + A2(i,k) + B2(k,j)
+        end do
+     end do
+  end do
+
+  !print *, C
+  deallocate(A1, B1, C1)
+  deallocate(A2, B2, C2)
+end program test
