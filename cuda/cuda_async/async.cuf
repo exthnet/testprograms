@@ -1,0 +1,26 @@
+! -*- f90 -*-
+program async
+  use cudafor
+  implicit none
+  integer :: n
+  real*8, dimension(:), allocatable, device :: d_data(:)
+  integer :: ret, streamID
+  integer(int_ptr_kind()) :: nFree, nTotal
+
+  write(*,*) "program begin"
+  ret = cudaSetDevice(0)
+  ret = cudaStreamCreate(streamID)
+  write(*,*) "streamID = ", streamID
+
+  do n=1, 100
+     ret = cudaMemGetInfo(nFree, nTotal)
+     write(*,*) "cudaMemGetInfo 1 :", nFree, nTotal
+     ret = cudaMallocAsync(d_data, 1000, streamID)
+     d_data = 0.0d0
+     !ret = cudaFreeAsync(d_data, streamID)
+     ret = cudaFree(d_data)
+     ret = cudaDeviceSynchronize()
+     ret = cudaMemGetInfo(nFree, nTotal)
+     write(*,*) "cudaMemGetInfo 2 :", nFree, nTotal
+  end do
+end program async

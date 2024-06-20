@@ -1,0 +1,18 @@
+globalX2a: 横32000, 呼び出し時1000
+globalX2b: 横32000, カーネル内1000
+globalX2c: 縦32000, 呼び出し時1000
+globalX2d: 縦32000, カーネル内1000
+globalX2e: 同一メモリ, カーネル内1000
+globalX2f: 同一メモリ, カーネル内1000
+globalX2g: 横32000, カーネル内1000, 2bの定数版
+globalX2h: 縦32000, カーネル内1000, 2dの定数版
+
+reduction実験
+r: 最外reduction
+r2: 内側でreduction
+globalX3{|r|r2}: 「縦」
+globalX4{|r|r2}: 「横」
+
+globalA{|r}: 複数行列実験
+
+globalAB: 32x32行列で様々なパターンによるアクセス性能調査

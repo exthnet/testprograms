@@ -31,5 +31,10 @@ exec5:
 	nvfortran -cpp -mp -cuda -Minfo -Mprof -cudalib=cublas,cusolver -gpu=ccall,managed -o exec_managed5a exec_managed5a.cuf
 	nvfortran -cpp -mp -cuda -Minfo -Mprof -cudalib=cublas,cusolver -gpu=ccall,managed -o exec_managed5b exec_managed5b.cuf
 	nvfortran -cpp -mp -cuda -Minfo -Mprof -cudalib=cublas,cusolver -gpu=ccall,managed -o exec_managed5c exec_managed5c.cuf
+	nvfortran -cpp -mp -cuda -Minfo -Mprof -cudalib=cublas,cusolver -gpu=ccall,managed -o exec_managed5d exec_managed5d.cuf
+	nvfortran -cpp -mp -cuda -Minfo -Mprof -cudalib=cublas,cusolver -gpu=ccall,managed -o exec_managed5e exec_managed5e.cuf
+	nvfortran -cpp -mp -cuda -Minfo -Mprof -cudalib=cublas,cusolver -gpu=ccall,managed -o exec_managed5f exec_managed5f.cuf
+	nvfortran -cpp -mp -cuda -Minfo -Mprof -cudalib=cublas,cusolver -gpu=ccall,managed -o exec_managed5g exec_managed5g.cuf
+	nvfortran -cpp -mp -cuda -Minfo -Mprof -cudalib=cublas,cusolver -gpu=ccall,managed -o exec_managed5h exec_managed5h.cuf
 exec6:
 	nvfortran -cpp -mp -cuda -Minfo -Mprof -cudalib=cublas,cusolver -gpu=ccall,managed -o exec_managed6 exec_managed6.cuf

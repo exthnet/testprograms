@@ -9,6 +9,9 @@ program test
   integer :: N, nargs, nlength, nstatus, i, j, k, ij
   integer :: ret
   integer(kind=cuda_stream_kind) :: stream1
+  integer(kind=cuda_stream_kind) :: stream2
+  integer(kind=cuda_stream_kind) :: stream3
+  integer(kind=cuda_stream_kind) :: stream4
   character*256 :: value
 
   nargs=command_argument_count()
@@ -54,47 +57,14 @@ program test
      end do
   end do
 
-  Ret = cudaStreamCreate(stream1)
+  ret = cudaStreamCreate(stream1)
+  ret = cudaStreamCreate(stream2)
+  ret = cudaStreamCreate(stream3)
+  ret = cudaStreamCreate(stream4)
   ret = cudaStreamSynchronize(stream1)
-
-  ret = cudaMemPrefetchAsync(A2, N*N, 0, stream1)
-  ret = cudaMemPrefetchAsync(B2, N*N, 0, stream1)
-  ret = cudaMemPrefetchAsync(C2, N*N, 0, stream1)
-
-  !$cuf kernel do <<<*,*,0,stream1>>>
-  do ij = 0, N*N-1
-     i = ij/N
-     j = mod(ij,N)
-     do k = 1, 100
-        C1(i*N+j+1) = C1(i*N+j+1) + A1(i*N+j+1) + B1(i*N+j+1) + 0.1d0
-     end do
-  end do
-
-  ret = cudaMemPrefetchAsync(A4, N*N, 0, stream1)
-  ret = cudaMemPrefetchAsync(B4, N*N, 0, stream1)
-  ret = cudaMemPrefetchAsync(C4, N*N, 0, stream1)
-
-  !$cuf kernel do <<<*,*,0,stream1>>>
-  do ij = 0, N*N-1
-     i = ij/N
-     j = mod(ij,N)
-     do k = 1, 100
-        C2(i*N+j+1) = C2(i*N+j+1) + A2(i*N+j+1) * B2(i*N+j+1) + 0.2d0
-     end do
-  end do
-
-  ret = cudaMemPrefetchAsync(A3, N*N, 0, stream1)
-  ret = cudaMemPrefetchAsync(B3, N*N, 0, stream1)
-  ret = cudaMemPrefetchAsync(C3, N*N, 0, stream1)
-
-  !$cuf kernel do <<<*,*,0,stream1>>>
-  do ij = 0, N*N-1
-     i = ij/N
-     j = mod(ij,N)
-     do k = 1, 100
-        C4(i*N+j+1) = C4(i*N+j+1) + A4(i*N+j+1) + B4(i*N+j+1) + 0.3d0
-     end do
-  end do
+  ret = cudaStreamSynchronize(stream2)
+  ret = cudaStreamSynchronize(stream3)
+  ret = cudaStreamSynchronize(stream4)
 
   ret = cudaMemPrefetchAsync(A1, N*N, 0, stream1)
   ret = cudaMemPrefetchAsync(B1, N*N, 0, stream1)
@@ -105,9 +75,69 @@ program test
      i = ij/N
      j = mod(ij,N)
      do k = 1, 100
+        C1(i*N+j+1) = C1(i*N+j+1) + A1(i*N+j+1) + B1(i*N+j+1) + 0.1d0
+     end do
+  end do
+
+  ret = cudaMemPrefetchAsync(A1, N*N, cudaCpuDeviceId , stream1)
+  ret = cudaMemPrefetchAsync(B1, N*N, cudaCpuDeviceId , stream1)
+  ret = cudaMemPrefetchAsync(C1, N*N, cudaCpuDeviceId , stream1)
+
+  ret = cudaMemPrefetchAsync(A2, N*N, 0, stream2)
+  ret = cudaMemPrefetchAsync(B2, N*N, 0, stream2)
+  ret = cudaMemPrefetchAsync(C2, N*N, 0, stream2)
+
+  !$cuf kernel do <<<*,*,0,stream2>>>
+  do ij = 0, N*N-1
+     i = ij/N
+     j = mod(ij,N)
+     do k = 1, 100
+        C2(i*N+j+1) = C2(i*N+j+1) + A2(i*N+j+1) * B2(i*N+j+1) + 0.2d0
+     end do
+  end do
+
+  ret = cudaMemPrefetchAsync(A2, N*N, cudaCpuDeviceId , stream2)
+  ret = cudaMemPrefetchAsync(B2, N*N, cudaCpuDeviceId , stream2)
+  ret = cudaMemPrefetchAsync(C2, N*N, cudaCpuDeviceId , stream2)
+
+  ret = cudaMemPrefetchAsync(A4, N*N, 0, stream4)
+  ret = cudaMemPrefetchAsync(B4, N*N, 0, stream4)
+  ret = cudaMemPrefetchAsync(C4, N*N, 0, stream4)
+
+  !$cuf kernel do <<<*,*,0,stream4>>>
+  do ij = 0, N*N-1
+     i = ij/N
+     j = mod(ij,N)
+     do k = 1, 100
+        C4(i*N+j+1) = C4(i*N+j+1) + A4(i*N+j+1) + B4(i*N+j+1) + 0.3d0
+     end do
+  end do
+
+  ret = cudaMemPrefetchAsync(A4, N*N, cudaCpuDeviceId , stream4)
+  ret = cudaMemPrefetchAsync(B4, N*N, cudaCpuDeviceId , stream4)
+  ret = cudaMemPrefetchAsync(C4, N*N, cudaCpuDeviceId , stream4)
+
+  ret = cudaMemPrefetchAsync(A3, N*N, 0, stream3)
+  ret = cudaMemPrefetchAsync(B3, N*N, 0, stream3)
+  ret = cudaMemPrefetchAsync(C3, N*N, 0, stream3)
+
+
+  !$cuf kernel do <<<*,*,0,stream3>>>
+  do ij = 0, N*N-1
+     i = ij/N
+     j = mod(ij,N)
+     do k = 1, 100
         C3(i*N+j+1) = C3(i*N+j+1) + A3(i*N+j+1) * B3(i*N+j+1) + 0.4d0
      end do
   end do
+
+  ret = cudaMemPrefetchAsync(A3, N*N, cudaCpuDeviceId , stream3)
+  ret = cudaMemPrefetchAsync(B3, N*N, cudaCpuDeviceId , stream3)
+  ret = cudaMemPrefetchAsync(C3, N*N, cudaCpuDeviceId , stream3)
+
+  ret = cudaMemPrefetchAsync(A1, N*N, 0, stream1)
+  ret = cudaMemPrefetchAsync(B1, N*N, 0, stream1)
+  ret = cudaMemPrefetchAsync(C1, N*N, 0, stream1)
 
   !$cuf kernel do <<<*,*,0,stream1>>>
   do ij = 0, N*N-1
@@ -119,7 +149,13 @@ program test
   end do
 
   ret = cudaStreamSynchronize(stream1)
+  ret = cudaStreamSynchronize(stream2)
+  ret = cudaStreamSynchronize(stream3)
+  ret = cudaStreamSynchronize(stream4)
   ret = cudaStreamDestroy(stream1)
+  ret = cudaStreamDestroy(stream2)
+  ret = cudaStreamDestroy(stream3)
+  ret = cudaStreamDestroy(stream4)
   !print *, C
   deallocate(A1, B1, C1)
   deallocate(A2, B2, C2)
