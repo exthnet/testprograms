@@ -1,0 +1,14 @@
+# -*- Makefile -*-
+
+CC    = pgcc
+F90   = pgfortran
+F90OPT= -Minfo=acc -acc -ta=radeon:tahiti -g
+LOPT  = $(F90OPT)
+
+all: c f
+c: vector.c
+	${CC} -o vector_c_amd vector.c
+	${CC} ${F90OPT} -o vector_c_amd_acc vector.c
+f: vector.f
+	${F90} -o vector_f_amd vector.f
+	${F90} ${F90OPT} -o vector_f_amd_acc vector.f

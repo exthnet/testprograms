@@ -1,0 +1,14 @@
+# -*- Makefile -*-
+
+CC    = pgcc
+F90   = pgfortran
+F90OPT= -Minfo=acc -acc -ta=tesla:cc35
+LOPT  = $(F90OPT)
+
+all: c f
+c: matrix3.c
+	${CC} -o matrix3c_nv matrix3.c
+	${CC} ${F90OPT} -o matrix3c_nv_acc matrix3.c
+f: matrix3.f
+	${F90} -o matrix3f_nv matrix3.f
+	${F90} ${F90OPT} -o matrix3f_nv_acc matrix3.f

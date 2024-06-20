@@ -1,0 +1,37 @@
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+ n =          1024
+
+real	0m19.564s
+user	0m19.551s
+sys	0m0.008s
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+ n =          1024
+
+real	0m2.688s
+user	0m0.042s
+sys	0m0.978s
+Warning: ieee_denorm is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+ n =          1024
+
+real	0m2.564s
+user	0m0.220s
+sys	0m0.720s
+n = 1024
+
+real	0m7.031s
+user	0m7.014s
+sys	0m0.015s
+n = 1024
+
+real	0m2.827s
+user	0m0.118s
+sys	0m1.136s
+n = 1024
+
+real	0m2.866s
+user	0m0.431s
+sys	0m0.884s

@@ -1,0 +1,84 @@
+! -*- f90 -*-
+
+module cudakernel
+contains
+  attributes(global) subroutine cudakernel(N, C, A, B)
+    integer,value :: N, I, J, K
+    real(kind=4), device, dimension(N,N), intent(in) :: A, B
+    real(kind=4), device, dimension(N,N), intent(inout) :: C
+    ID = (blockIdx%x-1)*blockDim%x + threadIdx%x
+    I = blockIdx%x
+    J = threadIdx%x
+    do K=1, N
+       C(J,I) = C(J,I) + A(K,I) * B(J,K)
+    enddo
+  end subroutine cudakernel
+end module cudakernel
+
+
+program main
+  use cudakernel
+  use cudafor
+  implicit none
+
+  real(4), allocatable, dimension(:,:) :: A, B, C
+  real(4), allocatable, dimension(:,:),device :: dA, dB, dC
+  real(4) :: alpha, beta
+  integer :: N, I, J, X
+  type(dim3) :: dimGrid, dimBlock
+
+  N = 8
+  allocate(A(N,N), B(N,N), C(N,N))
+  allocate(dA(N,N), dB(N,N), dC(N,N))
+
+  C = 0.0
+  do I=1, N
+     do J=1, N
+        A(J,I) = real(I-1) + real(J-1)/10.0
+        B(J,I) = real(I-1) + real(J-1)/10.0
+     enddo
+  enddo
+  alpha = 1.0;  beta = 1.0
+
+  write(*,*) "A"
+  do I=1, N
+     do J=1, N
+        write(*,'(F8.3)',advance='no') A(J,I)
+     enddo
+     write(*,*)""
+  enddo
+  write(*,*) "B"
+  do I=1, N
+     do J=1, N
+        write(*,'(F8.3)',advance='no') B(J,I)
+     enddo
+     write(*,*)""
+  enddo
+  write(*,*) "C (before)"
+  do I=1, N
+     do J=1, N
+        write(*,'(F8.3)',advance='no') C(J,I)
+     enddo
+     write(*,*)""
+  enddo
+
+  dA = A;   dB = B;   dC = C
+
+  dimGrid = dim3(N,1,1)
+  dimBlock = dim3(N,1,1)
+  call cudakernel<<<dimGrid, dimBlock>>>(N, dC, dA, dB)
+
+  C = dC
+
+  write(*,*) "C (after)"
+  do I=1, N
+     do J=1, N
+        write(*,'(F8.3)',advance='no') C(J,I)
+     enddo
+     write(*,*)""
+  enddo
+
+  deallocate(dA, dB, dC)
+  deallocate(A, B, C)
+
+end program main

@@ -1,0 +1,9 @@
+# -*- Makefile -*-
+
+F90   = pgf90
+F90OPT= -Mpreprocess -O2 -m64 -mcmodel=medium -Msmartalloc=huge -Minfo=acc -acc -ta=radeon:tahiti
+
+LOPT  = $(F90OPT)
+
+all:
+	${F90} ${F90OPT} -o vector1f_tahiti vector1.f

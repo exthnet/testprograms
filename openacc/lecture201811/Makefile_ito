@@ -1,0 +1,148 @@
+# -*- Makefile -*-
+
+CC    = pgcc
+F90   = pgfortran
+CCOPT= -tp=skylake -mp
+FCCOPT= -tp=skylake -mp -cpp
+ACCOPT= -Minfo=accel -acc -ta=tesla:cc60 -tp=skylake -mp -cpp
+LOPT  = $(F90OPT)
+
+# vector
+v0c: vector0.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+v0f: vector0.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+v1c: vector1.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+v1f: vector1.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+v1ac: vector1a.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+v1af: vector1a.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+v2c: vector2.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+v2f: vector2.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+v3c: vector3.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+v3f: vector3.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+v10f: vector10.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+
+v11c: vector11.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+
+v12c: vector12.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+v12f: vector12.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+v13c: vector13.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+v13f: vector13.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+
+v20c: vector20.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+v20f: vector20.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+v21c: vector21.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+v21f: vector21.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+v30c: vector30.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+v30f: vector30.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+# matmul
+m0c: matmul0.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+m0f: matmul0.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+m1c: matmul1.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+m1f: matmul1.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+m2c: matmul2.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+m2f: matmul2.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+# cg
+cg1c: cg1.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+cg1f: cg1.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+
+# cg KN
+cg2c: cg2.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+cg2f: cg2.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+# cg KN, OpenACC
+cg3c: cg3.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+cg3f: cg3.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+# cg KN, OpenACC, data
+cg4c: cg4.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+cg4f: cg4.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+# cg KN, OpenACC, data, present
+cg5c: cg5.c
+	${CC} ${CCOPT} -o $@_c $^
+	${CC} ${ACCOPT} -o $@_c_acc $^
+cg5f: cg5.f90
+	${F90} ${FCCOPT} -o $@_f $^
+	${F90} ${ACCOPT} -o $@_f_acc $^
+

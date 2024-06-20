@@ -1,0 +1,11 @@
+# -*- Makefile -*-
+CC    = pgcc
+F90   = pgfortran
+F90OPT= -Minfo=acc -acc -ta=tesla:cc35,keepptx
+LOPT  = $(F90OPT)
+
+all: c f
+c: data1.c
+	${CC} ${F90OPT} -o data1c_nv data1.c
+f: data1.f
+	${F90} ${F90OPT} -o data1f_nv data1.f

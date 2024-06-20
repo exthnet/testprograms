@@ -1,0 +1,7 @@
+# -*- Makefile -*-
+F90   = pgf90
+F90OPT= -Mpreprocess -O2 -m64 -mcmodel=medium -Msmartalloc=huge \
+             -Mcuda -Minfo=acc -acc -ta=tesla,cuda7.0,kepler,pin,ptxinfo,maxregcount:64
+
+create_f: create.f
+	${F90} -o $@_kepler70 ${F90OPT} $<

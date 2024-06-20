@@ -1,0 +1,14 @@
+# -*- Makefile -*-
+
+CC    = pgcc
+F90   = pgfortran
+F90OPT= -Minfo=accel -acc -ta=tesla:cc35
+LOPT  = $(F90OPT)
+
+all: c f
+c: vector.c
+	${CC} -o vector_c_nv vector.c
+	${CC} ${F90OPT} -o vector_c_nv_acc vector.c
+f: vector.f
+	${F90} -o vector_f_nv vector.f
+	${F90} ${F90OPT} -o vector_f_nv_acc vector.f

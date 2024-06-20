@@ -1,0 +1,25 @@
+# -*- Makefile -*-
+
+TARGETS=cuda_f hybrid1 hybrid2
+all: ${TARGETS}
+
+hybrid1: acc_main.o cudakernel.o
+	pgf90 -Mcuda=cc20 -acc -o hybrid1 cudakernel.o acc_main.o
+acc_main.o: acc_main.f90
+	pgf90 -acc -ta=tesla,cc20 -O3 -Minfo -c acc_main.f90
+cudakernel.o: cudakernel.cuf
+	pgf90 -Mcuda=cc20 -O3 -Minfo -c cudakernel.cuf
+
+cuda_f: cuda_f.cuf
+	pgf90 -Mcuda=cc20 -O3 -Minfo -o cuda_f cuda_f.cuf
+
+hybrid2: cuda_main.o acckernel.o
+	pgf90 -Mcuda=cc20 -acc -o hybrid2 acckernel.o cuda_main.o
+cuda_main.o: cuda_main.cuf
+	pgf90 -Mcuda=cc20 -O3 -Minfo -c cuda_main.cuf
+acckernel.o: acckernel.f90
+	pgf90 -Mcuda=cc20 -acc -ta=tesla,cc20 -O3 -Minfo -c acckernel.f90
+
+clean:
+	-/bin/rm ./*~ ./*.o ./*.mod
+	-/bin/rm ${TARGETS}

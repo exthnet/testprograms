@@ -1,0 +1,27 @@
+! -*- f90 -*-
+module gpukernel
+contains
+
+  attributes(global) subroutine gpukernel(N, C, A, B)
+    integer,value :: ID, N
+!    real(kind=4), device, dimension(N) :: A, B, C
+    real(kind=4), device, dimension(N), intent(in) :: A, B
+    real(kind=4), device, dimension(N), intent(inout) :: C
+    ID = (blockIdx%x-1)*blockDim%x + threadIdx%x
+    if(ID.le.N)then
+       C(ID) = C(ID) + A(ID) * B(ID)
+    endif
+  end subroutine gpukernel
+
+  subroutine gpukernel_wrapper(N, C, A, B)
+    use cudafor
+    integer, intent(in) :: N
+    real(kind=4), device, dimension(N), intent(in) :: A, B
+    real(kind=4), device, dimension(N), intent(inout) :: C
+    type(dim3) :: dimGrid, dimBlock
+    dimGrid = dim3(2,1,1)
+    dimBlock = dim3(64,1,1)
+    call gpukernel<<<dimGrid, dimBlock>>>(N, C, A, B)
+  end subroutine gpukernel_wrapper
+
+end module
