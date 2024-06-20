@@ -1,0 +1,13 @@
+#  -*- makefile -*-
+REAL = -D_DOUBLE
+OPTS = -O3
+CC = icc
+CC_OPTS = -g -O3 -xMIC-AVX512 -qopt-report -mkl=parallel
+OUTDIR = ./out/
+
+cbcg: mm_cbcg.c
+	${CC} ${CC_OPTS} ${REAL} mm_cbcg.c -o ${OUTDIR}mm_cbcg
+
+
+clean:
+	/bin/rm -f *~ *.o

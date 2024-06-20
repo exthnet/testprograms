@@ -1,0 +1,252 @@
+./mm_base -loops 10 -size 4 -kernel 0
+ 10 loop(s)
+ kernel 0
+size 4
+performance: kernel 0, size 4^2, total 0.000003 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 412.977625 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 1
+ 10 loop(s)
+ kernel 1
+size 4
+performance: kernel 1, size 4^2, total 0.000004 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 335.544320 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 2
+ 10 loop(s)
+ kernel 2
+size 4
+performance: kernel 2, size 4^2, total 0.000043 sec, average 0.000004 sec, min 0.000004 sec, max 0.000005 sec, 29.826162 Mflops sum 25.960047
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 3
+ 10 loop(s)
+ kernel 3
+size 4
+performance: kernel 3, size 4^2, total 0.000046 sec, average 0.000005 sec, min 0.000004 sec, max 0.000005 sec, 27.817146 Mflops sum 25.960051
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 4
+ 10 loop(s)
+ kernel 4
+size 4
+performance: kernel 4, size 4^2, total 0.000358 sec, average 0.000036 sec, min 0.000020 sec, max 0.000046 sec, 3.576755 Mflops sum 7.619597
+random sampling: 0.00 2.41 2.76 0.00 2.18 0.00 1.23 0.00 0.00 2.76
+./mm_base -loops 10 -size 4 -kernel 5
+ 10 loop(s)
+ kernel 5
+size 4
+performance: kernel 5, size 4^2, total 0.000002 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 596.523236 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 6
+ 10 loop(s)
+ kernel 6
+size 4
+performance: kernel 6, size 4^2, total 0.000002 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 596.523236 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 7
+ 10 loop(s)
+ kernel 7
+size 4
+performance: kernel 7, size 4^2, total 0.000003 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 412.977625 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 8
+ 10 loop(s)
+ kernel 8
+size 4
+performance: kernel 8, size 4^2, total 0.000001 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 1342.177280 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 9
+ 10 loop(s)
+ kernel 9
+size 4
+performance: kernel 9, size 4^2, total 0.000004 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 315.806419 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 10
+ 10 loop(s)
+ kernel 10
+size 4
+performance: kernel 10, size 4^2, total 0.000003 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 412.977625 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 11
+ 10 loop(s)
+ kernel 11
+size 4
+performance: kernel 11, size 4^2, total 0.000002 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 671.088640 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 12
+ 10 loop(s)
+ kernel 12
+size 4
+performance: kernel 12, size 4^2, total 0.000004 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 315.806419 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 13
+ 10 loop(s)
+ kernel 13
+size 4
+performance: kernel 13, size 4^2, total 0.000003 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 412.977625 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 14
+ 10 loop(s)
+ kernel 14
+size 4
+performance: kernel 14, size 4^2, total 0.000002 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 596.523236 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 15
+ 10 loop(s)
+ kernel 15
+size 4
+performance: kernel 15, size 4^2, total 0.000001 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 1342.177280 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 16
+ 10 loop(s)
+ kernel 16
+size 4
+performance: kernel 16, size 4^2, total 0.000002 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 596.523236 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 17
+ 10 loop(s)
+ kernel 17
+size 4
+performance: kernel 17, size 4^2, total 0.000001 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 1342.177280 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 18
+ 10 loop(s)
+ kernel 18
+size 4
+performance: kernel 18, size 4^2, total 0.000001 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 1342.177280 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 19
+ 10 loop(s)
+ kernel 19
+size 4
+performance: kernel 19, size 4^2, total 0.000002 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 596.523236 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 20
+ 10 loop(s)
+ kernel 20
+size 4
+performance: kernel 20, size 4^2, total 0.000003 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 447.392427 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 21
+ 10 loop(s)
+ kernel 21
+size 4
+performance: kernel 21, size 4^2, total 0.000003 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 447.392427 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 22
+ 10 loop(s)
+ kernel 22
+size 4
+performance: kernel 22, size 4^2, total 0.000002 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 671.088640 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 23
+ 10 loop(s)
+ kernel 23
+size 4
+performance: kernel 23, size 4^2, total 0.000003 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 412.977625 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 24
+ 10 loop(s)
+ kernel 24
+size 4
+performance: kernel 24, size 4^2, total 0.000004 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 315.806419 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 25
+ 10 loop(s)
+ kernel 25
+size 4
+performance: kernel 25, size 4^2, total 0.000002 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 671.088640 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 26
+ 10 loop(s)
+ kernel 26
+size 4
+performance: kernel 26, size 4^2, total 0.000000 sec, average 0.000000 sec, min 0.000000 sec, max 0.000000 sec, inf Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 27
+ 10 loop(s)
+ kernel 27
+size 4
+performance: kernel 27, size 4^2, total 0.000002 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 671.088640 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 28
+ 10 loop(s)
+ kernel 28
+size 4
+performance: kernel 28, size 4^2, total 0.000001 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 1073.741824 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 29
+ 10 loop(s)
+ kernel 29
+size 4
+performance: kernel 29, size 4^2, total 0.000000 sec, average 0.000000 sec, min 0.000000 sec, max 0.000000 sec, inf Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 30
+ 10 loop(s)
+ kernel 30
+size 4
+performance: kernel 30, size 4^2, total 0.000001 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 1073.741824 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 31
+ 10 loop(s)
+ kernel 31
+size 4
+performance: kernel 31, size 4^2, total 0.000003 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 412.977625 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 32
+ 10 loop(s)
+ kernel 32
+size 4
+performance: kernel 32, size 4^2, total 0.000003 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 412.977625 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 33
+ 10 loop(s)
+ kernel 33
+size 4
+performance: kernel 33, size 4^2, total 0.000002 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 671.088640 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 34
+ 10 loop(s)
+ kernel 34
+size 4
+performance: kernel 34, size 4^2, total 0.000002 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 596.523236 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 4 -kernel 35
+ 10 loop(s)
+ kernel 35
+size 4
+performance: kernel 35, size 4^2, total 0.000001 sec, average 0.000000 sec, min 0.000000 sec, max 0.000001 sec, 1073.741824 Mflops sum 25.960000
+random sampling: 3.12 5.28 3.72 1.44 4.00 0.32 3.48 2.44 2.72 3.72
+./mm_base -loops 10 -size 8 -kernel 0
+ 10 loop(s)
+ kernel 0
+size 8
+performance: kernel 0, size 8^2, total 0.000015 sec, average 0.000002 sec, min 0.000001 sec, max 0.000002 sec, 681.740841 Mflops sum 60.080000
+random sampling: 6.36 7.68 6.32 5.80 10.40 8.00 3.84 5.36 5.00 7.60
+./mm_base -loops 10 -size 8 -kernel 1
+ 10 loop(s)
+ kernel 1
+size 8
+performance: kernel 1, size 8^2, total 0.000014 sec, average 0.000001 sec, min 0.000001 sec, max 0.000002 sec, 727.960559 Mflops sum 60.080000
+random sampling: 6.36 7.68 6.32 5.80 10.40 8.00 3.84 5.36 5.00 7.60
+./mm_base -loops 10 -size 8 -kernel 2
+ 10 loop(s)
+ kernel 2
+size 8
+performance: kernel 2, size 8^2, total 0.000087 sec, average 0.000009 sec, min 0.000008 sec, max 0.000009 sec, 117.670337 Mflops sum 60.080043
+random sampling: 6.36 7.68 6.32 5.80 10.40 8.00 3.84 5.36 5.00 7.60
+./mm_base -loops 10 -size 8 -kernel 3
+ 10 loop(s)
+ kernel 3
+size 8
+performance: kernel 3, size 8^2, total 0.000092 sec, average 0.000009 sec, min 0.000009 sec, max 0.000010 sec, 111.268583 Mflops sum 60.080046
+random sampling: 6.36 7.68 6.32 5.80 10.40 8.00 3.84 5.36 5.00 7.60
+./mm_base -loops 10 -size 8 -kernel 4
+ 10 loop(s)
+ kernel 4
+size 8
+performance: kernel 4, size 8^2, total 0.000223 sec, average 0.000022 sec, min 0.000022 sec, max 0.000023 sec, 45.886403 Mflops sum 289.473004
+random sampling: 32.33 7.68 6.32 32.63 10.40 8.00 3.84 5.36 10.71 12.11
+./mm_base -loops 10 -size 8 -kernel 5
+ 10 loop(s)
+ kernel 5
+size 8
+performance: kernel 5, size 8^2, total 0.000011 sec, average 0.000001 sec, min 0.000001 sec, max 0.000002 sec, 954.437177 Mflops sum 60.080000
+random sampling: 6.36 7.68 6.32 5.80 10.40 8.00 3.84 5.36 5.00 7.60

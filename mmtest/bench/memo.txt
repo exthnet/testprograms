@@ -1,0 +1,13 @@
+host
+ulimit -s unlimited
+export KMP_AFFINITY=granularity=fine,compact,1,0
+export OMP_NUM_THREADS=8
+export OMP_NUM_THREADS=16
+
+mic
+ulimit -s unlimited
+export LD_LIBRARY_PATH=/home/ohshima/lib
+export KMP_AFFINITY=granularity=fine,balanced
+export KMP_AFFINITY=granularity=fine,compact,1,0
+export OMP_NUM_THREADS=171
+export OMP_NUM_THREADS=228

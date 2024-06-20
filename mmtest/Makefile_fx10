@@ -1,0 +1,17 @@
+# -*- makefile -*-
+REAL = -D_DOUBLE
+CC = fccpx
+CC_OPTS = -Kfast,openmp -SSL2BLAMP -SSL2 -D_FX10
+OUTDIR = ./out/
+
+mm: mm_fx10.c
+	${CC} ${CC_OPTS} ${REAL} mm_fx10.c -o ${OUTDIR}mm_fx10
+cbcg: mm_cbcg.c
+	${CC} ${CC_OPTS} ${REAL} mm_cbcg.c -o ${OUTDIR}mm_cbcg -D_NO_MKL 
+
+clean:
+	/bin/rm -f *~ *.o
+	/bin/rm -f mmf1 mmf1_omp mmf2 mmf2_omp
+	/bin/rm -f mmf1_omp_mic mmf2_omp_mic
+	/bin/rm -f mmf1_omp_ofl mmf2_omp_ofl
+	/bin/rm -f mmf1_omp_ofl_align mmf2_omp_ofl_align

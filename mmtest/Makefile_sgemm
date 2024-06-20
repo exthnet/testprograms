@@ -1,0 +1,2 @@
+all: sgemm.c
+	icc -O3 -mkl=parallel -o sgemm sgemm.c

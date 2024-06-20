@@ -1,0 +1,241 @@
+Thu Aug 24 15:20:53 JST 2017
+command: ../out/mm_cbcg -m 1000 -n 1000 -k 1000 -loop 10 -kernel 0
+checkArgs: [m 1000][n 1000][k 1000][kernel 0]
+size (m*n*k) = (1000,1000,1000)
+kernel 0, loops = 1
+performance: kernel 0, size 1000 1000 1000, total 0.560937 sec, average 0.560937 sec, min 0.560937 sec, max 0.560937 sec, 3565.462788 Mflops sum 1622433600.840001
+command: ../out/mm_cbcg -m 1000 -n 1000 -k 1000 -loop 10 -kernel 1
+checkArgs: [m 1000][n 1000][k 1000][kernel 1]
+size (m*n*k) = (1000,1000,1000)
+kernel 1, loops = 1
+performance: kernel 1, size 1000 1000 1000, total 0.495868 sec, average 0.495868 sec, min 0.495868 sec, max 0.495868 sec, 4033.331451 Mflops sum 1622433600.840001
+command: ../out/mm_cbcg -m 1000 -n 1000 -k 1000 -loop 10 -kernel 2
+checkArgs: [m 1000][n 1000][k 1000][kernel 2]
+size (m*n*k) = (1000,1000,1000)
+kernel 2, loops = 1
+performance: kernel 2, size 1000 1000 1000, total 1.080964 sec, average 1.080964 sec, min 1.080964 sec, max 1.080964 sec, 1850.200377 Mflops sum 1622433600.840001
+command: ../out/mm_cbcg -m 1000 -n 1000 -k 1000 -loop 10 -kernel 3
+checkArgs: [m 1000][n 1000][k 1000][kernel 3]
+size (m*n*k) = (1000,1000,1000)
+kernel 3, loops = 1
+command: ../out/mm_cbcg -m 1000 -n 1000 -k 1000 -loop 10 -kernel 55
+checkArgs: [m 1000][n 1000][k 1000][kernel 55]
+size (m*n*k) = (1000,1000,1000)
+kernel 55, loops = 1
+performance: kernel 55, size 1000 1000 1000, total 0.180243 sec, average 0.180243 sec, min 0.180243 sec, max 0.180243 sec, 11096.131334 Mflops sum 1622433600.840001
+command: ../out/mm_cbcg -m 1000000 -n 10 -k 10 -loop 10 -kernel 0
+checkArgs: [m 1000000][n 10][k 10][kernel 0]
+size (m*n*k) = (1000000,10,10)
+kernel 0, loops = 1
+performance: kernel 0, size 1000000 10 10, total 0.035891 sec, average 0.035891 sec, min 0.035891 sec, max 0.035891 sec, 5572.427628 Mflops sum 164935190.120000
+command: ../out/mm_cbcg -m 1000000 -n 10 -k 10 -loop 10 -kernel 1
+checkArgs: [m 1000000][n 10][k 10][kernel 1]
+size (m*n*k) = (1000000,10,10)
+kernel 1, loops = 1
+performance: kernel 1, size 1000000 10 10, total 0.088876 sec, average 0.088876 sec, min 0.088876 sec, max 0.088876 sec, 2250.326297 Mflops sum 164935190.120000
+command: ../out/mm_cbcg -m 1000000 -n 10 -k 10 -loop 10 -kernel 2
+checkArgs: [m 1000000][n 10][k 10][kernel 2]
+size (m*n*k) = (1000000,10,10)
+kernel 2, loops = 1
+performance: kernel 2, size 1000000 10 10, total 0.102509 sec, average 0.102509 sec, min 0.102509 sec, max 0.102509 sec, 1951.048201 Mflops sum 164935190.120000
+command: ../out/mm_cbcg -m 1000000 -n 10 -k 10 -loop 10 -kernel 3
+checkArgs: [m 1000000][n 10][k 10][kernel 3]
+size (m*n*k) = (1000000,10,10)
+kernel 3, loops = 1
+command: ../out/mm_cbcg -m 1000000 -n 10 -k 10 -loop 10 -kernel 55
+checkArgs: [m 1000000][n 10][k 10][kernel 55]
+size (m*n*k) = (1000000,10,10)
+kernel 55, loops = 1
+performance: kernel 55, size 1000000 10 10, total 0.155332 sec, average 0.155332 sec, min 0.155332 sec, max 0.155332 sec, 1287.564700 Mflops sum 164935190.120000
+command: ../out/mm_cbcg -m 10 -n 1000000 -k 10 -loop 10 -kernel 0
+checkArgs: [m 10][n 1000000][k 10][kernel 0]
+size (m*n*k) = (10,1000000,10)
+kernel 0, loops = 1
+performance: kernel 0, size 10 1000000 10, total 0.057351 sec, average 0.057351 sec, min 0.057351 sec, max 0.057351 sec, 3487.297519 Mflops sum 176093724.280000
+command: ../out/mm_cbcg -m 10 -n 1000000 -k 10 -loop 10 -kernel 1
+checkArgs: [m 10][n 1000000][k 10][kernel 1]
+size (m*n*k) = (10,1000000,10)
+kernel 1, loops = 1
+performance: kernel 1, size 10 1000000 10, total 0.039469 sec, average 0.039469 sec, min 0.039469 sec, max 0.039469 sec, 5067.267982 Mflops sum 176093724.280000
+command: ../out/mm_cbcg -m 10 -n 1000000 -k 10 -loop 10 -kernel 2
+checkArgs: [m 10][n 1000000][k 10][kernel 2]
+size (m*n*k) = (10,1000000,10)
+kernel 2, loops = 1
+performance: kernel 2, size 10 1000000 10, total 0.026985 sec, average 0.026985 sec, min 0.026985 sec, max 0.026985 sec, 7411.524921 Mflops sum 176093724.280000
+command: ../out/mm_cbcg -m 10 -n 1000000 -k 10 -loop 10 -kernel 3
+checkArgs: [m 10][n 1000000][k 10][kernel 3]
+size (m*n*k) = (10,1000000,10)
+kernel 3, loops = 1
+command: ../out/mm_cbcg -m 10 -n 1000000 -k 10 -loop 10 -kernel 55
+checkArgs: [m 10][n 1000000][k 10][kernel 55]
+size (m*n*k) = (10,1000000,10)
+kernel 55, loops = 1
+performance: kernel 55, size 10 1000000 10, total 0.069917 sec, average 0.069917 sec, min 0.069917 sec, max 0.069917 sec, 2860.534634 Mflops sum 176093724.280000
+command: ../out/mm_cbcg -m 10 -n 10 -k 1000000 -loop 10 -kernel 0
+checkArgs: [m 10][n 10][k 1000000][kernel 0]
+size (m*n*k) = (10,10,1000000)
+kernel 0, loops = 1
+performance: kernel 0, size 10 10 1000000, total 0.110069 sec, average 0.110069 sec, min 0.110069 sec, max 0.110069 sec, 1817.042037 Mflops sum 162045411.079748
+command: ../out/mm_cbcg -m 10 -n 10 -k 1000000 -loop 10 -kernel 1
+checkArgs: [m 10][n 10][k 1000000][kernel 1]
+size (m*n*k) = (10,10,1000000)
+kernel 1, loops = 1
+performance: kernel 1, size 10 10 1000000, total 0.325588 sec, average 0.325588 sec, min 0.325588 sec, max 0.325588 sec, 614.273253 Mflops sum 162045411.079748
+command: ../out/mm_cbcg -m 10 -n 10 -k 1000000 -loop 10 -kernel 2
+checkArgs: [m 10][n 10][k 1000000][kernel 2]
+size (m*n*k) = (10,10,1000000)
+kernel 2, loops = 1
+performance: kernel 2, size 10 10 1000000, total 1.577445 sec, average 1.577445 sec, min 1.577445 sec, max 1.577445 sec, 126.787305 Mflops sum 162045411.079748
+command: ../out/mm_cbcg -m 10 -n 10 -k 1000000 -loop 10 -kernel 3
+checkArgs: [m 10][n 10][k 1000000][kernel 3]
+size (m*n*k) = (10,10,1000000)
+kernel 3, loops = 1
+command: ../out/mm_cbcg -m 10 -n 10 -k 1000000 -loop 10 -kernel 55
+checkArgs: [m 10][n 10][k 1000000][kernel 55]
+size (m*n*k) = (10,10,1000000)
+kernel 55, loops = 1
+performance: kernel 55, size 10 10 1000000, total 0.186894 sec, average 0.186894 sec, min 0.186894 sec, max 0.186894 sec, 1070.125312 Mflops sum 162045411.079748
+command: ../out/mm_cbcg -m 1000000 -n 16 -k 16 -loop 10 -kernel 0
+checkArgs: [m 1000000][n 16][k 16][kernel 0]
+size (m*n*k) = (1000000,16,16)
+kernel 0, loops = 1
+performance: kernel 0, size 1000000 16 16, total 0.072416 sec, average 0.072416 sec, min 0.072416 sec, max 0.072416 sec, 7070.260716 Mflops sum 446483358.840000
+command: ../out/mm_cbcg -m 1000000 -n 16 -k 16 -loop 10 -kernel 1
+checkArgs: [m 1000000][n 16][k 16][kernel 1]
+size (m*n*k) = (1000000,16,16)
+kernel 1, loops = 1
+performance: kernel 1, size 1000000 16 16, total 0.073349 sec, average 0.073349 sec, min 0.073349 sec, max 0.073349 sec, 6980.326930 Mflops sum 446483358.840000
+command: ../out/mm_cbcg -m 1000000 -n 16 -k 16 -loop 10 -kernel 2
+checkArgs: [m 1000000][n 16][k 16][kernel 2]
+size (m*n*k) = (1000000,16,16)
+kernel 2, loops = 1
+performance: kernel 2, size 1000000 16 16, total 0.367985 sec, average 0.367985 sec, min 0.367985 sec, max 0.367985 sec, 1391.361061 Mflops sum 446483358.840000
+command: ../out/mm_cbcg -m 1000000 -n 16 -k 16 -loop 10 -kernel 3
+checkArgs: [m 1000000][n 16][k 16][kernel 3]
+size (m*n*k) = (1000000,16,16)
+kernel 3, loops = 1
+command: ../out/mm_cbcg -m 1000000 -n 16 -k 16 -loop 10 -kernel 55
+checkArgs: [m 1000000][n 16][k 16][kernel 55]
+size (m*n*k) = (1000000,16,16)
+kernel 55, loops = 1
+performance: kernel 55, size 1000000 16 16, total 0.111567 sec, average 0.111567 sec, min 0.111567 sec, max 0.111567 sec, 4589.170633 Mflops sum 446483358.840000
+command: ../out/mm_cbcg -m 16 -n 1000000 -k 16 -loop 10 -kernel 0
+checkArgs: [m 16][n 1000000][k 16][kernel 0]
+size (m*n*k) = (16,1000000,16)
+kernel 0, loops = 1
+performance: kernel 0, size 16 1000000 16, total 0.066979 sec, average 0.066979 sec, min 0.066979 sec, max 0.066979 sec, 7644.186984 Mflops sum 447934342.680000
+command: ../out/mm_cbcg -m 16 -n 1000000 -k 16 -loop 10 -kernel 1
+checkArgs: [m 16][n 1000000][k 16][kernel 1]
+size (m*n*k) = (16,1000000,16)
+kernel 1, loops = 1
+performance: kernel 1, size 16 1000000 16, total 0.071181 sec, average 0.071181 sec, min 0.071181 sec, max 0.071181 sec, 7192.930698 Mflops sum 447934342.680000
+command: ../out/mm_cbcg -m 16 -n 1000000 -k 16 -loop 10 -kernel 2
+checkArgs: [m 16][n 1000000][k 16][kernel 2]
+size (m*n*k) = (16,1000000,16)
+kernel 2, loops = 1
+performance: kernel 2, size 16 1000000 16, total 0.051912 sec, average 0.051912 sec, min 0.051912 sec, max 0.051912 sec, 9862.844814 Mflops sum 447934342.680000
+command: ../out/mm_cbcg -m 16 -n 1000000 -k 16 -loop 10 -kernel 3
+checkArgs: [m 16][n 1000000][k 16][kernel 3]
+size (m*n*k) = (16,1000000,16)
+kernel 3, loops = 1
+command: ../out/mm_cbcg -m 16 -n 1000000 -k 16 -loop 10 -kernel 55
+checkArgs: [m 16][n 1000000][k 16][kernel 55]
+size (m*n*k) = (16,1000000,16)
+kernel 55, loops = 1
+performance: kernel 55, size 16 1000000 16, total 0.113696 sec, average 0.113696 sec, min 0.113696 sec, max 0.113696 sec, 4503.236701 Mflops sum 447934342.680000
+command: ../out/mm_cbcg -m 16 -n 16 -k 1000000 -loop 10 -kernel 0
+checkArgs: [m 16][n 16][k 1000000][kernel 0]
+size (m*n*k) = (16,16,1000000)
+kernel 0, loops = 1
+performance: kernel 0, size 16 16 1000000, total 0.231472 sec, average 0.231472 sec, min 0.231472 sec, max 0.231472 sec, 2211.930601 Mflops sum 414796261.679353
+command: ../out/mm_cbcg -m 16 -n 16 -k 1000000 -loop 10 -kernel 1
+checkArgs: [m 16][n 16][k 1000000][kernel 1]
+size (m*n*k) = (16,16,1000000)
+kernel 1, loops = 1
+performance: kernel 1, size 16 16 1000000, total 0.914903 sec, average 0.914903 sec, min 0.914903 sec, max 0.914903 sec, 559.622168 Mflops sum 414796261.679353
+command: ../out/mm_cbcg -m 16 -n 16 -k 1000000 -loop 10 -kernel 2
+checkArgs: [m 16][n 16][k 1000000][kernel 2]
+size (m*n*k) = (16,16,1000000)
+kernel 2, loops = 1
+performance: kernel 2, size 16 16 1000000, total 4.057359 sec, average 4.057359 sec, min 4.057359 sec, max 4.057359 sec, 126.190460 Mflops sum 414796261.679353
+command: ../out/mm_cbcg -m 16 -n 16 -k 1000000 -loop 10 -kernel 3
+checkArgs: [m 16][n 16][k 1000000][kernel 3]
+size (m*n*k) = (16,16,1000000)
+kernel 3, loops = 1
+command: ../out/mm_cbcg -m 16 -n 16 -k 1000000 -loop 10 -kernel 55
+checkArgs: [m 16][n 16][k 1000000][kernel 55]
+size (m*n*k) = (16,16,1000000)
+kernel 55, loops = 1
+performance: kernel 55, size 16 16 1000000, total 0.096906 sec, average 0.096906 sec, min 0.096906 sec, max 0.096906 sec, 5283.470580 Mflops sum 414796261.679353
+command: ../out/mm_cbcg -m 1000000 -n 32 -k 32 -loop 10 -kernel 0
+checkArgs: [m 1000000][n 32][k 32][kernel 0]
+size (m*n*k) = (1000000,32,32)
+kernel 0, loops = 1
+performance: kernel 0, size 1000000 32 32, total 0.299825 sec, average 0.299825 sec, min 0.299825 sec, max 0.299825 sec, 6830.651213 Mflops sum 1665480426.480000
+command: ../out/mm_cbcg -m 1000000 -n 32 -k 32 -loop 10 -kernel 1
+checkArgs: [m 1000000][n 32][k 32][kernel 1]
+size (m*n*k) = (1000000,32,32)
+kernel 1, loops = 1
+performance: kernel 1, size 1000000 32 32, total 0.552555 sec, average 0.552555 sec, min 0.552555 sec, max 0.552555 sec, 3706.418366 Mflops sum 1665480426.480000
+command: ../out/mm_cbcg -m 1000000 -n 32 -k 32 -loop 10 -kernel 2
+checkArgs: [m 1000000][n 32][k 32][kernel 2]
+size (m*n*k) = (1000000,32,32)
+kernel 2, loops = 1
+performance: kernel 2, size 1000000 32 32, total 2.967850 sec, average 2.967850 sec, min 2.967850 sec, max 2.967850 sec, 690.061829 Mflops sum 1665480426.480000
+command: ../out/mm_cbcg -m 1000000 -n 32 -k 32 -loop 10 -kernel 3
+checkArgs: [m 1000000][n 32][k 32][kernel 3]
+size (m*n*k) = (1000000,32,32)
+kernel 3, loops = 1
+command: ../out/mm_cbcg -m 1000000 -n 32 -k 32 -loop 10 -kernel 55
+checkArgs: [m 1000000][n 32][k 32][kernel 55]
+size (m*n*k) = (1000000,32,32)
+kernel 55, loops = 1
+performance: kernel 55, size 1000000 32 32, total 0.359780 sec, average 0.359780 sec, min 0.359780 sec, max 0.359780 sec, 5692.367558 Mflops sum 1665480426.480000
+command: ../out/mm_cbcg -m 32 -n 1000000 -k 32 -loop 10 -kernel 0
+checkArgs: [m 32][n 1000000][k 32][kernel 0]
+size (m*n*k) = (32,1000000,32)
+kernel 0, loops = 1
+performance: kernel 0, size 32 1000000 32, total 0.327827 sec, average 0.327827 sec, min 0.327827 sec, max 0.327827 sec, 6247.197455 Mflops sum 1700422985.360001
+command: ../out/mm_cbcg -m 32 -n 1000000 -k 32 -loop 10 -kernel 1
+checkArgs: [m 32][n 1000000][k 32][kernel 1]
+size (m*n*k) = (32,1000000,32)
+kernel 1, loops = 1
+performance: kernel 1, size 32 1000000 32, total 0.329343 sec, average 0.329343 sec, min 0.329343 sec, max 0.329343 sec, 6218.440957 Mflops sum 1700422985.360001
+command: ../out/mm_cbcg -m 32 -n 1000000 -k 32 -loop 10 -kernel 2
+checkArgs: [m 32][n 1000000][k 32][kernel 2]
+size (m*n*k) = (32,1000000,32)
+kernel 2, loops = 1
+performance: kernel 2, size 32 1000000 32, total 0.285519 sec, average 0.285519 sec, min 0.285519 sec, max 0.285519 sec, 7172.902679 Mflops sum 1700422985.360001
+command: ../out/mm_cbcg -m 32 -n 1000000 -k 32 -loop 10 -kernel 3
+checkArgs: [m 32][n 1000000][k 32][kernel 3]
+size (m*n*k) = (32,1000000,32)
+kernel 3, loops = 1
+command: ../out/mm_cbcg -m 32 -n 1000000 -k 32 -loop 10 -kernel 55
+checkArgs: [m 32][n 1000000][k 32][kernel 55]
+size (m*n*k) = (32,1000000,32)
+kernel 55, loops = 1
+performance: kernel 55, size 32 1000000 32, total 0.304800 sec, average 0.304800 sec, min 0.304800 sec, max 0.304800 sec, 6719.160105 Mflops sum 1700422985.360001
+command: ../out/mm_cbcg -m 32 -n 32 -k 1000000 -loop 10 -kernel 0
+checkArgs: [m 32][n 32][k 1000000][kernel 0]
+size (m*n*k) = (32,32,1000000)
+kernel 0, loops = 1
+performance: kernel 0, size 32 32 1000000, total 1.323518 sec, average 1.323518 sec, min 1.323518 sec, max 1.323518 sec, 1547.391120 Mflops sum 1659174353.277421
+command: ../out/mm_cbcg -m 32 -n 32 -k 1000000 -loop 10 -kernel 1
+checkArgs: [m 32][n 32][k 1000000][kernel 1]
+size (m*n*k) = (32,32,1000000)
+kernel 1, loops = 1
+performance: kernel 1, size 32 32 1000000, total 2.831070 sec, average 2.831070 sec, min 2.831070 sec, max 2.831070 sec, 723.401399 Mflops sum 1659174353.277421
+command: ../out/mm_cbcg -m 32 -n 32 -k 1000000 -loop 10 -kernel 2
+checkArgs: [m 32][n 32][k 1000000][kernel 2]
+size (m*n*k) = (32,32,1000000)
+kernel 2, loops = 1
+performance: kernel 2, size 32 32 1000000, total 8.005143 sec, average 8.005143 sec, min 8.005143 sec, max 8.005143 sec, 255.835530 Mflops sum 1659174353.277421
+command: ../out/mm_cbcg -m 32 -n 32 -k 1000000 -loop 10 -kernel 3
+checkArgs: [m 32][n 32][k 1000000][kernel 3]
+size (m*n*k) = (32,32,1000000)
+kernel 3, loops = 1
+command: ../out/mm_cbcg -m 32 -n 32 -k 1000000 -loop 10 -kernel 55
+checkArgs: [m 32][n 32][k 1000000][kernel 55]
+size (m*n*k) = (32,32,1000000)
+kernel 55, loops = 1
+performance: kernel 55, size 32 32 1000000, total 0.277582 sec, average 0.277582 sec, min 0.277582 sec, max 0.277582 sec, 7378.000014 Mflops sum 1659174353.277421

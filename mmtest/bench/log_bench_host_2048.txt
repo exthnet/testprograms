@@ -1,0 +1,1110 @@
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 0
+checkArgs: [10 loop(s)][size 2048][kernel 0]
+size 2048
+performance: kernel 0, size 2048^2, total 513.989061 sec, average 51.398906 sec, min 51.054795 sec, max 51.492339 sec, 334.245814 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 1
+checkArgs: [10 loop(s)][size 2048][kernel 1]
+size 2048
+performance: kernel 1, size 2048^2, total 116.062179 sec, average 11.606218 sec, min 11.189293 sec, max 12.383049 sec, 1480.229764 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 2
+checkArgs: [10 loop(s)][size 2048][kernel 2]
+size 2048
+performance: kernel 2, size 2048^2, total 17.773537 sec, average 1.777354 sec, min 1.776100 sec, max 1.787552 sec, 9665.982176 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 3
+checkArgs: [10 loop(s)][size 2048][kernel 3]
+size 2048
+performance: kernel 3, size 2048^2, total 55.018502 sec, average 5.501850 sec, min 5.305763 sec, max 5.704558 sec, 3122.562149 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 4
+checkArgs: [10 loop(s)][size 2048][kernel 4]
+size 2048
+performance: kernel 4, size 2048^2, total 121.210926 sec, average 12.121093 sec, min 11.483966 sec, max 12.870438 sec, 1417.353183 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 5
+checkArgs: [10 loop(s)][size 2048][kernel 5]
+size 2048
+performance: kernel 5, size 2048^2, total 123.248545 sec, average 12.324855 sec, min 11.818853 sec, max 12.881237 sec, 1393.920649 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 6
+checkArgs: [10 loop(s)][size 2048][kernel 6]
+size 2048
+performance: kernel 6, size 2048^2, total 125.438096 sec, average 12.543810 sec, min 11.831947 sec, max 13.078306 sec, 1369.589441 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 7
+checkArgs: [10 loop(s)][size 2048][kernel 7]
+size 2048
+performance: kernel 7, size 2048^2, total 9.694938 sec, average 0.969494 sec, min 0.969413 sec, max 0.969576 sec, 17720.452863 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 8
+checkArgs: [10 loop(s)][size 2048][kernel 8]
+size 2048
+performance: kernel 8, size 2048^2, total 22.046687 sec, average 2.204669 sec, min 2.201195 sec, max 2.207498 sec, 7792.494711 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 9
+checkArgs: [10 loop(s)][size 2048][kernel 9]
+size 2048
+performance: kernel 9, size 2048^2, total 21.013448 sec, average 2.101345 sec, min 2.097673 sec, max 2.108133 sec, 8175.654554 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 10
+checkArgs: [10 loop(s)][size 2048][kernel 10]
+size 2048
+performance: kernel 10, size 2048^2, total 10.712202 sec, average 1.071220 sec, min 1.070616 sec, max 1.072065 sec, 16037.663577 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 11
+checkArgs: [10 loop(s)][size 2048][kernel 11]
+size 2048
+performance: kernel 11, size 2048^2, total 22.333368 sec, average 2.233337 sec, min 2.231342 sec, max 2.234740 sec, 7692.466799 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 12
+checkArgs: [10 loop(s)][size 2048][kernel 12]
+size 2048
+performance: kernel 12, size 2048^2, total 106.508833 sec, average 10.650883 sec, min 10.645398 sec, max 10.657493 sec, 1612.999476 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 13
+checkArgs: [10 loop(s)][size 2048][kernel 13]
+size 2048
+performance: kernel 13, size 2048^2, total 105.432554 sec, average 10.543255 sec, min 10.503384 sec, max 10.818371 sec, 1629.465334 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 14
+checkArgs: [10 loop(s)][size 2048][kernel 14]
+size 2048
+performance: kernel 14, size 2048^2, total 106.375167 sec, average 10.637517 sec, min 10.563562 sec, max 10.808003 sec, 1615.026295 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 15
+checkArgs: [10 loop(s)][size 2048][kernel 15]
+size 2048
+performance: kernel 15, size 2048^2, total 27.441272 sec, average 2.744127 sec, min 2.683219 sec, max 2.804712 sec, 6260.595057 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 16
+checkArgs: [10 loop(s)][size 2048][kernel 16]
+size 2048
+performance: kernel 16, size 2048^2, total 27.648541 sec, average 2.764854 sec, min 2.708907 sec, max 2.824208 sec, 6213.662118 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 17
+checkArgs: [10 loop(s)][size 2048][kernel 17]
+size 2048
+performance: kernel 17, size 2048^2, total 37.112304 sec, average 3.711230 sec, min 3.702817 sec, max 3.757166 sec, 4629.157269 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 18
+checkArgs: [10 loop(s)][size 2048][kernel 18]
+size 2048
+performance: kernel 18, size 2048^2, total 39.489617 sec, average 3.948962 sec, min 3.853444 sec, max 4.056543 sec, 4350.477540 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 19
+checkArgs: [10 loop(s)][size 2048][kernel 19]
+size 2048
+performance: kernel 19, size 2048^2, total 39.853837 sec, average 3.985384 sec, min 3.916920 sec, max 4.031440 sec, 4310.718986 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 20
+checkArgs: [10 loop(s)][size 2048][kernel 20]
+size 2048
+performance: kernel 20, size 2048^2, total 29.846452 sec, average 2.984645 sec, min 2.984115 sec, max 2.985107 sec, 5756.084235 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 21
+checkArgs: [10 loop(s)][size 2048][kernel 21]
+size 2048
+performance: kernel 21, size 2048^2, total 25.868111 sec, average 2.586811 sec, min 2.160697 sec, max 2.643788 sec, 6641.331168 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 22
+checkArgs: [10 loop(s)][size 2048][kernel 22]
+size 2048
+performance: kernel 22, size 2048^2, total 38.330469 sec, average 3.833047 sec, min 3.744427 sec, max 3.973194 sec, 4482.039910 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 23
+checkArgs: [10 loop(s)][size 2048][kernel 23]
+size 2048
+performance: kernel 23, size 2048^2, total 147.612885 sec, average 14.761289 sec, min 14.052173 sec, max 15.522886 sec, 1163.846177 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 24
+checkArgs: [10 loop(s)][size 2048][kernel 24]
+size 2048
+performance: kernel 24, size 2048^2, total 149.985469 sec, average 14.998547 sec, min 14.177130 sec, max 15.440751 sec, 1145.435574 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 25
+checkArgs: [10 loop(s)][size 2048][kernel 25]
+size 2048
+performance: kernel 25, size 2048^2, total 29.297494 sec, average 2.929749 sec, min 2.928347 sec, max 2.930300 sec, 5863.938118 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 26
+checkArgs: [10 loop(s)][size 2048][kernel 26]
+size 2048
+performance: kernel 26, size 2048^2, total 29.279288 sec, average 2.927929 sec, min 2.927738 sec, max 2.928255 sec, 5867.584343 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 27
+checkArgs: [10 loop(s)][size 2048][kernel 27]
+size 2048
+performance: kernel 27, size 2048^2, total 18.765689 sec, average 1.876569 sec, min 1.870312 sec, max 1.882231 sec, 9154.936536 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 28
+checkArgs: [10 loop(s)][size 2048][kernel 28]
+size 2048
+performance: kernel 28, size 2048^2, total 19.025026 sec, average 1.902503 sec, min 1.900625 sec, max 1.904016 sec, 9030.142289 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 29
+checkArgs: [10 loop(s)][size 2048][kernel 29]
+size 2048
+performance: kernel 29, size 2048^2, total 18.713662 sec, average 1.871366 sec, min 1.868206 sec, max 1.874076 sec, 9180.388736 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 30
+checkArgs: [10 loop(s)][size 2048][kernel 30]
+size 2048
+performance: kernel 30, size 2048^2, total 13.360080 sec, average 1.336008 sec, min 1.261714 sec, max 1.472908 sec, 12859.106520 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 31
+checkArgs: [10 loop(s)][size 2048][kernel 31]
+size 2048
+performance: kernel 31, size 2048^2, total 4.122378 sec, average 0.412238 sec, min 0.410993 sec, max 0.415137 sec, 41674.657647 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 32
+checkArgs: [10 loop(s)][size 2048][kernel 32]
+size 2048
+performance: kernel 32, size 2048^2, total 4.003450 sec, average 0.400345 sec, min 0.396843 sec, max 0.411444 sec, 42912.660790 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_avx_omp -loops 10 -size 2048 -kernel 40
+checkArgs: [10 loop(s)][size 2048][kernel 40]
+size 2048
+performance: kernel 40, size 2048^2, total 3.667711 sec, average 0.366771 sec, min 0.359587 sec, max 0.376467 sec, 46840.847559 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_avx_omp -loops 10 -size 2048 -kernel 42
+checkArgs: [10 loop(s)][size 2048][kernel 42]
+size 2048
+performance: kernel 42, size 2048^2, total 3.606752 sec, average 0.360675 sec, min 0.353726 sec, max 0.366522 sec, 47632.521404 Mflops sum 185306.600000
+random sampling: 18715.16 18298.88 19027.60 18883.64 17664.40 18694.64 17905.36 18448.56 18393.20 18485.12
+command: ../out/mm_base_icc_avx_omp -loops 10 -size 2048 -kernel 44
+checkArgs: [10 loop(s)][size 2048][kernel 44]
+size 2048
+performance: kernel 44, size 2048^2, total 3.589597 sec, average 0.358960 sec, min 0.354759 sec, max 0.366116 sec, 47860.161416 Mflops sum 185306.600000
+random sampling: 18715.16 18298.88 19027.60 18883.64 17664.40 18694.64 17905.36 18448.56 18393.20 18485.12
+command: ../out/mm_base_icc_avx_omp -loops 10 -size 2048 -kernel 50
+checkArgs: [10 loop(s)][size 2048][kernel 50]
+size 2048
+performance: kernel 50, size 2048^2, total 1.093296 sec, average 0.109330 sec, min 0.108988 sec, max 0.109991 sec, 157138.315552 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 0
+checkArgs: [10 loop(s)][size 2048][kernel 0]
+size 2048
+performance: kernel 0, size 2048^2, total 424.553076 sec, average 42.455308 sec, min 42.440259 sec, max 42.461344 sec, 404.657748 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 1
+checkArgs: [10 loop(s)][size 2048][kernel 1]
+size 2048
+performance: kernel 1, size 2048^2, total 115.547401 sec, average 11.554740 sec, min 10.969515 sec, max 11.980136 sec, 1486.824371 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 2
+checkArgs: [10 loop(s)][size 2048][kernel 2]
+size 2048
+performance: kernel 2, size 2048^2, total 17.701587 sec, average 1.770159 sec, min 1.769999 sec, max 1.770300 sec, 9705.270597 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 3
+checkArgs: [10 loop(s)][size 2048][kernel 3]
+size 2048
+performance: kernel 3, size 2048^2, total 54.161154 sec, average 5.416115 sec, min 5.326869 sec, max 5.541898 sec, 3171.990978 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 4
+checkArgs: [10 loop(s)][size 2048][kernel 4]
+size 2048
+performance: kernel 4, size 2048^2, total 113.379500 sec, average 11.337950 sec, min 10.720221 sec, max 11.806176 sec, 1515.253567 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 5
+checkArgs: [10 loop(s)][size 2048][kernel 5]
+size 2048
+performance: kernel 5, size 2048^2, total 111.278336 sec, average 11.127834 sec, min 10.564477 sec, max 11.637292 sec, 1543.864673 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 6
+checkArgs: [10 loop(s)][size 2048][kernel 6]
+size 2048
+performance: kernel 6, size 2048^2, total 113.586937 sec, average 11.358694 sec, min 10.497934 sec, max 11.963427 sec, 1512.486351 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 7
+checkArgs: [10 loop(s)][size 2048][kernel 7]
+size 2048
+performance: kernel 7, size 2048^2, total 10.283473 sec, average 1.028347 sec, min 1.028068 sec, max 1.028742 sec, 16706.290943 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 8
+checkArgs: [10 loop(s)][size 2048][kernel 8]
+size 2048
+performance: kernel 8, size 2048^2, total 36.228344 sec, average 3.622834 sec, min 3.596679 sec, max 3.666799 sec, 4742.107225 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 9
+checkArgs: [10 loop(s)][size 2048][kernel 9]
+size 2048
+performance: kernel 9, size 2048^2, total 37.602982 sec, average 3.760298 sec, min 3.731199 sec, max 3.801489 sec, 4568.751804 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 10
+checkArgs: [10 loop(s)][size 2048][kernel 10]
+size 2048
+performance: kernel 10, size 2048^2, total 9.784411 sec, average 0.978441 sec, min 0.978340 sec, max 0.978737 sec, 17558.409171 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 11
+checkArgs: [10 loop(s)][size 2048][kernel 11]
+size 2048
+performance: kernel 11, size 2048^2, total 38.206275 sec, average 3.820627 sec, min 3.806477 sec, max 3.867785 sec, 4496.609309 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 12
+checkArgs: [10 loop(s)][size 2048][kernel 12]
+size 2048
+performance: kernel 12, size 2048^2, total 173.838460 sec, average 17.383846 sec, min 17.377260 sec, max 17.388024 sec, 988.266301 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 13
+checkArgs: [10 loop(s)][size 2048][kernel 13]
+size 2048
+performance: kernel 13, size 2048^2, total 105.824206 sec, average 10.582421 sec, min 10.500429 sec, max 10.760134 sec, 1623.434735 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 14
+checkArgs: [10 loop(s)][size 2048][kernel 14]
+size 2048
+performance: kernel 14, size 2048^2, total 105.484034 sec, average 10.548403 sec, min 10.515968 sec, max 10.784287 sec, 1628.670097 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 15
+checkArgs: [10 loop(s)][size 2048][kernel 15]
+size 2048
+performance: kernel 15, size 2048^2, total 38.393631 sec, average 3.839363 sec, min 3.811457 sec, max 3.907154 sec, 4474.666432 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 16
+checkArgs: [10 loop(s)][size 2048][kernel 16]
+size 2048
+performance: kernel 16, size 2048^2, total 38.406144 sec, average 3.840614 sec, min 3.786748 sec, max 3.879791 sec, 4473.208553 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 17
+checkArgs: [10 loop(s)][size 2048][kernel 17]
+size 2048
+performance: kernel 17, size 2048^2, total 37.863552 sec, average 3.786355 sec, min 3.721960 sec, max 3.869027 sec, 4537.310494 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 18
+checkArgs: [10 loop(s)][size 2048][kernel 18]
+size 2048
+performance: kernel 18, size 2048^2, total 37.248469 sec, average 3.724847 sec, min 3.669702 sec, max 3.780330 sec, 4612.234984 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 19
+checkArgs: [10 loop(s)][size 2048][kernel 19]
+size 2048
+performance: kernel 19, size 2048^2, total 39.528899 sec, average 3.952890 sec, min 3.912586 sec, max 4.021969 sec, 4346.154236 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 20
+checkArgs: [10 loop(s)][size 2048][kernel 20]
+size 2048
+performance: kernel 20, size 2048^2, total 33.675505 sec, average 3.367551 sec, min 3.366822 sec, max 3.368055 sec, 5101.592147 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 21
+checkArgs: [10 loop(s)][size 2048][kernel 21]
+size 2048
+performance: kernel 21, size 2048^2, total 25.333823 sec, average 2.533382 sec, min 2.128694 sec, max 2.603157 sec, 6781.396232 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 22
+checkArgs: [10 loop(s)][size 2048][kernel 22]
+size 2048
+performance: kernel 22, size 2048^2, total 39.223681 sec, average 3.922368 sec, min 3.833442 sec, max 4.023872 sec, 4379.973716 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 23
+checkArgs: [10 loop(s)][size 2048][kernel 23]
+size 2048
+performance: kernel 23, size 2048^2, total 142.846398 sec, average 14.284640 sec, min 13.595740 sec, max 15.352268 sec, 1202.681301 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 24
+checkArgs: [10 loop(s)][size 2048][kernel 24]
+size 2048
+performance: kernel 24, size 2048^2, total 200.176965 sec, average 20.017696 sec, min 17.987981 sec, max 26.758023 sec, 858.234072 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 25
+checkArgs: [10 loop(s)][size 2048][kernel 25]
+size 2048
+performance: kernel 25, size 2048^2, total 36.433325 sec, average 3.643332 sec, min 3.622495 sec, max 3.651951 sec, 4715.427204 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 26
+checkArgs: [10 loop(s)][size 2048][kernel 26]
+size 2048
+performance: kernel 26, size 2048^2, total 35.405629 sec, average 3.540563 sec, min 3.531861 sec, max 3.547322 sec, 4852.298821 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 27
+checkArgs: [10 loop(s)][size 2048][kernel 27]
+size 2048
+performance: kernel 27, size 2048^2, total 18.983499 sec, average 1.898350 sec, min 1.897101 sec, max 1.899946 sec, 9049.896009 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 28
+checkArgs: [10 loop(s)][size 2048][kernel 28]
+size 2048
+performance: kernel 28, size 2048^2, total 18.898011 sec, average 1.889801 sec, min 1.888442 sec, max 1.890647 sec, 9090.834577 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 29
+checkArgs: [10 loop(s)][size 2048][kernel 29]
+size 2048
+performance: kernel 29, size 2048^2, total 18.857043 sec, average 1.885704 sec, min 1.880916 sec, max 1.888246 sec, 9110.584933 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 30
+checkArgs: [10 loop(s)][size 2048][kernel 30]
+size 2048
+performance: kernel 30, size 2048^2, total 13.238093 sec, average 1.323809 sec, min 1.266647 sec, max 1.399163 sec, 12977.601218 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 31
+checkArgs: [10 loop(s)][size 2048][kernel 31]
+size 2048
+performance: kernel 31, size 2048^2, total 4.135466 sec, average 0.413547 sec, min 0.412577 sec, max 0.415604 sec, 41542.764912 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 32
+checkArgs: [10 loop(s)][size 2048][kernel 32]
+size 2048
+performance: kernel 32, size 2048^2, total 3.928099 sec, average 0.392810 sec, min 0.390716 sec, max 0.395274 sec, 43735.835538 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_avx_novec_omp -loops 10 -size 2048 -kernel 40
+checkArgs: [10 loop(s)][size 2048][kernel 40]
+size 2048
+performance: kernel 40, size 2048^2, total 3.602686 sec, average 0.360269 sec, min 0.352330 sec, max 0.368401 sec, 47686.279581 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_avx_novec_omp -loops 10 -size 2048 -kernel 42
+checkArgs: [10 loop(s)][size 2048][kernel 42]
+size 2048
+performance: kernel 42, size 2048^2, total 3.620796 sec, average 0.362080 sec, min 0.355843 sec, max 0.371014 sec, 47447.768899 Mflops sum 185306.600000
+random sampling: 18715.16 18298.88 19027.60 18883.64 17664.40 18694.64 17905.36 18448.56 18393.20 18485.12
+command: ../out/mm_base_icc_avx_novec_omp -loops 10 -size 2048 -kernel 44
+checkArgs: [10 loop(s)][size 2048][kernel 44]
+size 2048
+performance: kernel 44, size 2048^2, total 3.625257 sec, average 0.362526 sec, min 0.356091 sec, max 0.375560 sec, 47389.382833 Mflops sum 185306.600000
+random sampling: 18715.16 18298.88 19027.60 18883.64 17664.40 18694.64 17905.36 18448.56 18393.20 18485.12
+command: ../out/mm_base_icc_avx_novec_omp -loops 10 -size 2048 -kernel 50
+checkArgs: [10 loop(s)][size 2048][kernel 50]
+size 2048
+performance: kernel 50, size 2048^2, total 1.095277 sec, average 0.109528 sec, min 0.109232 sec, max 0.110222 sec, 156854.103428 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 0
+checkArgs: [10 loop(s)][size 2048][kernel 0]
+size 2048
+performance: kernel 0, size 2048^2, total 252.743550 sec, average 25.274355 sec, min 25.196545 sec, max 25.420309 sec, 679.735217 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 1
+checkArgs: [10 loop(s)][size 2048][kernel 1]
+size 2048
+performance: kernel 1, size 2048^2, total 112.302196 sec, average 11.230220 sec, min 8.845966 sec, max 12.703779 sec, 1529.789247 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 2
+checkArgs: [10 loop(s)][size 2048][kernel 2]
+size 2048
+performance: kernel 2, size 2048^2, total 9.206258 sec, average 0.920626 sec, min 0.919502 sec, max 0.921714 sec, 18661.077263 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 3
+checkArgs: [10 loop(s)][size 2048][kernel 3]
+size 2048
+performance: kernel 3, size 2048^2, total 54.554939 sec, average 5.455494 sec, min 5.213571 sec, max 5.598882 sec, 3149.095114 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 4
+checkArgs: [10 loop(s)][size 2048][kernel 4]
+size 2048
+performance: kernel 4, size 2048^2, total 112.129553 sec, average 11.212955 sec, min 10.538039 sec, max 11.957701 sec, 1532.144624 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 5
+checkArgs: [10 loop(s)][size 2048][kernel 5]
+size 2048
+performance: kernel 5, size 2048^2, total 116.531939 sec, average 11.653194 sec, min 10.595249 sec, max 14.264084 sec, 1474.262707 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 6
+checkArgs: [10 loop(s)][size 2048][kernel 6]
+size 2048
+performance: kernel 6, size 2048^2, total 126.902696 sec, average 12.690270 sec, min 11.501171 sec, max 14.953581 sec, 1353.782837 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 7
+checkArgs: [10 loop(s)][size 2048][kernel 7]
+size 2048
+performance: kernel 7, size 2048^2, total 5.691265 sec, average 0.569126 sec, min 0.567576 sec, max 0.570263 sec, 30186.380680 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 8
+checkArgs: [10 loop(s)][size 2048][kernel 8]
+size 2048
+performance: kernel 8, size 2048^2, total 15.896686 sec, average 1.589669 sec, min 1.572622 sec, max 1.606720 sec, 10807.201692 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 9
+checkArgs: [10 loop(s)][size 2048][kernel 9]
+size 2048
+performance: kernel 9, size 2048^2, total 16.169259 sec, average 1.616926 sec, min 1.585365 sec, max 1.680997 sec, 10625.019479 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 10
+checkArgs: [10 loop(s)][size 2048][kernel 10]
+size 2048
+performance: kernel 10, size 2048^2, total 5.041004 sec, average 0.504100 sec, min 0.503557 sec, max 0.504894 sec, 34080.253029 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 11
+checkArgs: [10 loop(s)][size 2048][kernel 11]
+size 2048
+performance: kernel 11, size 2048^2, total 16.225217 sec, average 1.622522 sec, min 1.605633 sec, max 1.689837 sec, 10588.375603 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 12
+checkArgs: [10 loop(s)][size 2048][kernel 12]
+size 2048
+performance: kernel 12, size 2048^2, total 105.037228 sec, average 10.503723 sec, min 10.334908 sec, max 10.572996 sec, 1635.598112 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 13
+checkArgs: [10 loop(s)][size 2048][kernel 13]
+size 2048
+performance: kernel 13, size 2048^2, total 95.818598 sec, average 9.581860 sec, min 9.336875 sec, max 9.766794 sec, 1792.957687 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 14
+checkArgs: [10 loop(s)][size 2048][kernel 14]
+size 2048
+performance: kernel 14, size 2048^2, total 95.889355 sec, average 9.588935 sec, min 9.484924 sec, max 9.745933 sec, 1791.634659 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 15
+checkArgs: [10 loop(s)][size 2048][kernel 15]
+size 2048
+performance: kernel 15, size 2048^2, total 21.187430 sec, average 2.118743 sec, min 1.985477 sec, max 2.264423 sec, 8108.519619 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 16
+checkArgs: [10 loop(s)][size 2048][kernel 16]
+size 2048
+performance: kernel 16, size 2048^2, total 21.154143 sec, average 2.115414 sec, min 2.029758 sec, max 2.304868 sec, 8121.278741 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 17
+checkArgs: [10 loop(s)][size 2048][kernel 17]
+size 2048
+performance: kernel 17, size 2048^2, total 27.756668 sec, average 2.775667 sec, min 2.616255 sec, max 2.980454 sec, 6189.456596 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 18
+checkArgs: [10 loop(s)][size 2048][kernel 18]
+size 2048
+performance: kernel 18, size 2048^2, total 27.674228 sec, average 2.767423 sec, min 2.701053 sec, max 2.827005 sec, 6207.894646 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 19
+checkArgs: [10 loop(s)][size 2048][kernel 19]
+size 2048
+performance: kernel 19, size 2048^2, total 27.446975 sec, average 2.744698 sec, min 2.639453 sec, max 2.905209 sec, 6259.294215 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 20
+checkArgs: [10 loop(s)][size 2048][kernel 20]
+size 2048
+performance: kernel 20, size 2048^2, total 22.949351 sec, average 2.294935 sec, min 2.282171 sec, max 2.311293 sec, 7485.993475 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 21
+checkArgs: [10 loop(s)][size 2048][kernel 21]
+size 2048
+performance: kernel 21, size 2048^2, total 18.997878 sec, average 1.899788 sec, min 1.880968 sec, max 1.919539 sec, 9043.046378 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 22
+checkArgs: [10 loop(s)][size 2048][kernel 22]
+size 2048
+performance: kernel 22, size 2048^2, total 27.357880 sec, average 2.735788 sec, min 2.614660 sec, max 2.836230 sec, 6279.678536 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 23
+checkArgs: [10 loop(s)][size 2048][kernel 23]
+size 2048
+performance: kernel 23, size 2048^2, total 119.135905 sec, average 11.913591 sec, min 11.463386 sec, max 12.461076 sec, 1442.039592 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 24
+checkArgs: [10 loop(s)][size 2048][kernel 24]
+size 2048
+performance: kernel 24, size 2048^2, total 120.129001 sec, average 12.012900 sec, min 11.266140 sec, max 13.015918 sec, 1430.118376 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 25
+checkArgs: [10 loop(s)][size 2048][kernel 25]
+size 2048
+performance: kernel 25, size 2048^2, total 22.263282 sec, average 2.226328 sec, min 2.216984 sec, max 2.245094 sec, 7716.683095 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 26
+checkArgs: [10 loop(s)][size 2048][kernel 26]
+size 2048
+performance: kernel 26, size 2048^2, total 21.783235 sec, average 2.178324 sec, min 2.164235 sec, max 2.187633 sec, 7886.739129 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 27
+checkArgs: [10 loop(s)][size 2048][kernel 27]
+size 2048
+performance: kernel 27, size 2048^2, total 13.644706 sec, average 1.364471 sec, min 1.352786 sec, max 1.375506 sec, 12590.867978 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 28
+checkArgs: [10 loop(s)][size 2048][kernel 28]
+size 2048
+performance: kernel 28, size 2048^2, total 13.362086 sec, average 1.336209 sec, min 1.325706 sec, max 1.351758 sec, 12857.176031 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 29
+checkArgs: [10 loop(s)][size 2048][kernel 29]
+size 2048
+performance: kernel 29, size 2048^2, total 13.751496 sec, average 1.375150 sec, min 1.358457 sec, max 1.388931 sec, 12493.091067 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 30
+checkArgs: [10 loop(s)][size 2048][kernel 30]
+size 2048
+performance: kernel 30, size 2048^2, total 7.722179 sec, average 0.772218 sec, min 0.729211 sec, max 0.808888 sec, 22247.437134 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 31
+checkArgs: [10 loop(s)][size 2048][kernel 31]
+size 2048
+performance: kernel 31, size 2048^2, total 2.260162 sec, average 0.226016 sec, min 0.216897 sec, max 0.241029 sec, 76011.671659 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 32
+checkArgs: [10 loop(s)][size 2048][kernel 32]
+size 2048
+performance: kernel 32, size 2048^2, total 2.269334 sec, average 0.226933 sec, min 0.215243 sec, max 0.238057 sec, 75704.454188 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_avx_omp -loops 10 -size 2048 -kernel 40
+checkArgs: [10 loop(s)][size 2048][kernel 40]
+size 2048
+performance: kernel 40, size 2048^2, total 2.168053 sec, average 0.216805 sec, min 0.206424 sec, max 0.229461 sec, 79241.001876 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_avx_omp -loops 10 -size 2048 -kernel 42
+checkArgs: [10 loop(s)][size 2048][kernel 42]
+size 2048
+performance: kernel 42, size 2048^2, total 2.159785 sec, average 0.215978 sec, min 0.206352 sec, max 0.230365 sec, 79544.349016 Mflops sum 185306.600000
+random sampling: 18715.16 18298.88 19027.60 18883.64 17664.40 18694.64 17905.36 18448.56 18393.20 18485.12
+command: ../out/mm_base_icc_avx_omp -loops 10 -size 2048 -kernel 44
+checkArgs: [10 loop(s)][size 2048][kernel 44]
+size 2048
+performance: kernel 44, size 2048^2, total 2.078077 sec, average 0.207808 sec, min 0.198579 sec, max 0.215067 sec, 82671.956737 Mflops sum 185306.600000
+random sampling: 18715.16 18298.88 19027.60 18883.64 17664.40 18694.64 17905.36 18448.56 18393.20 18485.12
+command: ../out/mm_base_icc_avx_omp -loops 10 -size 2048 -kernel 50
+checkArgs: [10 loop(s)][size 2048][kernel 50]
+size 2048
+performance: kernel 50, size 2048^2, total 0.580573 sec, average 0.058057 sec, min 0.057442 sec, max 0.058604 sec, 295912.300159 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 0
+checkArgs: [10 loop(s)][size 2048][kernel 0]
+size 2048
+performance: kernel 0, size 2048^2, total 248.455804 sec, average 24.845580 sec, min 24.673111 sec, max 24.957105 sec, 691.465802 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 1
+checkArgs: [10 loop(s)][size 2048][kernel 1]
+size 2048
+performance: kernel 1, size 2048^2, total 111.206293 sec, average 11.120629 sec, min 9.502943 sec, max 13.344200 sec, 1544.864838 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 2
+checkArgs: [10 loop(s)][size 2048][kernel 2]
+size 2048
+performance: kernel 2, size 2048^2, total 9.247254 sec, average 0.924725 sec, min 0.922394 sec, max 0.936168 sec, 18578.346809 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 3
+checkArgs: [10 loop(s)][size 2048][kernel 3]
+size 2048
+performance: kernel 3, size 2048^2, total 59.811362 sec, average 5.981136 sec, min 5.443234 sec, max 6.510981 sec, 2872.342078 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 4
+checkArgs: [10 loop(s)][size 2048][kernel 4]
+size 2048
+performance: kernel 4, size 2048^2, total 131.933181 sec, average 13.193318 sec, min 12.007049 sec, max 15.310469 sec, 1302.164403 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 5
+checkArgs: [10 loop(s)][size 2048][kernel 5]
+size 2048
+performance: kernel 5, size 2048^2, total 113.204701 sec, average 11.320470 sec, min 10.460241 sec, max 13.471895 sec, 1517.593265 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 6
+checkArgs: [10 loop(s)][size 2048][kernel 6]
+size 2048
+performance: kernel 6, size 2048^2, total 134.692181 sec, average 13.469218 sec, min 11.017382 sec, max 16.145087 sec, 1275.491202 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 7
+checkArgs: [10 loop(s)][size 2048][kernel 7]
+size 2048
+performance: kernel 7, size 2048^2, total 6.499754 sec, average 0.649975 sec, min 0.649250 sec, max 0.650303 sec, 26431.568309 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 8
+checkArgs: [10 loop(s)][size 2048][kernel 8]
+size 2048
+performance: kernel 8, size 2048^2, total 26.813516 sec, average 2.681352 sec, min 2.667124 sec, max 2.693363 sec, 6407.167633 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 9
+checkArgs: [10 loop(s)][size 2048][kernel 9]
+size 2048
+performance: kernel 9, size 2048^2, total 26.806237 sec, average 2.680624 sec, min 2.667094 sec, max 2.691729 sec, 6408.907443 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 10
+checkArgs: [10 loop(s)][size 2048][kernel 10]
+size 2048
+performance: kernel 10, size 2048^2, total 5.937060 sec, average 0.593706 sec, min 0.593538 sec, max 0.593910 sec, 28936.660879 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 11
+checkArgs: [10 loop(s)][size 2048][kernel 11]
+size 2048
+performance: kernel 11, size 2048^2, total 26.984729 sec, average 2.698473 sec, min 2.683881 sec, max 2.710700 sec, 6366.515367 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 12
+checkArgs: [10 loop(s)][size 2048][kernel 12]
+size 2048
+performance: kernel 12, size 2048^2, total 104.719389 sec, average 10.471939 sec, min 10.406797 sec, max 10.632535 sec, 1640.562397 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 13
+checkArgs: [10 loop(s)][size 2048][kernel 13]
+size 2048
+performance: kernel 13, size 2048^2, total 98.672852 sec, average 9.867285 sec, min 9.774532 sec, max 10.052912 sec, 1741.093810 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 14
+checkArgs: [10 loop(s)][size 2048][kernel 14]
+size 2048
+performance: kernel 14, size 2048^2, total 98.233957 sec, average 9.823396 sec, min 9.666036 sec, max 9.950158 sec, 1748.872763 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 15
+checkArgs: [10 loop(s)][size 2048][kernel 15]
+size 2048
+performance: kernel 15, size 2048^2, total 28.238146 sec, average 2.823815 sec, min 2.790642 sec, max 2.884861 sec, 6083.922501 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 16
+checkArgs: [10 loop(s)][size 2048][kernel 16]
+size 2048
+performance: kernel 16, size 2048^2, total 28.331608 sec, average 2.833161 sec, min 2.807533 sec, max 2.951741 sec, 6063.852494 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 17
+checkArgs: [10 loop(s)][size 2048][kernel 17]
+size 2048
+performance: kernel 17, size 2048^2, total 28.265199 sec, average 2.826520 sec, min 2.715906 sec, max 2.986094 sec, 6078.099498 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 18
+checkArgs: [10 loop(s)][size 2048][kernel 18]
+size 2048
+performance: kernel 18, size 2048^2, total 27.737138 sec, average 2.773714 sec, min 2.680106 sec, max 2.842637 sec, 6193.814655 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 19
+checkArgs: [10 loop(s)][size 2048][kernel 19]
+size 2048
+performance: kernel 19, size 2048^2, total 26.540246 sec, average 2.654025 sec, min 2.607613 sec, max 2.731129 sec, 6473.138638 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 20
+checkArgs: [10 loop(s)][size 2048][kernel 20]
+size 2048
+performance: kernel 20, size 2048^2, total 24.655053 sec, average 2.465505 sec, min 2.453369 sec, max 2.478290 sec, 6968.092579 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 21
+checkArgs: [10 loop(s)][size 2048][kernel 21]
+size 2048
+performance: kernel 21, size 2048^2, total 18.322188 sec, average 1.832219 sec, min 1.816640 sec, max 1.855847 sec, 9376.537990 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 22
+checkArgs: [10 loop(s)][size 2048][kernel 22]
+size 2048
+performance: kernel 22, size 2048^2, total 28.481320 sec, average 2.848132 sec, min 2.775802 sec, max 2.943719 sec, 6031.977866 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 23
+checkArgs: [10 loop(s)][size 2048][kernel 23]
+size 2048
+performance: kernel 23, size 2048^2, total 113.512148 sec, average 11.351215 sec, min 10.916179 sec, max 12.285289 sec, 1513.482873 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 24
+checkArgs: [10 loop(s)][size 2048][kernel 24]
+size 2048
+performance: kernel 24, size 2048^2, total 117.827719 sec, average 11.782772 sec, min 10.965841 sec, max 12.275233 sec, 1458.049882 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 25
+checkArgs: [10 loop(s)][size 2048][kernel 25]
+size 2048
+performance: kernel 25, size 2048^2, total 24.863723 sec, average 2.486372 sec, min 2.473771 sec, max 2.495262 sec, 6909.612524 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 26
+checkArgs: [10 loop(s)][size 2048][kernel 26]
+size 2048
+performance: kernel 26, size 2048^2, total 25.826975 sec, average 2.582698 sec, min 2.569479 sec, max 2.592106 sec, 6651.909170 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 27
+checkArgs: [10 loop(s)][size 2048][kernel 27]
+size 2048
+performance: kernel 27, size 2048^2, total 13.555307 sec, average 1.355531 sec, min 1.341675 sec, max 1.367320 sec, 12673.906378 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 28
+checkArgs: [10 loop(s)][size 2048][kernel 28]
+size 2048
+performance: kernel 28, size 2048^2, total 13.617551 sec, average 1.361755 sec, min 1.349272 sec, max 1.371808 sec, 12615.975651 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 29
+checkArgs: [10 loop(s)][size 2048][kernel 29]
+size 2048
+performance: kernel 29, size 2048^2, total 13.955513 sec, average 1.395551 sec, min 1.385837 sec, max 1.412513 sec, 12310.453356 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 30
+checkArgs: [10 loop(s)][size 2048][kernel 30]
+size 2048
+performance: kernel 30, size 2048^2, total 8.276744 sec, average 0.827674 sec, min 0.773040 sec, max 0.940664 sec, 20756.796615 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 31
+checkArgs: [10 loop(s)][size 2048][kernel 31]
+size 2048
+performance: kernel 31, size 2048^2, total 2.303402 sec, average 0.230340 sec, min 0.221198 sec, max 0.240480 sec, 74584.762816 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 32
+checkArgs: [10 loop(s)][size 2048][kernel 32]
+size 2048
+performance: kernel 32, size 2048^2, total 2.189913 sec, average 0.218991 sec, min 0.205910 sec, max 0.235964 sec, 78450.007758 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_avx_novec_omp -loops 10 -size 2048 -kernel 40
+checkArgs: [10 loop(s)][size 2048][kernel 40]
+size 2048
+performance: kernel 40, size 2048^2, total 2.022392 sec, average 0.202239 sec, min 0.196467 sec, max 0.209024 sec, 84948.265143 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_avx_novec_omp -loops 10 -size 2048 -kernel 42
+checkArgs: [10 loop(s)][size 2048][kernel 42]
+size 2048
+performance: kernel 42, size 2048^2, total 2.204149 sec, average 0.220415 sec, min 0.203045 sec, max 0.239188 sec, 77943.320456 Mflops sum 185306.600000
+random sampling: 18715.16 18298.88 19027.60 18883.64 17664.40 18694.64 17905.36 18448.56 18393.20 18485.12
+command: ../out/mm_base_icc_avx_novec_omp -loops 10 -size 2048 -kernel 44
+checkArgs: [10 loop(s)][size 2048][kernel 44]
+size 2048
+performance: kernel 44, size 2048^2, total 2.067521 sec, average 0.206752 sec, min 0.188729 sec, max 0.225310 sec, 83094.049270 Mflops sum 185306.600000
+random sampling: 18715.16 18298.88 19027.60 18883.64 17664.40 18694.64 17905.36 18448.56 18393.20 18485.12
+command: ../out/mm_base_icc_avx_novec_omp -loops 10 -size 2048 -kernel 50
+checkArgs: [10 loop(s)][size 2048][kernel 50]
+size 2048
+performance: kernel 50, size 2048^2, total 0.580621 sec, average 0.058062 sec, min 0.057355 sec, max 0.058629 sec, 295887.837057 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 0
+checkArgs: [10 loop(s)][size 2048][kernel 0]
+size 2048
+performance: kernel 0, size 2048^2, total 280.016523 sec, average 28.001652 sec, min 27.965066 sec, max 28.063979 sec, 613.530552 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 1
+checkArgs: [10 loop(s)][size 2048][kernel 1]
+size 2048
+performance: kernel 1, size 2048^2, total 81.817425 sec, average 8.181743 sec, min 7.667261 sec, max 8.521820 sec, 2099.781212 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 2
+checkArgs: [10 loop(s)][size 2048][kernel 2]
+size 2048
+performance: kernel 2, size 2048^2, total 8.762671 sec, average 0.876267 sec, min 0.872576 sec, max 0.880980 sec, 19605.744851 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 3
+checkArgs: [10 loop(s)][size 2048][kernel 3]
+size 2048
+performance: kernel 3, size 2048^2, total 43.591977 sec, average 4.359198 sec, min 4.227647 sec, max 4.551897 sec, 3941.062178 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 4
+checkArgs: [10 loop(s)][size 2048][kernel 4]
+size 2048
+performance: kernel 4, size 2048^2, total 90.610632 sec, average 9.061063 sec, min 8.777612 sec, max 9.429026 sec, 1896.010303 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 5
+checkArgs: [10 loop(s)][size 2048][kernel 5]
+size 2048
+performance: kernel 5, size 2048^2, total 87.615325 sec, average 8.761532 sec, min 8.519645 sec, max 9.060733 sec, 1960.829248 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 6
+checkArgs: [10 loop(s)][size 2048][kernel 6]
+size 2048
+performance: kernel 6, size 2048^2, total 91.633657 sec, average 9.163366 sec, min 8.964524 sec, max 9.436465 sec, 1874.842688 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 7
+checkArgs: [10 loop(s)][size 2048][kernel 7]
+size 2048
+performance: kernel 7, size 2048^2, total 5.194069 sec, average 0.519407 sec, min 0.517097 sec, max 0.520427 sec, 33075.935618 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 8
+checkArgs: [10 loop(s)][size 2048][kernel 8]
+size 2048
+performance: kernel 8, size 2048^2, total 12.857654 sec, average 1.285765 sec, min 1.249588 sec, max 1.358436 sec, 13361.589279 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 9
+checkArgs: [10 loop(s)][size 2048][kernel 9]
+size 2048
+performance: kernel 9, size 2048^2, total 13.020694 sec, average 1.302069 sec, min 1.247716 sec, max 1.369655 sec, 13194.280723 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 10
+checkArgs: [10 loop(s)][size 2048][kernel 10]
+size 2048
+performance: kernel 10, size 2048^2, total 4.914702 sec, average 0.491470 sec, min 0.484214 sec, max 0.492359 sec, 34956.075026 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 11
+checkArgs: [10 loop(s)][size 2048][kernel 11]
+size 2048
+performance: kernel 11, size 2048^2, total 13.223330 sec, average 1.322333 sec, min 1.280272 sec, max 1.369378 sec, 12992.089878 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 12
+checkArgs: [10 loop(s)][size 2048][kernel 12]
+size 2048
+performance: kernel 12, size 2048^2, total 96.003520 sec, average 9.600352 sec, min 9.585605 sec, max 9.627384 sec, 1789.504092 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 13
+checkArgs: [10 loop(s)][size 2048][kernel 13]
+size 2048
+performance: kernel 13, size 2048^2, total 92.030301 sec, average 9.203030 sec, min 9.197374 sec, max 9.228281 sec, 1866.762251 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 14
+checkArgs: [10 loop(s)][size 2048][kernel 14]
+size 2048
+performance: kernel 14, size 2048^2, total 89.273281 sec, average 8.927328 sec, min 8.912813 sec, max 8.945962 sec, 1924.413329 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 15
+checkArgs: [10 loop(s)][size 2048][kernel 15]
+size 2048
+performance: kernel 15, size 2048^2, total 17.975746 sec, average 1.797575 sec, min 1.741645 sec, max 1.857146 sec, 9557.249632 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 16
+checkArgs: [10 loop(s)][size 2048][kernel 16]
+size 2048
+performance: kernel 16, size 2048^2, total 18.278150 sec, average 1.827815 sec, min 1.725516 sec, max 1.907534 sec, 9399.129115 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 17
+checkArgs: [10 loop(s)][size 2048][kernel 17]
+size 2048
+performance: kernel 17, size 2048^2, total 23.975848 sec, average 2.397585 sec, min 2.323932 sec, max 2.501524 sec, 7165.489698 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 18
+checkArgs: [10 loop(s)][size 2048][kernel 18]
+size 2048
+performance: kernel 18, size 2048^2, total 24.475018 sec, average 2.447502 sec, min 2.337091 sec, max 2.560779 sec, 7019.348948 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 19
+checkArgs: [10 loop(s)][size 2048][kernel 19]
+size 2048
+performance: kernel 19, size 2048^2, total 23.480979 sec, average 2.348098 sec, min 2.269891 sec, max 2.405630 sec, 7316.504641 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 20
+checkArgs: [10 loop(s)][size 2048][kernel 20]
+size 2048
+performance: kernel 20, size 2048^2, total 12.065802 sec, average 1.206580 sec, min 1.158439 sec, max 1.272791 sec, 14238.480943 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 21
+checkArgs: [10 loop(s)][size 2048][kernel 21]
+size 2048
+performance: kernel 21, size 2048^2, total 9.869747 sec, average 0.986975 sec, min 0.939671 sec, max 1.051296 sec, 17406.595310 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 22
+checkArgs: [10 loop(s)][size 2048][kernel 22]
+size 2048
+performance: kernel 22, size 2048^2, total 23.642736 sec, average 2.364274 sec, min 2.282672 sec, max 2.427332 sec, 7266.447159 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 23
+checkArgs: [10 loop(s)][size 2048][kernel 23]
+size 2048
+performance: kernel 23, size 2048^2, total 108.412667 sec, average 10.841267 sec, min 10.299584 sec, max 11.359515 sec, 1584.673605 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 24
+checkArgs: [10 loop(s)][size 2048][kernel 24]
+size 2048
+performance: kernel 24, size 2048^2, total 102.862318 sec, average 10.286232 sec, min 9.873216 sec, max 11.079949 sec, 1670.181026 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 25
+checkArgs: [10 loop(s)][size 2048][kernel 25]
+size 2048
+performance: kernel 25, size 2048^2, total 12.416916 sec, average 1.241692 sec, min 1.219633 sec, max 1.304611 sec, 13835.858424 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 26
+checkArgs: [10 loop(s)][size 2048][kernel 26]
+size 2048
+performance: kernel 26, size 2048^2, total 12.290753 sec, average 1.229075 sec, min 1.192317 sec, max 1.277820 sec, 13977.881733 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 27
+checkArgs: [10 loop(s)][size 2048][kernel 27]
+size 2048
+performance: kernel 27, size 2048^2, total 11.064872 sec, average 1.106487 sec, min 1.086753 sec, max 1.151591 sec, 15526.496090 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 28
+checkArgs: [10 loop(s)][size 2048][kernel 28]
+size 2048
+performance: kernel 28, size 2048^2, total 11.540993 sec, average 1.154099 sec, min 1.129038 sec, max 1.187010 sec, 14885.954080 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 29
+checkArgs: [10 loop(s)][size 2048][kernel 29]
+size 2048
+performance: kernel 29, size 2048^2, total 10.880927 sec, average 1.088093 sec, min 1.061600 sec, max 1.102674 sec, 15788.975686 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 30
+checkArgs: [10 loop(s)][size 2048][kernel 30]
+size 2048
+performance: kernel 30, size 2048^2, total 7.218433 sec, average 0.721843 sec, min 0.654090 sec, max 0.821833 sec, 23799.998121 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 31
+checkArgs: [10 loop(s)][size 2048][kernel 31]
+size 2048
+performance: kernel 31, size 2048^2, total 1.962695 sec, average 0.196270 sec, min 0.190525 sec, max 0.215724 sec, 87532.037245 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_omp -loops 10 -size 2048 -kernel 32
+checkArgs: [10 loop(s)][size 2048][kernel 32]
+size 2048
+performance: kernel 32, size 2048^2, total 2.206428 sec, average 0.220643 sec, min 0.209274 sec, max 0.229912 sec, 77862.813489 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_avx_omp -loops 10 -size 2048 -kernel 40
+checkArgs: [10 loop(s)][size 2048][kernel 40]
+size 2048
+performance: kernel 40, size 2048^2, total 2.069130 sec, average 0.206913 sec, min 0.195181 sec, max 0.213300 sec, 83029.433549 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_avx_omp -loops 10 -size 2048 -kernel 42
+checkArgs: [10 loop(s)][size 2048][kernel 42]
+size 2048
+performance: kernel 42, size 2048^2, total 1.997850 sec, average 0.199785 sec, min 0.184186 sec, max 0.215953 sec, 85991.787091 Mflops sum 185306.600000
+random sampling: 18715.16 18298.88 19027.60 18883.64 17664.40 18694.64 17905.36 18448.56 18393.20 18485.12
+command: ../out/mm_base_icc_avx_omp -loops 10 -size 2048 -kernel 44
+checkArgs: [10 loop(s)][size 2048][kernel 44]
+size 2048
+performance: kernel 44, size 2048^2, total 2.197920 sec, average 0.219792 sec, min 0.199525 sec, max 0.240666 sec, 78164.215185 Mflops sum 185306.600000
+random sampling: 18715.16 18298.88 19027.60 18883.64 17664.40 18694.64 17905.36 18448.56 18393.20 18485.12
+command: ../out/mm_base_icc_avx_omp -loops 10 -size 2048 -kernel 50
+checkArgs: [10 loop(s)][size 2048][kernel 50]
+size 2048
+performance: kernel 50, size 2048^2, total 1.299661 sec, average 0.129966 sec, min 0.128684 sec, max 0.131130 sec, 132187.310260 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 0
+checkArgs: [10 loop(s)][size 2048][kernel 0]
+size 2048
+performance: kernel 0, size 2048^2, total 279.126376 sec, average 27.912638 sec, min 27.892071 sec, max 27.935255 sec, 615.487129 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 1
+checkArgs: [10 loop(s)][size 2048][kernel 1]
+size 2048
+performance: kernel 1, size 2048^2, total 82.759284 sec, average 8.275928 sec, min 7.872094 sec, max 8.543677 sec, 2075.884222 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 2
+checkArgs: [10 loop(s)][size 2048][kernel 2]
+size 2048
+performance: kernel 2, size 2048^2, total 8.790688 sec, average 0.879069 sec, min 0.876012 sec, max 0.893525 sec, 19543.258939 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 3
+checkArgs: [10 loop(s)][size 2048][kernel 3]
+size 2048
+performance: kernel 3, size 2048^2, total 37.300734 sec, average 3.730073 sec, min 3.571956 sec, max 3.891063 sec, 4605.772418 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 4
+checkArgs: [10 loop(s)][size 2048][kernel 4]
+size 2048
+performance: kernel 4, size 2048^2, total 83.820245 sec, average 8.382024 sec, min 8.172766 sec, max 8.572157 sec, 2049.608562 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 5
+checkArgs: [10 loop(s)][size 2048][kernel 5]
+size 2048
+performance: kernel 5, size 2048^2, total 82.471641 sec, average 8.247164 sec, min 8.035893 sec, max 8.462421 sec, 2083.124451 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 6
+checkArgs: [10 loop(s)][size 2048][kernel 6]
+size 2048
+performance: kernel 6, size 2048^2, total 79.979035 sec, average 7.997903 sec, min 7.842814 sec, max 8.231135 sec, 2148.046570 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 7
+checkArgs: [10 loop(s)][size 2048][kernel 7]
+size 2048
+performance: kernel 7, size 2048^2, total 5.128221 sec, average 0.512822 sec, min 0.494940 sec, max 0.517926 sec, 33500.641224 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 8
+checkArgs: [10 loop(s)][size 2048][kernel 8]
+size 2048
+performance: kernel 8, size 2048^2, total 22.666290 sec, average 2.266629 sec, min 2.238365 sec, max 2.301604 sec, 7579.480005 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 9
+checkArgs: [10 loop(s)][size 2048][kernel 9]
+size 2048
+performance: kernel 9, size 2048^2, total 22.746637 sec, average 2.274664 sec, min 2.250250 sec, max 2.343879 sec, 7552.707323 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 10
+checkArgs: [10 loop(s)][size 2048][kernel 10]
+size 2048
+performance: kernel 10, size 2048^2, total 4.655213 sec, average 0.465521 sec, min 0.464996 sec, max 0.467574 sec, 36904.582420 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 11
+checkArgs: [10 loop(s)][size 2048][kernel 11]
+size 2048
+performance: kernel 11, size 2048^2, total 22.101765 sec, average 2.210177 sec, min 2.187580 sec, max 2.227998 sec, 7773.075672 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 12
+checkArgs: [10 loop(s)][size 2048][kernel 12]
+size 2048
+performance: kernel 12, size 2048^2, total 96.142934 sec, average 9.614293 sec, min 9.598468 sec, max 9.632960 sec, 1786.909185 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 13
+checkArgs: [10 loop(s)][size 2048][kernel 13]
+size 2048
+performance: kernel 13, size 2048^2, total 91.987855 sec, average 9.198785 sec, min 9.190607 sec, max 9.222203 sec, 1867.623632 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 14
+checkArgs: [10 loop(s)][size 2048][kernel 14]
+size 2048
+performance: kernel 14, size 2048^2, total 92.752391 sec, average 9.275239 sec, min 9.262513 sec, max 9.290497 sec, 1852.229252 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 15
+checkArgs: [10 loop(s)][size 2048][kernel 15]
+size 2048
+performance: kernel 15, size 2048^2, total 26.630540 sec, average 2.663054 sec, min 2.607262 sec, max 2.805510 sec, 6451.190695 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 16
+checkArgs: [10 loop(s)][size 2048][kernel 16]
+size 2048
+performance: kernel 16, size 2048^2, total 27.735934 sec, average 2.773593 sec, min 2.641725 sec, max 2.848065 sec, 6194.083525 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 17
+checkArgs: [10 loop(s)][size 2048][kernel 17]
+size 2048
+performance: kernel 17, size 2048^2, total 22.963731 sec, average 2.296373 sec, min 2.226262 sec, max 2.359703 sec, 7481.305709 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 18
+checkArgs: [10 loop(s)][size 2048][kernel 18]
+size 2048
+performance: kernel 18, size 2048^2, total 23.021085 sec, average 2.302109 sec, min 2.255398 sec, max 2.372074 sec, 7462.667022 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 19
+checkArgs: [10 loop(s)][size 2048][kernel 19]
+size 2048
+performance: kernel 19, size 2048^2, total 23.250762 sec, average 2.325076 sec, min 2.299677 sec, max 2.367241 sec, 7388.948880 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 20
+checkArgs: [10 loop(s)][size 2048][kernel 20]
+size 2048
+performance: kernel 20, size 2048^2, total 21.082992 sec, average 2.108299 sec, min 2.075875 sec, max 2.199932 sec, 8148.686479 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 21
+checkArgs: [10 loop(s)][size 2048][kernel 21]
+size 2048
+performance: kernel 21, size 2048^2, total 10.368977 sec, average 1.036898 sec, min 0.859385 sec, max 1.075827 sec, 16568.528587 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 22
+checkArgs: [10 loop(s)][size 2048][kernel 22]
+size 2048
+performance: kernel 22, size 2048^2, total 23.327699 sec, average 2.332770 sec, min 2.283514 sec, max 2.434118 sec, 7364.579414 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 23
+checkArgs: [10 loop(s)][size 2048][kernel 23]
+size 2048
+performance: kernel 23, size 2048^2, total 101.795984 sec, average 10.179598 sec, min 9.651793 sec, max 10.651580 sec, 1687.676518 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 24
+checkArgs: [10 loop(s)][size 2048][kernel 24]
+size 2048
+performance: kernel 24, size 2048^2, total 100.398501 sec, average 10.039850 sec, min 9.509580 sec, max 10.692612 sec, 1711.167897 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 25
+checkArgs: [10 loop(s)][size 2048][kernel 25]
+size 2048
+performance: kernel 25, size 2048^2, total 20.966749 sec, average 2.096675 sec, min 2.081300 sec, max 2.116933 sec, 8193.864096 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 26
+checkArgs: [10 loop(s)][size 2048][kernel 26]
+size 2048
+performance: kernel 26, size 2048^2, total 22.195745 sec, average 2.219575 sec, min 2.185641 sec, max 2.276063 sec, 7740.163344 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 27
+checkArgs: [10 loop(s)][size 2048][kernel 27]
+size 2048
+performance: kernel 27, size 2048^2, total 11.535061 sec, average 1.153506 sec, min 1.128176 sec, max 1.184437 sec, 14893.609305 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 28
+checkArgs: [10 loop(s)][size 2048][kernel 28]
+size 2048
+performance: kernel 28, size 2048^2, total 11.370159 sec, average 1.137016 sec, min 1.095200 sec, max 1.173164 sec, 15109.612085 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 29
+checkArgs: [10 loop(s)][size 2048][kernel 29]
+size 2048
+performance: kernel 29, size 2048^2, total 11.379121 sec, average 1.137912 sec, min 1.110917 sec, max 1.174886 sec, 15097.712015 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 30
+checkArgs: [10 loop(s)][size 2048][kernel 30]
+size 2048
+performance: kernel 30, size 2048^2, total 7.374688 sec, average 0.737469 sec, min 0.704017 sec, max 0.800943 sec, 23295.723404 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 31
+checkArgs: [10 loop(s)][size 2048][kernel 31]
+size 2048
+performance: kernel 31, size 2048^2, total 1.883605 sec, average 0.188360 sec, min 0.186359 sec, max 0.192535 sec, 91207.387876 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_sse3_novec_omp -loops 10 -size 2048 -kernel 32
+checkArgs: [10 loop(s)][size 2048][kernel 32]
+size 2048
+performance: kernel 32, size 2048^2, total 1.859595 sec, average 0.185959 sec, min 0.184159 sec, max 0.193182 sec, 92385.004176 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_avx_novec_omp -loops 10 -size 2048 -kernel 40
+checkArgs: [10 loop(s)][size 2048][kernel 40]
+size 2048
+performance: kernel 40, size 2048^2, total 2.009561 sec, average 0.200956 sec, min 0.178317 sec, max 0.218948 sec, 85490.657830 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_avx_novec_omp -loops 10 -size 2048 -kernel 42
+checkArgs: [10 loop(s)][size 2048][kernel 42]
+size 2048
+performance: kernel 42, size 2048^2, total 2.034999 sec, average 0.203500 sec, min 0.188971 sec, max 0.214194 sec, 84422.003077 Mflops sum 185306.600000
+random sampling: 18715.16 18298.88 19027.60 18883.64 17664.40 18694.64 17905.36 18448.56 18393.20 18485.12
+command: ../out/mm_base_icc_avx_novec_omp -loops 10 -size 2048 -kernel 44
+checkArgs: [10 loop(s)][size 2048][kernel 44]
+size 2048
+performance: kernel 44, size 2048^2, total 2.000969 sec, average 0.200097 sec, min 0.180990 sec, max 0.218680 sec, 85857.747841 Mflops sum 185306.600000
+random sampling: 18715.16 18298.88 19027.60 18883.64 17664.40 18694.64 17905.36 18448.56 18393.20 18485.12
+command: ../out/mm_base_icc_avx_novec_omp -loops 10 -size 2048 -kernel 50
+checkArgs: [10 loop(s)][size 2048][kernel 50]
+size 2048
+performance: kernel 50, size 2048^2, total 1.294070 sec, average 0.129407 sec, min 0.128555 sec, max 0.130100 sec, 132758.422527 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12

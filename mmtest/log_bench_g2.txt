@@ -1,0 +1,1836 @@
+./mm_base -loops 10 -size 100 -kernel 1
+ 10 loop(s)
+ kernel 1
+size 100
+performance: size 100^2, total 0.015628 sec, average 0.001563 sec, min 0.001559 sec, max 0.001567 sec, 1279.765668 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 2
+ 10 loop(s)
+ kernel 2
+size 100
+performance: size 100^2, total 0.020519 sec, average 0.002052 sec, min 0.001495 sec, max 0.002512 sec, 974.705506 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 3
+ 10 loop(s)
+ kernel 3
+size 100
+performance: size 100^2, total 0.018675 sec, average 0.001867 sec, min 0.001691 sec, max 0.002866 sec, 1070.959044 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 4
+ 10 loop(s)
+ kernel 4
+size 100
+performance: size 100^2, total 0.017825 sec, average 0.001782 sec, min 0.001500 sec, max 0.002529 sec, 1122.026671 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 5
+ 10 loop(s)
+ kernel 5
+size 100
+performance: size 100^2, total 0.016556 sec, average 0.001656 sec, min 0.001218 sec, max 0.002063 sec, 1208.019470 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 6
+ 10 loop(s)
+ kernel 6
+size 100
+performance: size 100^2, total 0.017018 sec, average 0.001702 sec, min 0.001338 sec, max 0.001757 sec, 1175.220723 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 7
+ 10 loop(s)
+ kernel 7
+size 100
+performance: size 100^2, total 0.019873 sec, average 0.001987 sec, min 0.001557 sec, max 0.002642 sec, 1006.395451 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 8
+ 10 loop(s)
+ kernel 8
+size 100
+performance: size 100^2, total 0.013446 sec, average 0.001345 sec, min 0.001245 sec, max 0.002078 sec, 1487.420962 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 9
+ 10 loop(s)
+ kernel 9
+size 100
+performance: size 100^2, total 0.016729 sec, average 0.001673 sec, min 0.001245 sec, max 0.002108 sec, 1195.537440 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 10
+ 10 loop(s)
+ kernel 10
+size 100
+performance: size 100^2, total 0.018027 sec, average 0.001803 sec, min 0.001170 sec, max 0.001966 sec, 1109.442806 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 11
+ 10 loop(s)
+ kernel 11
+size 100
+performance: size 100^2, total 0.014120 sec, average 0.001412 sec, min 0.001076 sec, max 0.001803 sec, 1416.444287 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 12
+ 10 loop(s)
+ kernel 12
+size 100
+performance: size 100^2, total 0.022435 sec, average 0.002243 sec, min 0.001676 sec, max 0.002836 sec, 891.466222 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 13
+ 10 loop(s)
+ kernel 13
+size 100
+performance: size 100^2, total 0.015910 sec, average 0.001591 sec, min 0.001198 sec, max 0.002007 sec, 1257.059282 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 14
+ 10 loop(s)
+ kernel 14
+size 100
+performance: size 100^2, total 0.009651 sec, average 0.000965 sec, min 0.000962 sec, max 0.000974 sec, 2072.335779 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 15
+ 10 loop(s)
+ kernel 15
+size 100
+performance: size 100^2, total 0.013490 sec, average 0.001349 sec, min 0.000960 sec, max 0.001620 sec, 1482.557704 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 16
+ 10 loop(s)
+ kernel 16
+size 100
+performance: size 100^2, total 0.012204 sec, average 0.001220 sec, min 0.000875 sec, max 0.001475 sec, 1638.816106 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 17
+ 10 loop(s)
+ kernel 17
+size 100
+performance: size 100^2, total 0.012119 sec, average 0.001212 sec, min 0.000862 sec, max 0.001459 sec, 1650.293718 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 18
+ 10 loop(s)
+ kernel 18
+size 100
+performance: size 100^2, total 0.011440 sec, average 0.001144 sec, min 0.000777 sec, max 0.001315 sec, 1748.209403 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 19
+ 10 loop(s)
+ kernel 19
+size 100
+performance: size 100^2, total 0.011900 sec, average 0.001190 sec, min 0.000778 sec, max 0.001325 sec, 1680.645924 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 20
+ 10 loop(s)
+ kernel 20
+size 100
+performance: size 100^2, total 0.012155 sec, average 0.001216 sec, min 0.000781 sec, max 0.001318 sec, 1645.405830 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 21
+ 10 loop(s)
+ kernel 21
+size 100
+performance: size 100^2, total 0.012408 sec, average 0.001241 sec, min 0.000796 sec, max 0.001346 sec, 1611.860961 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 22
+ 10 loop(s)
+ kernel 22
+size 100
+performance: size 100^2, total 0.009929 sec, average 0.000993 sec, min 0.000988 sec, max 0.001005 sec, 2014.313363 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 23
+ 10 loop(s)
+ kernel 23
+size 100
+performance: size 100^2, total 0.020657 sec, average 0.002066 sec, min 0.001557 sec, max 0.002637 sec, 968.191870 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 24
+ 10 loop(s)
+ kernel 24
+size 100
+performance: size 100^2, total 0.016720 sec, average 0.001672 sec, min 0.001108 sec, max 0.001860 sec, 1196.168204 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 25
+ 10 loop(s)
+ kernel 25
+size 100
+performance: size 100^2, total 0.009323 sec, average 0.000932 sec, min 0.000926 sec, max 0.000950 sec, 2145.259443 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 26
+ 10 loop(s)
+ kernel 26
+size 100
+performance: size 100^2, total 0.007766 sec, average 0.000777 sec, min 0.000632 sec, max 0.001063 sec, 2575.325576 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 27
+ 10 loop(s)
+ kernel 27
+size 100
+performance: size 100^2, total 0.009703 sec, average 0.000970 sec, min 0.000630 sec, max 0.001070 sec, 2061.184333 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 28
+ 10 loop(s)
+ kernel 28
+size 100
+performance: size 100^2, total 0.005178 sec, average 0.000518 sec, min 0.000503 sec, max 0.000564 sec, 3862.514044 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 29
+ 10 loop(s)
+ kernel 29
+size 100
+performance: size 100^2, total 0.003032 sec, average 0.000303 sec, min 0.000300 sec, max 0.000320 sec, 6596.373358 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 30
+ 10 loop(s)
+ kernel 30
+size 100
+performance: size 100^2, total 0.005079 sec, average 0.000508 sec, min 0.000503 sec, max 0.000517 sec, 3937.759001 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 31
+ 10 loop(s)
+ kernel 31
+size 100
+performance: size 100^2, total 0.008207 sec, average 0.000821 sec, min 0.000761 sec, max 0.000838 sec, 2436.919501 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 32
+ 10 loop(s)
+ kernel 32
+size 100
+performance: size 100^2, total 0.004515 sec, average 0.000451 sec, min 0.000445 sec, max 0.000463 sec, 4429.744944 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 33
+ 10 loop(s)
+ kernel 33
+size 100
+performance: size 100^2, total 0.004102 sec, average 0.000410 sec, min 0.000400 sec, max 0.000441 sec, 4875.680325 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 100 -kernel 34
+ 10 loop(s)
+ kernel 34
+size 100
+performance: size 100^2, total 0.002789 sec, average 0.000279 sec, min 0.000238 sec, max 0.000397 sec, 7170.976235 Mflops sum 826.320000
+random sampling: 73.12 66.36 81.96 69.12 81.96 91.68 80.84 77.56 87.52 69.44
+./mm_base -loops 10 -size 200 -kernel 1
+ 10 loop(s)
+ kernel 1
+size 200
+performance: size 200^2, total 0.132871 sec, average 0.013287 sec, min 0.013161 sec, max 0.014029 sec, 1204.176271 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 2
+ 10 loop(s)
+ kernel 2
+size 200
+performance: size 200^2, total 0.133300 sec, average 0.013330 sec, min 0.013324 sec, max 0.013336 sec, 1200.301628 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 3
+ 10 loop(s)
+ kernel 3
+size 200
+performance: size 200^2, total 0.148533 sec, average 0.014853 sec, min 0.014847 sec, max 0.014864 sec, 1077.202661 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 4
+ 10 loop(s)
+ kernel 4
+size 200
+performance: size 200^2, total 0.133506 sec, average 0.013351 sec, min 0.013327 sec, max 0.013502 sec, 1198.449615 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 5
+ 10 loop(s)
+ kernel 5
+size 200
+performance: size 200^2, total 0.114382 sec, average 0.011438 sec, min 0.011434 sec, max 0.011448 sec, 1398.821143 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 6
+ 10 loop(s)
+ kernel 6
+size 200
+performance: size 200^2, total 0.091049 sec, average 0.009105 sec, min 0.009102 sec, max 0.009113 sec, 1757.296373 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 7
+ 10 loop(s)
+ kernel 7
+size 200
+performance: size 200^2, total 0.125124 sec, average 0.012512 sec, min 0.012507 sec, max 0.012519 sec, 1278.731727 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 8
+ 10 loop(s)
+ kernel 8
+size 200
+performance: size 200^2, total 0.099111 sec, average 0.009911 sec, min 0.009906 sec, max 0.009923 sec, 1614.354163 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 9
+ 10 loop(s)
+ kernel 9
+size 200
+performance: size 200^2, total 0.099183 sec, average 0.009918 sec, min 0.009915 sec, max 0.009927 sec, 1613.178335 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 10
+ 10 loop(s)
+ kernel 10
+size 200
+performance: size 200^2, total 0.093442 sec, average 0.009344 sec, min 0.009339 sec, max 0.009355 sec, 1712.292791 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 11
+ 10 loop(s)
+ kernel 11
+size 200
+performance: size 200^2, total 0.091271 sec, average 0.009127 sec, min 0.009121 sec, max 0.009140 sec, 1753.018110 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 12
+ 10 loop(s)
+ kernel 12
+size 200
+performance: size 200^2, total 0.142054 sec, average 0.014205 sec, min 0.014200 sec, max 0.014216 sec, 1126.331598 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 13
+ 10 loop(s)
+ kernel 13
+size 200
+performance: size 200^2, total 0.110404 sec, average 0.011040 sec, min 0.011038 sec, max 0.011045 sec, 1449.222663 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 14
+ 10 loop(s)
+ kernel 14
+size 200
+performance: size 200^2, total 0.080300 sec, average 0.008030 sec, min 0.007884 sec, max 0.009299 sec, 1992.525720 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 15
+ 10 loop(s)
+ kernel 15
+size 200
+performance: size 200^2, total 0.079332 sec, average 0.007933 sec, min 0.007885 sec, max 0.008303 sec, 2016.837740 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 16
+ 10 loop(s)
+ kernel 16
+size 200
+performance: size 200^2, total 0.077450 sec, average 0.007745 sec, min 0.007739 sec, max 0.007751 sec, 2065.847948 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 17
+ 10 loop(s)
+ kernel 17
+size 200
+performance: size 200^2, total 0.078120 sec, average 0.007812 sec, min 0.007757 sec, max 0.008243 sec, 2048.125008 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 18
+ 10 loop(s)
+ kernel 18
+size 200
+performance: size 200^2, total 0.069333 sec, average 0.006933 sec, min 0.006882 sec, max 0.007231 sec, 2307.700857 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 19
+ 10 loop(s)
+ kernel 19
+size 200
+performance: size 200^2, total 0.070018 sec, average 0.007002 sec, min 0.006949 sec, max 0.007420 sec, 2285.124950 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 20
+ 10 loop(s)
+ kernel 20
+size 200
+performance: size 200^2, total 0.069282 sec, average 0.006928 sec, min 0.006845 sec, max 0.007638 sec, 2309.400323 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 21
+ 10 loop(s)
+ kernel 21
+size 200
+performance: size 200^2, total 0.071033 sec, average 0.007103 sec, min 0.006960 sec, max 0.008321 sec, 2252.466612 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 22
+ 10 loop(s)
+ kernel 22
+size 200
+performance: size 200^2, total 0.056155 sec, average 0.005615 sec, min 0.005392 sec, max 0.007568 sec, 2849.258229 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 23
+ 10 loop(s)
+ kernel 23
+size 200
+performance: size 200^2, total 0.125149 sec, average 0.012515 sec, min 0.012511 sec, max 0.012520 sec, 1278.478374 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 24
+ 10 loop(s)
+ kernel 24
+size 200
+performance: size 200^2, total 0.096577 sec, average 0.009658 sec, min 0.009650 sec, max 0.009668 sec, 1656.714461 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 25
+ 10 loop(s)
+ kernel 25
+size 200
+performance: size 200^2, total 0.054258 sec, average 0.005426 sec, min 0.005125 sec, max 0.008089 sec, 2948.880979 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 26
+ 10 loop(s)
+ kernel 26
+size 200
+performance: size 200^2, total 0.056648 sec, average 0.005665 sec, min 0.005610 sec, max 0.005875 sec, 2824.459026 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 27
+ 10 loop(s)
+ kernel 27
+size 200
+performance: size 200^2, total 0.058305 sec, average 0.005831 sec, min 0.005532 sec, max 0.008442 sec, 2744.188854 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 28
+ 10 loop(s)
+ kernel 28
+size 200
+performance: size 200^2, total 0.031163 sec, average 0.003116 sec, min 0.002861 sec, max 0.004543 sec, 5134.297628 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 29
+ 10 loop(s)
+ kernel 29
+size 200
+performance: size 200^2, total 0.029570 sec, average 0.002957 sec, min 0.002834 sec, max 0.004011 sec, 5410.870624 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 30
+ 10 loop(s)
+ kernel 30
+size 200
+performance: size 200^2, total 0.028817 sec, average 0.002882 sec, min 0.002830 sec, max 0.002963 sec, 5552.290038 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 31
+ 10 loop(s)
+ kernel 31
+size 200
+performance: size 200^2, total 0.040745 sec, average 0.004075 sec, min 0.004045 sec, max 0.004309 sec, 3926.860273 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 32
+ 10 loop(s)
+ kernel 32
+size 200
+performance: size 200^2, total 0.024431 sec, average 0.002443 sec, min 0.002102 sec, max 0.003494 sec, 6548.995238 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 33
+ 10 loop(s)
+ kernel 33
+size 200
+performance: size 200^2, total 0.023776 sec, average 0.002378 sec, min 0.001863 sec, max 0.003105 sec, 6729.459709 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 200 -kernel 34
+ 10 loop(s)
+ kernel 34
+size 200
+performance: size 200^2, total 0.021349 sec, average 0.002135 sec, min 0.001856 sec, max 0.003109 sec, 7494.512642 Mflops sum 1664.880000
+random sampling: 146.12 173.56 150.96 164.72 164.16 152.88 159.00 178.56 164.64 167.08
+./mm_base -loops 10 -size 300 -kernel 1
+ 10 loop(s)
+ kernel 1
+size 300
+performance: size 300^2, total 0.460910 sec, average 0.046091 sec, min 0.046087 sec, max 0.046095 sec, 1171.596326 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 2
+ 10 loop(s)
+ kernel 2
+size 300
+performance: size 300^2, total 0.483211 sec, average 0.048321 sec, min 0.048317 sec, max 0.048325 sec, 1117.524135 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 3
+ 10 loop(s)
+ kernel 3
+size 300
+performance: size 300^2, total 0.537615 sec, average 0.053762 sec, min 0.053756 sec, max 0.053771 sec, 1004.436147 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 4
+ 10 loop(s)
+ kernel 4
+size 300
+performance: size 300^2, total 0.482988 sec, average 0.048299 sec, min 0.048274 sec, max 0.048319 sec, 1118.040476 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 5
+ 10 loop(s)
+ kernel 5
+size 300
+performance: size 300^2, total 0.496675 sec, average 0.049668 sec, min 0.049661 sec, max 0.049690 sec, 1087.230048 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 6
+ 10 loop(s)
+ kernel 6
+size 300
+performance: size 300^2, total 0.320012 sec, average 0.032001 sec, min 0.031999 sec, max 0.032004 sec, 1687.436233 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 7
+ 10 loop(s)
+ kernel 7
+size 300
+performance: size 300^2, total 0.424707 sec, average 0.042471 sec, min 0.042467 sec, max 0.042475 sec, 1271.464276 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 8
+ 10 loop(s)
+ kernel 8
+size 300
+performance: size 300^2, total 0.332155 sec, average 0.033215 sec, min 0.033210 sec, max 0.033227 sec, 1625.747068 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 9
+ 10 loop(s)
+ kernel 9
+size 300
+performance: size 300^2, total 0.332049 sec, average 0.033205 sec, min 0.033201 sec, max 0.033210 sec, 1626.265359 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 10
+ 10 loop(s)
+ kernel 10
+size 300
+performance: size 300^2, total 0.313724 sec, average 0.031372 sec, min 0.031370 sec, max 0.031376 sec, 1721.257951 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 11
+ 10 loop(s)
+ kernel 11
+size 300
+performance: size 300^2, total 0.319902 sec, average 0.031990 sec, min 0.031988 sec, max 0.031993 sec, 1688.017255 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 12
+ 10 loop(s)
+ kernel 12
+size 300
+performance: size 300^2, total 0.493397 sec, average 0.049340 sec, min 0.049332 sec, max 0.049346 sec, 1094.453357 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 13
+ 10 loop(s)
+ kernel 13
+size 300
+performance: size 300^2, total 0.498841 sec, average 0.049884 sec, min 0.049880 sec, max 0.049889 sec, 1082.510189 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 14
+ 10 loop(s)
+ kernel 14
+size 300
+performance: size 300^2, total 0.316381 sec, average 0.031638 sec, min 0.031507 sec, max 0.031689 sec, 1706.801708 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 15
+ 10 loop(s)
+ kernel 15
+size 300
+performance: size 300^2, total 0.316774 sec, average 0.031677 sec, min 0.031668 sec, max 0.031700 sec, 1704.684660 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 16
+ 10 loop(s)
+ kernel 16
+size 300
+performance: size 300^2, total 0.279515 sec, average 0.027952 sec, min 0.027948 sec, max 0.027953 sec, 1931.917593 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 17
+ 10 loop(s)
+ kernel 17
+size 300
+performance: size 300^2, total 0.279546 sec, average 0.027955 sec, min 0.027946 sec, max 0.028000 sec, 1931.703393 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 18
+ 10 loop(s)
+ kernel 18
+size 300
+performance: size 300^2, total 0.261813 sec, average 0.026181 sec, min 0.026170 sec, max 0.026208 sec, 2062.539531 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 19
+ 10 loop(s)
+ kernel 19
+size 300
+performance: size 300^2, total 0.261468 sec, average 0.026147 sec, min 0.026144 sec, max 0.026149 sec, 2065.260929 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 20
+ 10 loop(s)
+ kernel 20
+size 300
+performance: size 300^2, total 0.261239 sec, average 0.026124 sec, min 0.026120 sec, max 0.026127 sec, 2067.072271 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 21
+ 10 loop(s)
+ kernel 21
+size 300
+performance: size 300^2, total 0.263947 sec, average 0.026395 sec, min 0.026383 sec, max 0.026417 sec, 2045.865191 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 22
+ 10 loop(s)
+ kernel 22
+size 300
+performance: size 300^2, total 0.209762 sec, average 0.020976 sec, min 0.020974 sec, max 0.020980 sec, 2574.344981 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 23
+ 10 loop(s)
+ kernel 23
+size 300
+performance: size 300^2, total 0.426049 sec, average 0.042605 sec, min 0.042601 sec, max 0.042607 sec, 1267.459864 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 24
+ 10 loop(s)
+ kernel 24
+size 300
+performance: size 300^2, total 0.360392 sec, average 0.036039 sec, min 0.036032 sec, max 0.036054 sec, 1498.368054 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 25
+ 10 loop(s)
+ kernel 25
+size 300
+performance: size 300^2, total 0.219136 sec, average 0.021914 sec, min 0.021903 sec, max 0.021923 sec, 2464.223134 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 26
+ 10 loop(s)
+ kernel 26
+size 300
+performance: size 300^2, total 0.211127 sec, average 0.021113 sec, min 0.021109 sec, max 0.021117 sec, 2557.701718 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 27
+ 10 loop(s)
+ kernel 27
+size 300
+performance: size 300^2, total 0.207677 sec, average 0.020768 sec, min 0.020763 sec, max 0.020772 sec, 2600.193052 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 28
+ 10 loop(s)
+ kernel 28
+size 300
+performance: size 300^2, total 0.117387 sec, average 0.011739 sec, min 0.011731 sec, max 0.011749 sec, 4600.166465 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 29
+ 10 loop(s)
+ kernel 29
+size 300
+performance: size 300^2, total 0.117258 sec, average 0.011726 sec, min 0.011720 sec, max 0.011740 sec, 4605.226670 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 30
+ 10 loop(s)
+ kernel 30
+size 300
+performance: size 300^2, total 0.115640 sec, average 0.011564 sec, min 0.011556 sec, max 0.011609 sec, 4669.657877 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 31
+ 10 loop(s)
+ kernel 31
+size 300
+performance: size 300^2, total 0.145428 sec, average 0.014543 sec, min 0.014535 sec, max 0.014549 sec, 3713.173041 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 32
+ 10 loop(s)
+ kernel 32
+size 300
+performance: size 300^2, total 0.071300 sec, average 0.007130 sec, min 0.007126 sec, max 0.007137 sec, 7573.604053 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 33
+ 10 loop(s)
+ kernel 33
+size 300
+performance: size 300^2, total 0.063812 sec, average 0.006381 sec, min 0.006375 sec, max 0.006393 sec, 8462.355864 Mflops sum 2495.800000
+random sampling: 225.24 219.28 221.16 234.12 235.32 237.44 248.76 251.60 236.56 250.76
+./mm_base -loops 10 -size 300 -kernel 34
+ 10 loop(s)
+ kernel 34
+size 300
+performance: size 300^2, total 0.063302 sec, average 0.006330 sec, min 0.006297 sec, max 0.006577 sec, 8530.562885 Mflops sum 2495.800000
+random sampling: 225.24 219.28 225.84 234.12 235.32 237.44 248.76 251.60 236.56 248.16
+./mm_base -loops 10 -size 400 -kernel 1
+ 10 loop(s)
+ kernel 1
+size 400
+performance: size 400^2, total 1.376963 sec, average 0.137696 sec, min 0.137681 sec, max 0.137744 sec, 929.582214 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 2
+ 10 loop(s)
+ kernel 2
+size 400
+performance: size 400^2, total 1.379693 sec, average 0.137969 sec, min 0.137960 sec, max 0.138000 sec, 927.742600 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 3
+ 10 loop(s)
+ kernel 3
+size 400
+performance: size 400^2, total 1.431046 sec, average 0.143105 sec, min 0.143095 sec, max 0.143114 sec, 894.450627 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 4
+ 10 loop(s)
+ kernel 4
+size 400
+performance: size 400^2, total 1.382023 sec, average 0.138202 sec, min 0.138177 sec, max 0.138216 sec, 926.178443 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 5
+ 10 loop(s)
+ kernel 5
+size 400
+performance: size 400^2, total 1.257065 sec, average 0.125707 sec, min 0.125698 sec, max 0.125723 sec, 1018.244833 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 6
+ 10 loop(s)
+ kernel 6
+size 400
+performance: size 400^2, total 0.811530 sec, average 0.081153 sec, min 0.081142 sec, max 0.081185 sec, 1577.267874 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 7
+ 10 loop(s)
+ kernel 7
+size 400
+performance: size 400^2, total 1.339216 sec, average 0.133922 sec, min 0.133914 sec, max 0.133943 sec, 955.783089 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 8
+ 10 loop(s)
+ kernel 8
+size 400
+performance: size 400^2, total 0.780589 sec, average 0.078059 sec, min 0.078047 sec, max 0.078083 sec, 1639.787674 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 9
+ 10 loop(s)
+ kernel 9
+size 400
+performance: size 400^2, total 0.780905 sec, average 0.078091 sec, min 0.078083 sec, max 0.078107 sec, 1639.123319 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 10
+ 10 loop(s)
+ kernel 10
+size 400
+performance: size 400^2, total 0.751289 sec, average 0.075129 sec, min 0.075121 sec, max 0.075147 sec, 1703.738215 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 11
+ 10 loop(s)
+ kernel 11
+size 400
+performance: size 400^2, total 0.811198 sec, average 0.081120 sec, min 0.081113 sec, max 0.081154 sec, 1577.913168 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 12
+ 10 loop(s)
+ kernel 12
+size 400
+performance: size 400^2, total 1.526079 sec, average 0.152608 sec, min 0.152594 sec, max 0.152635 sec, 838.750845 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 13
+ 10 loop(s)
+ kernel 13
+size 400
+performance: size 400^2, total 1.253842 sec, average 0.125384 sec, min 0.125378 sec, max 0.125392 sec, 1020.862184 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 14
+ 10 loop(s)
+ kernel 14
+size 400
+performance: size 400^2, total 0.787381 sec, average 0.078738 sec, min 0.078731 sec, max 0.078743 sec, 1625.642615 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 15
+ 10 loop(s)
+ kernel 15
+size 400
+performance: size 400^2, total 0.788288 sec, average 0.078829 sec, min 0.078819 sec, max 0.078838 sec, 1623.772765 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 16
+ 10 loop(s)
+ kernel 16
+size 400
+performance: size 400^2, total 0.723176 sec, average 0.072318 sec, min 0.072313 sec, max 0.072322 sec, 1769.970236 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 17
+ 10 loop(s)
+ kernel 17
+size 400
+performance: size 400^2, total 0.723199 sec, average 0.072320 sec, min 0.072314 sec, max 0.072327 sec, 1769.913636 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 18
+ 10 loop(s)
+ kernel 18
+size 400
+performance: size 400^2, total 0.696661 sec, average 0.069666 sec, min 0.069662 sec, max 0.069680 sec, 1837.335531 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 19
+ 10 loop(s)
+ kernel 19
+size 400
+performance: size 400^2, total 0.696850 sec, average 0.069685 sec, min 0.069625 sec, max 0.069972 sec, 1836.837663 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 20
+ 10 loop(s)
+ kernel 20
+size 400
+performance: size 400^2, total 0.697013 sec, average 0.069701 sec, min 0.069634 sec, max 0.070248 sec, 1836.407902 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 21
+ 10 loop(s)
+ kernel 21
+size 400
+performance: size 400^2, total 0.701712 sec, average 0.070171 sec, min 0.070163 sec, max 0.070179 sec, 1824.109834 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 22
+ 10 loop(s)
+ kernel 22
+size 400
+performance: size 400^2, total 0.475711 sec, average 0.047571 sec, min 0.047560 sec, max 0.047595 sec, 2690.708669 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 23
+ 10 loop(s)
+ kernel 23
+size 400
+performance: size 400^2, total 1.346896 sec, average 0.134690 sec, min 0.134680 sec, max 0.134697 sec, 950.333258 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 24
+ 10 loop(s)
+ kernel 24
+size 400
+performance: size 400^2, total 1.368221 sec, average 0.136822 sec, min 0.136810 sec, max 0.136862 sec, 935.521351 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 25
+ 10 loop(s)
+ kernel 25
+size 400
+performance: size 400^2, total 0.518584 sec, average 0.051858 sec, min 0.051848 sec, max 0.051875 sec, 2468.259661 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 26
+ 10 loop(s)
+ kernel 26
+size 400
+performance: size 400^2, total 0.527685 sec, average 0.052768 sec, min 0.052763 sec, max 0.052777 sec, 2425.689904 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 27
+ 10 loop(s)
+ kernel 27
+size 400
+performance: size 400^2, total 0.523773 sec, average 0.052377 sec, min 0.052372 sec, max 0.052381 sec, 2443.806974 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 28
+ 10 loop(s)
+ kernel 28
+size 400
+performance: size 400^2, total 0.287098 sec, average 0.028710 sec, min 0.028703 sec, max 0.028718 sec, 4458.409003 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 29
+ 10 loop(s)
+ kernel 29
+size 400
+performance: size 400^2, total 0.286369 sec, average 0.028637 sec, min 0.028635 sec, max 0.028641 sec, 4469.759940 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 30
+ 10 loop(s)
+ kernel 30
+size 400
+performance: size 400^2, total 0.290489 sec, average 0.029049 sec, min 0.029044 sec, max 0.029056 sec, 4406.363695 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 31
+ 10 loop(s)
+ kernel 31
+size 400
+performance: size 400^2, total 0.350823 sec, average 0.035082 sec, min 0.035079 sec, max 0.035096 sec, 3648.561815 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 32
+ 10 loop(s)
+ kernel 32
+size 400
+performance: size 400^2, total 0.167901 sec, average 0.016790 sec, min 0.016784 sec, max 0.016798 sec, 7623.527461 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 33
+ 10 loop(s)
+ kernel 33
+size 400
+performance: size 400^2, total 0.146702 sec, average 0.014670 sec, min 0.014663 sec, max 0.014677 sec, 8725.167711 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 308.36 301.20 294.08 324.56 311.00 330.24
+./mm_base -loops 10 -size 400 -kernel 34
+ 10 loop(s)
+ kernel 34
+size 400
+performance: size 400^2, total 0.144942 sec, average 0.014494 sec, min 0.014489 sec, max 0.014500 sec, 8831.115900 Mflops sum 3247.920000
+random sampling: 338.68 341.20 356.04 320.60 316.72 301.20 294.08 317.64 311.52 330.24
+./mm_base -loops 10 -size 500 -kernel 1
+ 10 loop(s)
+ kernel 1
+size 500
+performance: size 500^2, total 2.669436 sec, average 0.266944 sec, min 0.266916 sec, max 0.266993 sec, 936.527424 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 2
+ 10 loop(s)
+ kernel 2
+size 500
+performance: size 500^2, total 2.655165 sec, average 0.265517 sec, min 0.265498 sec, max 0.265554 sec, 941.561001 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 3
+ 10 loop(s)
+ kernel 3
+size 500
+performance: size 500^2, total 2.888372 sec, average 0.288837 sec, min 0.288817 sec, max 0.288855 sec, 865.539497 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 4
+ 10 loop(s)
+ kernel 4
+size 500
+performance: size 500^2, total 2.668827 sec, average 0.266883 sec, min 0.266857 sec, max 0.266915 sec, 936.741103 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 5
+ 10 loop(s)
+ kernel 5
+size 500
+performance: size 500^2, total 2.519170 sec, average 0.251917 sec, min 0.251891 sec, max 0.251961 sec, 992.390333 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 6
+ 10 loop(s)
+ kernel 6
+size 500
+performance: size 500^2, total 1.658618 sec, average 0.165862 sec, min 0.165838 sec, max 0.165902 sec, 1507.278976 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 7
+ 10 loop(s)
+ kernel 7
+size 500
+performance: size 500^2, total 2.513200 sec, average 0.251320 sec, min 0.251298 sec, max 0.251353 sec, 994.747714 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 8
+ 10 loop(s)
+ kernel 8
+size 500
+performance: size 500^2, total 1.524675 sec, average 0.152468 sec, min 0.152455 sec, max 0.152480 sec, 1639.693565 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 9
+ 10 loop(s)
+ kernel 9
+size 500
+performance: size 500^2, total 1.524361 sec, average 0.152436 sec, min 0.152417 sec, max 0.152524 sec, 1640.031319 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 10
+ 10 loop(s)
+ kernel 10
+size 500
+performance: size 500^2, total 1.450307 sec, average 0.145031 sec, min 0.145023 sec, max 0.145066 sec, 1723.773095 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 11
+ 10 loop(s)
+ kernel 11
+size 500
+performance: size 500^2, total 1.649489 sec, average 0.164949 sec, min 0.164940 sec, max 0.164970 sec, 1515.621185 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 12
+ 10 loop(s)
+ kernel 12
+size 500
+performance: size 500^2, total 2.959996 sec, average 0.296000 sec, min 0.295791 sec, max 0.297527 sec, 844.595740 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 13
+ 10 loop(s)
+ kernel 13
+size 500
+performance: size 500^2, total 2.545128 sec, average 0.254513 sec, min 0.254501 sec, max 0.254545 sec, 982.268827 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 14
+ 10 loop(s)
+ kernel 14
+size 500
+performance: size 500^2, total 1.609146 sec, average 0.160915 sec, min 0.160905 sec, max 0.160949 sec, 1553.619011 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 15
+ 10 loop(s)
+ kernel 15
+size 500
+performance: size 500^2, total 1.608999 sec, average 0.160900 sec, min 0.160891 sec, max 0.160941 sec, 1553.761052 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 16
+ 10 loop(s)
+ kernel 16
+size 500
+performance: size 500^2, total 1.516992 sec, average 0.151699 sec, min 0.151656 sec, max 0.151734 sec, 1647.998303 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 17
+ 10 loop(s)
+ kernel 17
+size 500
+performance: size 500^2, total 1.516578 sec, average 0.151658 sec, min 0.151598 sec, max 0.151704 sec, 1648.448064 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 18
+ 10 loop(s)
+ kernel 18
+size 500
+performance: size 500^2, total 1.452531 sec, average 0.145253 sec, min 0.145218 sec, max 0.145278 sec, 1721.133545 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 19
+ 10 loop(s)
+ kernel 19
+size 500
+performance: size 500^2, total 1.452079 sec, average 0.145208 sec, min 0.145189 sec, max 0.145227 sec, 1721.669345 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 20
+ 10 loop(s)
+ kernel 20
+size 500
+performance: size 500^2, total 1.444473 sec, average 0.144447 sec, min 0.144429 sec, max 0.144475 sec, 1730.734982 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 21
+ 10 loop(s)
+ kernel 21
+size 500
+performance: size 500^2, total 1.454414 sec, average 0.145441 sec, min 0.145433 sec, max 0.145455 sec, 1718.905475 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 22
+ 10 loop(s)
+ kernel 22
+size 500
+performance: size 500^2, total 1.016445 sec, average 0.101644 sec, min 0.101629 sec, max 0.101661 sec, 2459.553423 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 23
+ 10 loop(s)
+ kernel 23
+size 500
+performance: size 500^2, total 2.561808 sec, average 0.256181 sec, min 0.256164 sec, max 0.256213 sec, 975.873248 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 24
+ 10 loop(s)
+ kernel 24
+size 500
+performance: size 500^2, total 2.554271 sec, average 0.255427 sec, min 0.255399 sec, max 0.255482 sec, 978.752757 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 25
+ 10 loop(s)
+ kernel 25
+size 500
+performance: size 500^2, total 1.101866 sec, average 0.110187 sec, min 0.110175 sec, max 0.110215 sec, 2268.878416 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 26
+ 10 loop(s)
+ kernel 26
+size 500
+performance: size 500^2, total 1.109092 sec, average 0.110909 sec, min 0.110901 sec, max 0.110917 sec, 2254.096149 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 27
+ 10 loop(s)
+ kernel 27
+size 500
+performance: size 500^2, total 1.080297 sec, average 0.108030 sec, min 0.108020 sec, max 0.108044 sec, 2314.178430 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 28
+ 10 loop(s)
+ kernel 28
+size 500
+performance: size 500^2, total 0.597644 sec, average 0.059764 sec, min 0.059641 sec, max 0.060828 sec, 4183.091641 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 29
+ 10 loop(s)
+ kernel 29
+size 500
+performance: size 500^2, total 0.603084 sec, average 0.060308 sec, min 0.060302 sec, max 0.060327 sec, 4145.358918 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 30
+ 10 loop(s)
+ kernel 30
+size 500
+performance: size 500^2, total 0.605740 sec, average 0.060574 sec, min 0.060567 sec, max 0.060593 sec, 4127.182801 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 31
+ 10 loop(s)
+ kernel 31
+size 500
+performance: size 500^2, total 0.736012 sec, average 0.073601 sec, min 0.073592 sec, max 0.073623 sec, 3396.683833 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 32
+ 10 loop(s)
+ kernel 32
+size 500
+performance: size 500^2, total 0.325716 sec, average 0.032572 sec, min 0.032554 sec, max 0.032688 sec, 7675.397760 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 33
+ 10 loop(s)
+ kernel 33
+size 500
+performance: size 500^2, total 0.291905 sec, average 0.029191 sec, min 0.029184 sec, max 0.029198 sec, 8564.425376 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 409.20
+./mm_base -loops 10 -size 500 -kernel 34
+ 10 loop(s)
+ kernel 34
+size 500
+performance: size 500^2, total 0.282087 sec, average 0.028209 sec, min 0.028205 sec, max 0.028213 sec, 8862.511294 Mflops sum 4041.800000
+random sampling: 375.12 459.84 407.40 418.88 399.28 390.08 450.04 438.44 386.52 395.88
+./mm_base -loops 10 -size 600 -kernel 1
+ 10 loop(s)
+ kernel 1
+size 600
+performance: size 600^2, total 4.491858 sec, average 0.449186 sec, min 0.449145 sec, max 0.449284 sec, 961.740158 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 2
+ 10 loop(s)
+ kernel 2
+size 600
+performance: size 600^2, total 4.533721 sec, average 0.453372 sec, min 0.453340 sec, max 0.453446 sec, 952.859699 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 3
+ 10 loop(s)
+ kernel 3
+size 600
+performance: size 600^2, total 13.469052 sec, average 1.346905 sec, min 1.346875 sec, max 1.346930 sec, 320.735266 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 4
+ 10 loop(s)
+ kernel 4
+size 600
+performance: size 600^2, total 4.540194 sec, average 0.454019 sec, min 0.453963 sec, max 0.454062 sec, 951.501184 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 5
+ 10 loop(s)
+ kernel 5
+size 600
+performance: size 600^2, total 3.896026 sec, average 0.389603 sec, min 0.389585 sec, max 0.389630 sec, 1108.822199 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 6
+ 10 loop(s)
+ kernel 6
+size 600
+performance: size 600^2, total 3.768843 sec, average 0.376884 sec, min 0.376862 sec, max 0.376906 sec, 1146.240391 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 7
+ 10 loop(s)
+ kernel 7
+size 600
+performance: size 600^2, total 4.341226 sec, average 0.434123 sec, min 0.434093 sec, max 0.434163 sec, 995.110629 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 8
+ 10 loop(s)
+ kernel 8
+size 600
+performance: size 600^2, total 2.641408 sec, average 0.264141 sec, min 0.264124 sec, max 0.264190 sec, 1635.491543 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 9
+ 10 loop(s)
+ kernel 9
+size 600
+performance: size 600^2, total 2.625488 sec, average 0.262549 sec, min 0.262521 sec, max 0.262624 sec, 1645.408370 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 10
+ 10 loop(s)
+ kernel 10
+size 600
+performance: size 600^2, total 2.519658 sec, average 0.251966 sec, min 0.251950 sec, max 0.252013 sec, 1714.518501 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 11
+ 10 loop(s)
+ kernel 11
+size 600
+performance: size 600^2, total 3.776811 sec, average 0.377681 sec, min 0.377662 sec, max 0.377710 sec, 1143.822236 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 12
+ 10 loop(s)
+ kernel 12
+size 600
+performance: size 600^2, total 13.128838 sec, average 1.312884 sec, min 1.312824 sec, max 1.312948 sec, 329.046636 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 13
+ 10 loop(s)
+ kernel 13
+size 600
+performance: size 600^2, total 5.159119 sec, average 0.515912 sec, min 0.515890 sec, max 0.515949 sec, 837.352287 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 14
+ 10 loop(s)
+ kernel 14
+size 600
+performance: size 600^2, total 4.135619 sec, average 0.413562 sec, min 0.413539 sec, max 0.413616 sec, 1044.583671 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 15
+ 10 loop(s)
+ kernel 15
+size 600
+performance: size 600^2, total 4.040933 sec, average 0.404093 sec, min 0.404062 sec, max 0.404138 sec, 1069.060069 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 16
+ 10 loop(s)
+ kernel 16
+size 600
+performance: size 600^2, total 3.664822 sec, average 0.366482 sec, min 0.366451 sec, max 0.366523 sec, 1178.774893 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 17
+ 10 loop(s)
+ kernel 17
+size 600
+performance: size 600^2, total 3.678773 sec, average 0.367877 sec, min 0.367862 sec, max 0.367913 sec, 1174.304608 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 18
+ 10 loop(s)
+ kernel 18
+size 600
+performance: size 600^2, total 3.565921 sec, average 0.356592 sec, min 0.356572 sec, max 0.356639 sec, 1211.468206 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 19
+ 10 loop(s)
+ kernel 19
+size 600
+performance: size 600^2, total 3.584131 sec, average 0.358413 sec, min 0.358385 sec, max 0.358489 sec, 1205.313086 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 20
+ 10 loop(s)
+ kernel 20
+size 600
+performance: size 600^2, total 2.205644 sec, average 0.220564 sec, min 0.220541 sec, max 0.220624 sec, 1958.611730 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 21
+ 10 loop(s)
+ kernel 21
+size 600
+performance: size 600^2, total 2.206809 sec, average 0.220681 sec, min 0.220664 sec, max 0.220707 sec, 1957.577622 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 22
+ 10 loop(s)
+ kernel 22
+size 600
+performance: size 600^2, total 1.908008 sec, average 0.190801 sec, min 0.190528 sec, max 0.191530 sec, 2264.141333 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 23
+ 10 loop(s)
+ kernel 23
+size 600
+performance: size 600^2, total 4.362970 sec, average 0.436297 sec, min 0.436264 sec, max 0.436354 sec, 990.151179 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 24
+ 10 loop(s)
+ kernel 24
+size 600
+performance: size 600^2, total 13.862699 sec, average 1.386270 sec, min 1.386243 sec, max 1.386292 sec, 311.627627 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 25
+ 10 loop(s)
+ kernel 25
+size 600
+performance: size 600^2, total 2.146854 sec, average 0.214685 sec, min 0.214561 sec, max 0.214774 sec, 2012.246829 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 26
+ 10 loop(s)
+ kernel 26
+size 600
+performance: size 600^2, total 2.286279 sec, average 0.228628 sec, min 0.228579 sec, max 0.228699 sec, 1889.533198 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 27
+ 10 loop(s)
+ kernel 27
+size 600
+performance: size 600^2, total 1.647755 sec, average 0.164775 sec, min 0.164756 sec, max 0.164819 sec, 2621.749133 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 28
+ 10 loop(s)
+ kernel 28
+size 600
+performance: size 600^2, total 1.259058 sec, average 0.125906 sec, min 0.125892 sec, max 0.125930 sec, 3431.136615 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 29
+ 10 loop(s)
+ kernel 29
+size 600
+performance: size 600^2, total 1.252839 sec, average 0.125284 sec, min 0.125271 sec, max 0.125294 sec, 3448.168932 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 30
+ 10 loop(s)
+ kernel 30
+size 600
+performance: size 600^2, total 0.929351 sec, average 0.092935 sec, min 0.092932 sec, max 0.092946 sec, 4648.404720 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 31
+ 10 loop(s)
+ kernel 31
+size 600
+performance: size 600^2, total 1.598190 sec, average 0.159819 sec, min 0.159797 sec, max 0.159858 sec, 2703.058120 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 32
+ 10 loop(s)
+ kernel 32
+size 600
+performance: size 600^2, total 0.587215 sec, average 0.058722 sec, min 0.058708 sec, max 0.058736 sec, 7356.757981 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 33
+ 10 loop(s)
+ kernel 33
+size 600
+performance: size 600^2, total 0.514488 sec, average 0.051449 sec, min 0.051439 sec, max 0.051466 sec, 8396.697596 Mflops sum 4830.880000
+random sampling: 464.28 463.56 462.92 476.48 503.92 470.64 544.64 457.16 464.08 490.56
+./mm_base -loops 10 -size 600 -kernel 34
+ 10 loop(s)
+ kernel 34
+size 600
+performance: size 600^2, total 0.518726 sec, average 0.051873 sec, min 0.051869 sec, max 0.051879 sec, 8328.094370 Mflops sum 4830.880000
+random sampling: 450.08 486.56 462.92 499.32 509.08 513.96 497.52 483.56 490.96 488.12
+./mm_base -loops 10 -size 700 -kernel 1
+ 10 loop(s)
+ kernel 1
+size 700
+performance: size 700^2, total 31.085036 sec, average 3.108504 sec, min 3.108461 sec, max 3.108764 sec, 220.684960 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 2
+ 10 loop(s)
+ kernel 2
+size 700
+performance: size 700^2, total 30.968907 sec, average 3.096891 sec, min 3.096855 sec, max 3.096982 sec, 221.512500 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 3
+ 10 loop(s)
+ kernel 3
+size 700
+performance: size 700^2, total 30.573201 sec, average 3.057320 sec, min 3.057251 sec, max 3.057641 sec, 224.379513 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 4
+ 10 loop(s)
+ kernel 4
+size 700
+performance: size 700^2, total 7.370775 sec, average 0.737077 sec, min 0.737038 sec, max 0.737119 sec, 930.702676 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 5
+ 10 loop(s)
+ kernel 5
+size 700
+performance: size 700^2, total 6.317941 sec, average 0.631794 sec, min 0.631734 sec, max 0.631845 sec, 1085.796748 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 6
+ 10 loop(s)
+ kernel 6
+size 700
+performance: size 700^2, total 7.062831 sec, average 0.706283 sec, min 0.706252 sec, max 0.706323 sec, 971.281890 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 7
+ 10 loop(s)
+ kernel 7
+size 700
+performance: size 700^2, total 31.056636 sec, average 3.105664 sec, min 3.105616 sec, max 3.105770 sec, 220.886769 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 8
+ 10 loop(s)
+ kernel 8
+size 700
+performance: size 700^2, total 4.171039 sec, average 0.417104 sec, min 0.417076 sec, max 0.417155 sec, 1644.674104 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 9
+ 10 loop(s)
+ kernel 9
+size 700
+performance: size 700^2, total 4.170051 sec, average 0.417005 sec, min 0.416972 sec, max 0.417056 sec, 1645.063869 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 10
+ 10 loop(s)
+ kernel 10
+size 700
+performance: size 700^2, total 3.982991 sec, average 0.398299 sec, min 0.398246 sec, max 0.398424 sec, 1722.323760 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 11
+ 10 loop(s)
+ kernel 11
+size 700
+performance: size 700^2, total 4.208716 sec, average 0.420872 sec, min 0.420842 sec, max 0.420923 sec, 1629.950922 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 12
+ 10 loop(s)
+ kernel 12
+size 700
+performance: size 700^2, total 7.698044 sec, average 0.769804 sec, min 0.769752 sec, max 0.769893 sec, 891.135483 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 13
+ 10 loop(s)
+ kernel 13
+size 700
+performance: size 700^2, total 6.364558 sec, average 0.636456 sec, min 0.636332 sec, max 0.637247 sec, 1077.843901 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 14
+ 10 loop(s)
+ kernel 14
+size 700
+performance: size 700^2, total 7.805732 sec, average 0.780573 sec, min 0.780494 sec, max 0.780869 sec, 878.841342 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 15
+ 10 loop(s)
+ kernel 15
+size 700
+performance: size 700^2, total 4.049947 sec, average 0.404995 sec, min 0.404960 sec, max 0.405063 sec, 1693.849417 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 16
+ 10 loop(s)
+ kernel 16
+size 700
+performance: size 700^2, total 7.085770 sec, average 0.708577 sec, min 0.708555 sec, max 0.708611 sec, 968.137531 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 17
+ 10 loop(s)
+ kernel 17
+size 700
+performance: size 700^2, total 3.770558 sec, average 0.377056 sec, min 0.377031 sec, max 0.377118 sec, 1819.359305 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 18
+ 10 loop(s)
+ kernel 18
+size 700
+performance: size 700^2, total 3.624012 sec, average 0.362401 sec, min 0.362380 sec, max 0.362438 sec, 1892.929718 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 19
+ 10 loop(s)
+ kernel 19
+size 700
+performance: size 700^2, total 3.621515 sec, average 0.362152 sec, min 0.362125 sec, max 0.362196 sec, 1894.234853 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 20
+ 10 loop(s)
+ kernel 20
+size 700
+performance: size 700^2, total 7.142850 sec, average 0.714285 sec, min 0.714247 sec, max 0.714332 sec, 960.400971 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 21
+ 10 loop(s)
+ kernel 21
+size 700
+performance: size 700^2, total 3.628658 sec, average 0.362866 sec, min 0.362844 sec, max 0.362896 sec, 1890.506172 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 22
+ 10 loop(s)
+ kernel 22
+size 700
+performance: size 700^2, total 2.710683 sec, average 0.271068 sec, min 0.270610 sec, max 0.272818 sec, 2530.727618 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 23
+ 10 loop(s)
+ kernel 23
+size 700
+performance: size 700^2, total 7.066006 sec, average 0.706601 sec, min 0.706547 sec, max 0.706648 sec, 970.845489 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 24
+ 10 loop(s)
+ kernel 24
+size 700
+performance: size 700^2, total 7.102164 sec, average 0.710216 sec, min 0.710181 sec, max 0.710266 sec, 965.902783 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 25
+ 10 loop(s)
+ kernel 25
+size 700
+performance: size 700^2, total 2.788144 sec, average 0.278814 sec, min 0.278747 sec, max 0.278965 sec, 2460.418225 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 26
+ 10 loop(s)
+ kernel 26
+size 700
+performance: size 700^2, total 2.658328 sec, average 0.265833 sec, min 0.265769 sec, max 0.265967 sec, 2580.569155 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 27
+ 10 loop(s)
+ kernel 27
+size 700
+performance: size 700^2, total 2.642224 sec, average 0.264222 sec, min 0.264154 sec, max 0.264418 sec, 2596.297592 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 28
+ 10 loop(s)
+ kernel 28
+size 700
+performance: size 700^2, total 1.527376 sec, average 0.152738 sec, min 0.152716 sec, max 0.152789 sec, 4491.363152 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 29
+ 10 loop(s)
+ kernel 29
+size 700
+performance: size 700^2, total 1.521833 sec, average 0.152183 sec, min 0.152161 sec, max 0.152235 sec, 4507.721401 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 30
+ 10 loop(s)
+ kernel 30
+size 700
+performance: size 700^2, total 2.128479 sec, average 0.212848 sec, min 0.212789 sec, max 0.212967 sec, 3222.958736 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 31
+ 10 loop(s)
+ kernel 31
+size 700
+performance: size 700^2, total 2.922730 sec, average 0.292273 sec, min 0.292197 sec, max 0.292402 sec, 2347.120696 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 32
+ 10 loop(s)
+ kernel 32
+size 700
+performance: size 700^2, total 0.907834 sec, average 0.090783 sec, min 0.090760 sec, max 0.090832 sec, 7556.449087 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 33
+ 10 loop(s)
+ kernel 33
+size 700
+performance: size 700^2, total 0.829195 sec, average 0.082920 sec, min 0.082893 sec, max 0.082998 sec, 8273.083911 Mflops sum 5636.320000
+random sampling: 575.28 614.68 545.12 566.92 550.24 566.52 542.52 576.52 531.84 593.20
+./mm_base -loops 10 -size 700 -kernel 34
+ 10 loop(s)
+ kernel 34
+size 700
+performance: size 700^2, total 0.804853 sec, average 0.080485 sec, min 0.080452 sec, max 0.080549 sec, 8523.295956 Mflops sum 5636.320000
+random sampling: 575.28 599.52 545.12 586.56 581.24 566.40 542.52 576.52 531.84 576.68
+./mm_base -loops 10 -size 800 -kernel 1
+ 10 loop(s)
+ kernel 1
+size 800
+performance: size 800^2, total 13.526230 sec, average 1.352623 sec, min 1.352390 sec, max 1.353967 sec, 757.047598 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 2
+ 10 loop(s)
+ kernel 2
+size 800
+performance: size 800^2, total 13.713619 sec, average 1.371362 sec, min 1.371319 sec, max 1.371426 sec, 746.702968 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 3
+ 10 loop(s)
+ kernel 3
+size 800
+performance: size 800^2, total 14.757016 sec, average 1.475702 sec, min 1.475645 sec, max 1.475781 sec, 693.907237 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 4
+ 10 loop(s)
+ kernel 4
+size 800
+performance: size 800^2, total 13.296100 sec, average 1.329610 sec, min 1.329538 sec, max 1.329639 sec, 770.150651 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 5
+ 10 loop(s)
+ kernel 5
+size 800
+performance: size 800^2, total 11.528443 sec, average 1.152844 sec, min 1.152622 sec, max 1.153602 sec, 888.237892 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 6
+ 10 loop(s)
+ kernel 6
+size 800
+performance: size 800^2, total 8.070654 sec, average 0.807065 sec, min 0.807013 sec, max 0.807127 sec, 1268.794302 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 7
+ 10 loop(s)
+ kernel 7
+size 800
+performance: size 800^2, total 9.931405 sec, average 0.993141 sec, min 0.993102 sec, max 0.993181 sec, 1031.072636 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 8
+ 10 loop(s)
+ kernel 8
+size 800
+performance: size 800^2, total 6.223414 sec, average 0.622341 sec, min 0.622302 sec, max 0.622403 sec, 1645.399211 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 9
+ 10 loop(s)
+ kernel 9
+size 800
+performance: size 800^2, total 6.226541 sec, average 0.622654 sec, min 0.622619 sec, max 0.622703 sec, 1644.572794 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 10
+ 10 loop(s)
+ kernel 10
+size 800
+performance: size 800^2, total 6.136789 sec, average 0.613679 sec, min 0.613641 sec, max 0.613730 sec, 1668.625051 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 11
+ 10 loop(s)
+ kernel 11
+size 800
+performance: size 800^2, total 6.700494 sec, average 0.670049 sec, min 0.670022 sec, max 0.670101 sec, 1528.245463 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 12
+ 10 loop(s)
+ kernel 12
+size 800
+performance: size 800^2, total 12.129667 sec, average 1.212967 sec, min 1.212863 sec, max 1.213278 sec, 844.211136 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 13
+ 10 loop(s)
+ kernel 13
+size 800
+performance: size 800^2, total 9.433817 sec, average 0.943382 sec, min 0.943343 sec, max 0.943406 sec, 1085.456697 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 14
+ 10 loop(s)
+ kernel 14
+size 800
+performance: size 800^2, total 7.978548 sec, average 0.797855 sec, min 0.797799 sec, max 0.797918 sec, 1283.441540 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 15
+ 10 loop(s)
+ kernel 15
+size 800
+performance: size 800^2, total 7.823393 sec, average 0.782339 sec, min 0.782295 sec, max 0.782400 sec, 1308.894985 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 16
+ 10 loop(s)
+ kernel 16
+size 800
+performance: size 800^2, total 6.104018 sec, average 0.610402 sec, min 0.610359 sec, max 0.610449 sec, 1677.583461 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 17
+ 10 loop(s)
+ kernel 17
+size 800
+performance: size 800^2, total 6.041530 sec, average 0.604153 sec, min 0.604113 sec, max 0.604195 sec, 1694.934855 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 18
+ 10 loop(s)
+ kernel 18
+size 800
+performance: size 800^2, total 6.913258 sec, average 0.691326 sec, min 0.691139 sec, max 0.692347 sec, 1481.211881 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 19
+ 10 loop(s)
+ kernel 19
+size 800
+performance: size 800^2, total 5.771935 sec, average 0.577194 sec, min 0.577163 sec, max 0.577247 sec, 1774.101684 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 20
+ 10 loop(s)
+ kernel 20
+size 800
+performance: size 800^2, total 6.979273 sec, average 0.697927 sec, min 0.697891 sec, max 0.697963 sec, 1467.201510 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 21
+ 10 loop(s)
+ kernel 21
+size 800
+performance: size 800^2, total 7.287711 sec, average 0.728771 sec, min 0.728739 sec, max 0.728834 sec, 1405.105133 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 22
+ 10 loop(s)
+ kernel 22
+size 800
+performance: size 800^2, total 4.438193 sec, average 0.443819 sec, min 0.443757 sec, max 0.443924 sec, 2307.245394 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 23
+ 10 loop(s)
+ kernel 23
+size 800
+performance: size 800^2, total 12.991590 sec, average 1.299159 sec, min 1.299119 sec, max 1.299325 sec, 788.202212 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 24
+ 10 loop(s)
+ kernel 24
+size 800
+performance: size 800^2, total 13.120246 sec, average 1.312025 sec, min 1.311806 sec, max 1.313113 sec, 780.473175 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 25
+ 10 loop(s)
+ kernel 25
+size 800
+performance: size 800^2, total 5.198394 sec, average 0.519839 sec, min 0.519715 sec, max 0.519993 sec, 1969.839124 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 26
+ 10 loop(s)
+ kernel 26
+size 800
+performance: size 800^2, total 4.055049 sec, average 0.405505 sec, min 0.405480 sec, max 0.405541 sec, 2525.246808 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 27
+ 10 loop(s)
+ kernel 27
+size 800
+performance: size 800^2, total 4.046658 sec, average 0.404666 sec, min 0.404624 sec, max 0.404732 sec, 2530.483304 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 28
+ 10 loop(s)
+ kernel 28
+size 800
+performance: size 800^2, total 2.280328 sec, average 0.228033 sec, min 0.228015 sec, max 0.228059 sec, 4490.581987 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 29
+ 10 loop(s)
+ kernel 29
+size 800
+performance: size 800^2, total 2.926582 sec, average 0.292658 sec, min 0.292625 sec, max 0.292780 sec, 3498.962439 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 30
+ 10 loop(s)
+ kernel 30
+size 800
+performance: size 800^2, total 2.963979 sec, average 0.296398 sec, min 0.296342 sec, max 0.296570 sec, 3454.815294 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 31
+ 10 loop(s)
+ kernel 31
+size 800
+performance: size 800^2, total 3.167010 sec, average 0.316701 sec, min 0.316644 sec, max 0.316791 sec, 3233.333579 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 32
+ 10 loop(s)
+ kernel 32
+size 800
+performance: size 800^2, total 1.399421 sec, average 0.139942 sec, min 0.139834 sec, max 0.140070 sec, 7317.312068 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 33
+ 10 loop(s)
+ kernel 33
+size 800
+performance: size 800^2, total 1.240394 sec, average 0.124039 sec, min 0.124010 sec, max 0.124158 sec, 8255.443821 Mflops sum 6559.360000
+random sampling: 665.76 642.72 672.48 630.96 663.84 647.88 673.40 655.08 655.88 674.28
+./mm_base -loops 10 -size 800 -kernel 34
+ 10 loop(s)
+ kernel 34
+size 800
+performance: size 800^2, total 1.200981 sec, average 0.120098 sec, min 0.120066 sec, max 0.120215 sec, 8526.363729 Mflops sum 6559.360000
+random sampling: 665.76 630.36 672.48 645.24 663.84 647.88 673.40 655.08 655.88 653.88
+./mm_base -loops 10 -size 900 -kernel 1
+ 10 loop(s)
+ kernel 1
+size 900
+performance: size 900^2, total 16.497123 sec, average 1.649712 sec, min 1.649481 sec, max 1.650967 sec, 883.790464 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 2
+ 10 loop(s)
+ kernel 2
+size 900
+performance: size 900^2, total 16.636567 sec, average 1.663657 sec, min 1.663599 sec, max 1.663732 sec, 876.382736 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 3
+ 10 loop(s)
+ kernel 3
+size 900
+performance: size 900^2, total 16.170004 sec, average 1.617000 sec, min 1.616884 sec, max 1.617545 sec, 901.669542 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 4
+ 10 loop(s)
+ kernel 4
+size 900
+performance: size 900^2, total 15.436955 sec, average 1.543695 sec, min 1.543635 sec, max 1.543731 sec, 944.486787 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 5
+ 10 loop(s)
+ kernel 5
+size 900
+performance: size 900^2, total 13.223518 sec, average 1.322352 sec, min 1.322293 sec, max 1.322417 sec, 1102.581031 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 6
+ 10 loop(s)
+ kernel 6
+size 900
+performance: size 900^2, total 9.024042 sec, average 0.902404 sec, min 0.902357 sec, max 0.902460 sec, 1615.683989 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 7
+ 10 loop(s)
+ kernel 7
+size 900
+performance: size 900^2, total 14.935017 sec, average 1.493502 sec, min 1.493469 sec, max 1.493558 sec, 976.229229 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 8
+ 10 loop(s)
+ kernel 8
+size 900
+performance: size 900^2, total 8.856969 sec, average 0.885697 sec, min 0.885661 sec, max 0.885738 sec, 1646.161367 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 9
+ 10 loop(s)
+ kernel 9
+size 900
+performance: size 900^2, total 8.861377 sec, average 0.886138 sec, min 0.885977 sec, max 0.886656 sec, 1645.342479 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 10
+ 10 loop(s)
+ kernel 10
+size 900
+performance: size 900^2, total 8.718042 sec, average 0.871804 sec, min 0.871764 sec, max 0.871860 sec, 1672.393890 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 11
+ 10 loop(s)
+ kernel 11
+size 900
+performance: size 900^2, total 9.019550 sec, average 0.901955 sec, min 0.901873 sec, max 0.902013 sec, 1616.488655 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 12
+ 10 loop(s)
+ kernel 12
+size 900
+performance: size 900^2, total 17.392484 sec, average 1.739248 sec, min 1.739198 sec, max 1.739279 sec, 838.293141 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 13
+ 10 loop(s)
+ kernel 13
+size 900
+performance: size 900^2, total 13.441874 sec, average 1.344187 sec, min 1.344118 sec, max 1.344240 sec, 1084.670186 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 14
+ 10 loop(s)
+ kernel 14
+size 900
+performance: size 900^2, total 8.406153 sec, average 0.840615 sec, min 0.837952 sec, max 0.840982 sec, 1734.443764 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 15
+ 10 loop(s)
+ kernel 15
+size 900
+performance: size 900^2, total 8.366514 sec, average 0.836651 sec, min 0.836626 sec, max 0.836692 sec, 1742.661287 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 16
+ 10 loop(s)
+ kernel 16
+size 900
+performance: size 900^2, total 8.138629 sec, average 0.813863 sec, min 0.813818 sec, max 0.813940 sec, 1791.456531 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 17
+ 10 loop(s)
+ kernel 17
+size 900
+performance: size 900^2, total 8.135572 sec, average 0.813557 sec, min 0.813450 sec, max 0.813858 sec, 1792.129684 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 18
+ 10 loop(s)
+ kernel 18
+size 900
+performance: size 900^2, total 7.425247 sec, average 0.742525 sec, min 0.742497 sec, max 0.742562 sec, 1963.571056 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 19
+ 10 loop(s)
+ kernel 19
+size 900
+performance: size 900^2, total 7.581330 sec, average 0.758133 sec, min 0.758088 sec, max 0.758186 sec, 1923.145456 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 20
+ 10 loop(s)
+ kernel 20
+size 900
+performance: size 900^2, total 7.591156 sec, average 0.759116 sec, min 0.758829 sec, max 0.760577 sec, 1920.656149 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 21
+ 10 loop(s)
+ kernel 21
+size 900
+performance: size 900^2, total 7.043373 sec, average 0.704337 sec, min 0.704290 sec, max 0.704394 sec, 2070.030974 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 22
+ 10 loop(s)
+ kernel 22
+size 900
+performance: size 900^2, total 5.782380 sec, average 0.578238 sec, min 0.578179 sec, max 0.578305 sec, 2521.453163 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 23
+ 10 loop(s)
+ kernel 23
+size 900
+performance: size 900^2, total 15.546256 sec, average 1.554626 sec, min 1.554576 sec, max 1.554705 sec, 937.846382 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 24
+ 10 loop(s)
+ kernel 24
+size 900
+performance: size 900^2, total 16.035136 sec, average 1.603514 sec, min 1.603388 sec, max 1.603564 sec, 909.253267 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 25
+ 10 loop(s)
+ kernel 25
+size 900
+performance: size 900^2, total 5.673039 sec, average 0.567304 sec, min 0.567029 sec, max 0.568918 sec, 2570.051097 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 26
+ 10 loop(s)
+ kernel 26
+size 900
+performance: size 900^2, total 5.414852 sec, average 0.541485 sec, min 0.541433 sec, max 0.541562 sec, 2692.594297 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 27
+ 10 loop(s)
+ kernel 27
+size 900
+performance: size 900^2, total 5.405589 sec, average 0.540559 sec, min 0.540505 sec, max 0.540617 sec, 2697.208457 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 28
+ 10 loop(s)
+ kernel 28
+size 900
+performance: size 900^2, total 2.994610 sec, average 0.299461 sec, min 0.299423 sec, max 0.299602 sec, 4868.747401 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 29
+ 10 loop(s)
+ kernel 29
+size 900
+performance: size 900^2, total 3.006046 sec, average 0.300605 sec, min 0.300582 sec, max 0.300652 sec, 4850.225088 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 30
+ 10 loop(s)
+ kernel 30
+size 900
+performance: size 900^2, total 3.250551 sec, average 0.325055 sec, min 0.324890 sec, max 0.325494 sec, 4485.393749 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 31
+ 10 loop(s)
+ kernel 31
+size 900
+performance: size 900^2, total 3.941093 sec, average 0.394109 sec, min 0.390454 sec, max 0.406964 sec, 3699.481143 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 32
+ 10 loop(s)
+ kernel 32
+size 900
+performance: size 900^2, total 1.913622 sec, average 0.191362 sec, min 0.191274 sec, max 0.191501 sec, 7619.059003 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 33
+ 10 loop(s)
+ kernel 33
+size 900
+performance: size 900^2, total 1.733131 sec, average 0.173313 sec, min 0.173283 sec, max 0.173401 sec, 8412.519635 Mflops sum 7344.960000
+random sampling: 695.88 779.36 721.64 692.36 742.64 745.56 706.28 681.68 734.92 762.84
+./mm_base -loops 10 -size 900 -kernel 34
+ 10 loop(s)
+ kernel 34
+size 900
+performance: size 900^2, total 1.717244 sec, average 0.171724 sec, min 0.171686 sec, max 0.171818 sec, 8490.348934 Mflops sum 7344.960000
+random sampling: 752.72 756.64 734.52 709.64 729.72 745.56 773.44 681.68 734.92 701.80

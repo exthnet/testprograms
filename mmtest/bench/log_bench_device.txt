@@ -1,0 +1,110 @@
+./bench_mic.sh: line 1: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 2: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 3: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 4: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 5: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 6: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 7: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 8: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 9: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 10: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 11: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 12: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 13: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 14: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 15: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 16: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 17: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 18: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 19: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 20: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 21: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 22: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 23: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 24: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 25: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 26: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 27: ../out/mm_base_icc_mic_novec: not found
+./bench_mic.sh: line 28: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 29: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 30: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 31: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 32: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 33: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 34: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 35: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 36: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 37: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 38: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 39: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 40: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 41: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 42: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 43: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 44: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 45: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 46: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 47: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 48: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 49: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 50: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 51: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 52: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 53: ../out/mm_base_icc_mic: not found
+./bench_mic.sh: line 54: ../out/mm_base_icc_mic: not found
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_novec_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory
+../out/mm_base_icc_mic_omp: error while loading shared libraries: libmkl_intel_lp64.so: cannot open shared object file: No such file or directory

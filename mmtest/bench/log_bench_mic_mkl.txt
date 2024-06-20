@@ -1,0 +1,150 @@
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 128 -kernel 50
+checkArgs: [10 loop(s)][size 128][kernel 50]
+size 128
+performance: kernel 50, size 128^2, total 0.002293 sec, average 0.000229 sec, min 0.000219 sec, max 0.000288 sec, 18291.774967 Mflops sum 12114.680000
+random sampling: 1077.04 1109.84 1059.80 1206.20 1154.52 1235.24 959.08 1157.36 1137.16 1121.52
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 256 -kernel 50
+checkArgs: [10 loop(s)][size 256][kernel 50]
+size 256
+performance: kernel 50, size 256^2, total 0.007655 sec, average 0.000765 sec, min 0.000742 sec, max 0.000854 sec, 43833.353364 Mflops sum 24268.800000
+random sampling: 2070.76 2377.92 2246.84 2353.60 1943.12 2328.68 2176.12 2335.64 2409.92 2323.24
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 512 -kernel 50
+checkArgs: [10 loop(s)][size 512][kernel 50]
+size 512
+performance: kernel 50, size 512^2, total 0.038865 sec, average 0.003886 sec, min 0.003800 sec, max 0.004091 sec, 69068.688023 Mflops sum 46614.200000
+random sampling: 4460.60 4094.60 4935.12 5026.88 4454.52 4374.60 4430.24 4574.08 4219.32 4736.52
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 1024 -kernel 50
+checkArgs: [10 loop(s)][size 1024][kernel 50]
+size 1024
+performance: kernel 50, size 1024^2, total 0.330571 sec, average 0.033057 sec, min 0.032993 sec, max 0.033144 sec, 64962.856633 Mflops sum 92060.040000
+random sampling: 9251.84 9724.16 9119.36 9258.20 9159.44 8896.12 8931.40 9234.72 9428.08 8958.56
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 2048 -kernel 50
+checkArgs: [10 loop(s)][size 2048][kernel 50]
+size 2048
+performance: kernel 50, size 2048^2, total 2.256009 sec, average 0.225601 sec, min 0.225419 sec, max 0.226148 sec, 76151.598615 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 4096 -kernel 50
+checkArgs: [10 loop(s)][size 4096][kernel 50]
+size 4096
+performance: kernel 50, size 4096^2, total 22.471510 sec, average 2.247151 sec, min 2.236993 sec, max 2.256533 sec, 61161.423274 Mflops sum 365249.440000
+random sampling: 36114.92 35487.52 35937.08 36719.00 37555.64 36526.52 36284.44 37335.40 36124.48 36362.40
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 128 -kernel 50
+checkArgs: [10 loop(s)][size 128][kernel 50]
+size 128
+performance: kernel 50, size 128^2, total 0.002659 sec, average 0.000266 sec, min 0.000238 sec, max 0.000410 sec, 15773.990222 Mflops sum 12114.680000
+random sampling: 1077.04 1109.84 1059.80 1206.20 1154.52 1235.24 959.08 1157.36 1137.16 1121.52
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 256 -kernel 50
+checkArgs: [10 loop(s)][size 256][kernel 50]
+size 256
+performance: kernel 50, size 256^2, total 0.007182 sec, average 0.000718 sec, min 0.000624 sec, max 0.000857 sec, 46720.178223 Mflops sum 24268.800000
+random sampling: 2070.76 2377.92 2246.84 2353.60 1943.12 2328.68 2176.12 2335.64 2409.92 2323.24
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 512 -kernel 50
+checkArgs: [10 loop(s)][size 512][kernel 50]
+size 512
+performance: kernel 50, size 512^2, total 0.024302 sec, average 0.002430 sec, min 0.001983 sec, max 0.003073 sec, 110458.174636 Mflops sum 46614.200000
+random sampling: 4460.60 4094.60 4935.12 5026.88 4454.52 4374.60 4430.24 4574.08 4219.32 4736.52
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 1024 -kernel 50
+checkArgs: [10 loop(s)][size 1024][kernel 50]
+size 1024
+performance: kernel 50, size 1024^2, total 0.103600 sec, average 0.010360 sec, min 0.009964 sec, max 0.010795 sec, 207286.066409 Mflops sum 92060.040000
+random sampling: 9251.84 9724.16 9119.36 9258.20 9159.44 8896.12 8931.40 9234.72 9428.08 8958.56
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 2048 -kernel 50
+checkArgs: [10 loop(s)][size 2048][kernel 50]
+size 2048
+performance: kernel 50, size 2048^2, total 0.720667 sec, average 0.072067 sec, min 0.071165 sec, max 0.073058 sec, 238388.453807 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 4096 -kernel 50
+checkArgs: [10 loop(s)][size 4096][kernel 50]
+size 4096
+performance: kernel 50, size 4096^2, total 6.558673 sec, average 0.655867 sec, min 0.653478 sec, max 0.659775 sec, 209552.989564 Mflops sum 365249.440000
+random sampling: 36114.92 35487.52 35937.08 36719.00 37555.64 36526.52 36284.44 37335.40 36124.48 36362.40
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 128 -kernel 50
+checkArgs: [10 loop(s)][size 128][kernel 50]
+size 128
+performance: kernel 50, size 128^2, total 0.003355 sec, average 0.000336 sec, min 0.000274 sec, max 0.000612 sec, 12501.651267 Mflops sum 12114.680000
+random sampling: 1077.04 1109.84 1059.80 1206.20 1154.52 1235.24 959.08 1157.36 1137.16 1121.52
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 256 -kernel 50
+checkArgs: [10 loop(s)][size 256][kernel 50]
+size 256
+performance: kernel 50, size 256^2, total 0.006210 sec, average 0.000621 sec, min 0.000530 sec, max 0.000913 sec, 54032.901771 Mflops sum 24268.800000
+random sampling: 2070.76 2377.92 2246.84 2353.60 1943.12 2328.68 2176.12 2335.64 2409.92 2323.24
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 512 -kernel 50
+checkArgs: [10 loop(s)][size 512][kernel 50]
+size 512
+performance: kernel 50, size 512^2, total 0.015044 sec, average 0.001504 sec, min 0.001327 sec, max 0.001782 sec, 178433.565541 Mflops sum 46614.200000
+random sampling: 4460.60 4094.60 4935.12 5026.88 4454.52 4374.60 4430.24 4574.08 4219.32 4736.52
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 1024 -kernel 50
+checkArgs: [10 loop(s)][size 1024][kernel 50]
+size 1024
+performance: kernel 50, size 1024^2, total 0.092214 sec, average 0.009221 sec, min 0.009068 sec, max 0.009564 sec, 232880.435509 Mflops sum 92060.040000
+random sampling: 9251.84 9724.16 9119.36 9258.20 9159.44 8896.12 8931.40 9234.72 9428.08 8958.56
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 2048 -kernel 50
+checkArgs: [10 loop(s)][size 2048][kernel 50]
+size 2048
+performance: kernel 50, size 2048^2, total 0.505202 sec, average 0.050520 sec, min 0.048778 sec, max 0.051697 sec, 340059.405624 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 4096 -kernel 50
+checkArgs: [10 loop(s)][size 4096][kernel 50]
+size 4096
+performance: kernel 50, size 4096^2, total 4.188432 sec, average 0.418843 sec, min 0.414742 sec, max 0.420935 sec, 328139.393148 Mflops sum 365249.440000
+random sampling: 36114.92 35487.52 35937.08 36719.00 37555.64 36526.52 36284.44 37335.40 36124.48 36362.40
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 128 -kernel 50
+checkArgs: [10 loop(s)][size 128][kernel 50]
+size 128
+performance: kernel 50, size 128^2, total 0.002863 sec, average 0.000286 sec, min 0.000271 sec, max 0.000327 sec, 14650.031436 Mflops sum 12114.680000
+random sampling: 1077.04 1109.84 1059.80 1206.20 1154.52 1235.24 959.08 1157.36 1137.16 1121.52
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 256 -kernel 50
+checkArgs: [10 loop(s)][size 256][kernel 50]
+size 256
+performance: kernel 50, size 256^2, total 0.004805 sec, average 0.000480 sec, min 0.000463 sec, max 0.000510 sec, 69832.324662 Mflops sum 24268.800000
+random sampling: 2070.76 2377.92 2246.84 2353.60 1943.12 2328.68 2176.12 2335.64 2409.92 2323.24
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 512 -kernel 50
+checkArgs: [10 loop(s)][size 512][kernel 50]
+size 512
+performance: kernel 50, size 512^2, total 0.016194 sec, average 0.001619 sec, min 0.001525 sec, max 0.001920 sec, 165762.292207 Mflops sum 46614.200000
+random sampling: 4460.60 4094.60 4935.12 5026.88 4454.52 4374.60 4430.24 4574.08 4219.32 4736.52
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 1024 -kernel 50
+checkArgs: [10 loop(s)][size 1024][kernel 50]
+size 1024
+performance: kernel 50, size 1024^2, total 0.107053 sec, average 0.010705 sec, min 0.010641 sec, max 0.010850 sec, 200600.043717 Mflops sum 92060.040000
+random sampling: 9251.84 9724.16 9119.36 9258.20 9159.44 8896.12 8931.40 9234.72 9428.08 8958.56
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 2048 -kernel 50
+checkArgs: [10 loop(s)][size 2048][kernel 50]
+size 2048
+performance: kernel 50, size 2048^2, total 0.624257 sec, average 0.062426 sec, min 0.061472 sec, max 0.063413 sec, 275205.070732 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 4096 -kernel 50
+checkArgs: [10 loop(s)][size 4096][kernel 50]
+size 4096
+performance: kernel 50, size 4096^2, total 5.091312 sec, average 0.509131 sec, min 0.506185 sec, max 0.512031 sec, 269948.008435 Mflops sum 365249.440000
+random sampling: 36114.92 35487.52 35937.08 36719.00 37555.64 36526.52 36284.44 37335.40 36124.48 36362.40
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 128 -kernel 50
+checkArgs: [10 loop(s)][size 128][kernel 50]
+size 128
+performance: kernel 50, size 128^2, total 0.002921 sec, average 0.000292 sec, min 0.000272 sec, max 0.000369 sec, 14359.137282 Mflops sum 12114.680000
+random sampling: 1077.04 1109.84 1059.80 1206.20 1154.52 1235.24 959.08 1157.36 1137.16 1121.52
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 256 -kernel 50
+checkArgs: [10 loop(s)][size 256][kernel 50]
+size 256
+performance: kernel 50, size 256^2, total 0.005107 sec, average 0.000511 sec, min 0.000488 sec, max 0.000549 sec, 65702.823575 Mflops sum 24268.800000
+random sampling: 2070.76 2377.92 2246.84 2353.60 1943.12 2328.68 2176.12 2335.64 2409.92 2323.24
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 512 -kernel 50
+checkArgs: [10 loop(s)][size 512][kernel 50]
+size 512
+performance: kernel 50, size 512^2, total 0.021382 sec, average 0.002138 sec, min 0.001999 sec, max 0.002789 sec, 125542.725657 Mflops sum 46614.200000
+random sampling: 4460.60 4094.60 4935.12 5026.88 4454.52 4374.60 4430.24 4574.08 4219.32 4736.52
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 1024 -kernel 50
+checkArgs: [10 loop(s)][size 1024][kernel 50]
+size 1024
+performance: kernel 50, size 1024^2, total 0.107078 sec, average 0.010708 sec, min 0.010612 sec, max 0.010793 sec, 200553.208689 Mflops sum 92060.040000
+random sampling: 9251.84 9724.16 9119.36 9258.20 9159.44 8896.12 8931.40 9234.72 9428.08 8958.56
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 2048 -kernel 50
+checkArgs: [10 loop(s)][size 2048][kernel 50]
+size 2048
+performance: kernel 50, size 2048^2, total 0.682659 sec, average 0.068266 sec, min 0.067359 sec, max 0.069713 sec, 251661.066272 Mflops sum 185306.600000
+random sampling: 18437.76 18298.88 18303.20 18674.04 17888.40 17627.84 18283.96 18165.36 18393.20 18485.12
+command: ../out/mm_base_icc_mic_cr_omp -loops 10 -size 4096 -kernel 50
+checkArgs: [10 loop(s)][size 4096][kernel 50]
+size 4096
+performance: kernel 50, size 4096^2, total 5.464708 sec, average 0.546471 sec, min 0.542348 sec, max 0.552217 sec, 251502.831390 Mflops sum 365249.440000
+random sampling: 36114.92 35487.52 35937.08 36719.00 37555.64 36526.52 36284.44 37335.40 36124.48 36362.40
